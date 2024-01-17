@@ -16,8 +16,8 @@
     "incremental": true,
     "types": [
       "jest",
-      "cypress"
     ],
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     }
