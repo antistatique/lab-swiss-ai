@@ -1,5 +1,11 @@
 import React from 'react';
 
-const App = () => <h1>HELLO</h1>;
+import Map from '@/components/Map';
+
+const App = () => (
+  <div>
+    <Map />
+  </div>
+);
 
 export default App;
