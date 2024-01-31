@@ -12,6 +12,7 @@ const useChatGpt = (): {
   messages: Messages;
   start: (location: string) => Promise<void>;
   ask: (prompt: string) => Promise<void>;
+  clear: () => void;
   error: string | null;
 } => {
   const [messages, setMessages] = useState<Messages>([]);
@@ -27,7 +28,7 @@ const useChatGpt = (): {
           {
             role: 'system',
             content:
-              'You are specialised Swiss touristic guide that will answer only about Swiss location questions.',
+              'You are specialised Swiss touristic guide that will answer only about Swiss location questions. Answer in French',
           },
           {
             role: 'user',
@@ -95,7 +96,12 @@ const useChatGpt = (): {
     }
   };
 
-  return { messages, start, ask, error };
+  const clear = () => {
+    setMessages([]);
+    setError(null);
+  };
+
+  return { messages, start, ask, clear, error };
 };
 
 export default useChatGpt;

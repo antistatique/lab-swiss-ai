@@ -11,11 +11,11 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 type Props = {
   route?: Route;
   onClick: (e: mapboxgl.MapLayerMouseEvent) => void;
+  onAnimationComplete: (stop: () => void) => void;
 };
 
-const Map = ({ route, onClick }: Props): JSX.Element => {
+const Map = ({ route, onClick, onAnimationComplete }: Props): JSX.Element => {
   const mapRef = useRef<MapRef | null>(null);
-  const [stop, setStop] = React.useState<(() => void) | null>(null);
 
   const startAnimation = async () => {
     if (mapRef.current !== null && isNotNil(route)) {
@@ -24,16 +24,13 @@ const Map = ({ route, onClick }: Props): JSX.Element => {
         route.paths.features[0],
         route.speed
       );
-      const stopRotation = around(mapRef.current, 0.3);
-      setStop(() => stopRotation);
+      const stop = around(mapRef.current, 0.1);
+      onAnimationComplete(stop);
     }
   };
 
   useEffect(() => {
     if (isNotNil(route)) startAnimation();
-    else if (stop !== null) {
-      stop();
-    }
   }, [route]);
 
   return (

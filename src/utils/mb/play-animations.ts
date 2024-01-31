@@ -14,7 +14,6 @@ const playAnimations = async (
 ) =>
   // eslint-disable-next-line no-async-promise-executor
   new Promise<void>(async resolve => {
-    console.log(speed);
     // get the start of the linestring, to be used for animating a zoom-in from high altitude
     const targetLngLat = {
       lng: path.geometry.coordinates[0][0],
