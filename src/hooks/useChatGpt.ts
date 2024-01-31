@@ -31,7 +31,7 @@ const useChatGpt = (): {
           },
           {
             role: 'user',
-            content: `Tell me more about the following place "${location} in max 50 words"`,
+            content: `Tell me more about the following place "${location}" in max 50 words. Don't include coordinates in your answer.`,
           },
         ],
         stream: true,

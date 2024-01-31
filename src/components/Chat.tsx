@@ -6,10 +6,11 @@ import { cn } from '@/utils/cn';
 
 type Props = {
   messages: Messages;
+  thinking?: boolean;
   onSend: (message: string) => void;
 };
 
-const Chat = ({ messages, onSend }: Props): JSX.Element => {
+const Chat = ({ messages, thinking = false, onSend }: Props): JSX.Element => {
   const [input, setInput] = useState('');
   const bottomRef = useRef<HTMLDivElement | null>(null);
 
@@ -48,6 +49,12 @@ const Chat = ({ messages, onSend }: Props): JSX.Element => {
             </span>
           </div>
         ))}
+        {thinking && (
+          <div className="flex gap-2">
+            <span className="text-xl">🤖</span>
+            <span className="p-2 text-sm bg-gray-100 rounded-lg">...</span>
+          </div>
+        )}
       </div>
       <div ref={bottomRef} />
       <form

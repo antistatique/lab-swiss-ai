@@ -13,19 +13,34 @@ const queryClient = new QueryClient();
 
 const App = () => {
   const [isPlaying, setIsPlaying] = useState(false);
+  const [thinking, setThinking] = useState(false);
   const { messages, start, ask, error } = useChatGpt();
 
   const handleClick = async (e: mapboxgl.MapLayerMouseEvent) => {
+    setThinking(true);
     const {
       lngLat: { lng, lat },
     } = e;
     const locations = await getLocations(lng, lat);
     const place = placeFromLocations(locations);
-    await start(place);
+    await start(
+      JSON.stringify({
+        zipCityCantonCountry: place,
+        coordinates: { lng, lat },
+      })
+    );
   };
 
   useEffect(() => {
-    console.log(error);
+    if (messages.length > 0) {
+      setThinking(false);
+    }
+  }, [messages]);
+
+  useEffect(() => {
+    if (error) {
+      setThinking(false);
+    }
   }, [error]);
 
   return (
@@ -39,7 +54,7 @@ const App = () => {
           />
         </div>
         <div className="w-1/4 h-screen overflow-y-auto">
-          <Chat messages={messages} onSend={ask} />
+          <Chat messages={messages} onSend={ask} thinking={thinking} />
         </div>
       </div>
       <div className="fixed top-0 left-0 flex m-4 gap-4 font-['Space_Grotesk']">
