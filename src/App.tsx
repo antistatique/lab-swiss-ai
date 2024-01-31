@@ -1,19 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { FeatureCollection, LineString } from 'geojson';
+import { identity, isNotNil } from 'ramda';
 
 import Chat from '@/components/Chat';
 import Map from '@/components/Map';
-import zermatt from '@/config/routes/zermatt-mini.json';
+import Tour from '@/components/Tour';
+import routes from '@/config/routes';
 import useChatGpt from '@/hooks/useChatGpt';
 import { getLocations } from '@/hooks/useLocation';
+import { RouteName } from '@/types/Routes';
 import placeFromLocations from '@/utils/placeFromLocations';
 
 const queryClient = new QueryClient();
 
 const App = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [currentRoute, setCurrentRoute] = useState<RouteName | null>(null);
   const [thinking, setThinking] = useState(false);
+  const [guided, setGuided] = useState(true);
   const { messages, start, ask, error } = useChatGpt();
 
   const handleClick = async (e: mapboxgl.MapLayerMouseEvent) => {
@@ -45,33 +48,28 @@ const App = () => {
 
   return (
     <QueryClientProvider client={queryClient}>
+      <div className="fixed top-0 left-0 z-50 flex">
+        <div className="p-4">
+          <button
+            type="button"
+            className="inline-block px-4 py-2 text-sm text-left text-gray-700 bg-white rounded-md hover:bg-gray-100"
+            onClick={() => setGuided(i => !i)}
+          >
+            {guided ? '' : 'Not'} Guided
+          </button>
+        </div>
+        <Tour onSelect={setCurrentRoute} />
+      </div>
       <div className="flex">
         <div className="sticky top-0 w-3/4">
           <Map
-            isPlaying={isPlaying}
-            route={zermatt as unknown as FeatureCollection<LineString>}
-            onClick={handleClick}
+            route={isNotNil(currentRoute) ? routes[currentRoute] : undefined}
+            onClick={guided ? identity : handleClick}
           />
         </div>
         <div className="w-1/4 h-screen overflow-y-auto">
           <Chat messages={messages} onSend={ask} thinking={thinking} />
         </div>
-      </div>
-      <div className="fixed top-0 left-0 flex m-4 gap-4 font-['Space_Grotesk']">
-        <button
-          type="button"
-          className="p-3 bg-green-100"
-          onClick={() => setIsPlaying(true)}
-        >
-          Start
-        </button>
-        <button
-          type="button"
-          className="p-3 bg-red-100"
-          onClick={() => setIsPlaying(false)}
-        >
-          Stop
-        </button>
       </div>
     </QueryClientProvider>
   );

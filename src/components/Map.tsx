@@ -1,37 +1,40 @@
 import React, { useEffect, useRef } from 'react';
 import MapGl, { MapRef, Source } from 'react-map-gl';
-import { FeatureCollection, LineString } from 'geojson';
+import { isNotNil } from 'ramda';
 
+import { Route } from '@/types/Routes';
 import around from '@/utils/around';
-import follow from '@/utils/follow';
+import playAnimations from '@/utils/mb/play-animations';
 
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 type Props = {
-  isPlaying: boolean;
-  route: FeatureCollection<LineString>;
+  route?: Route;
   onClick: (e: mapboxgl.MapLayerMouseEvent) => void;
 };
 
-const Map = ({ isPlaying, route, onClick }: Props): JSX.Element => {
+const Map = ({ route, onClick }: Props): JSX.Element => {
   const mapRef = useRef<MapRef | null>(null);
   const [stop, setStop] = React.useState<(() => void) | null>(null);
 
   const startAnimation = async () => {
-    if (mapRef.current !== null) {
-      await follow(route, mapRef.current, 10000);
-      const stopRotation = around(mapRef.current, 0.1);
-      console.log('stopRotation', stopRotation);
+    if (mapRef.current !== null && isNotNil(route)) {
+      await playAnimations(
+        mapRef.current,
+        route.paths.features[0],
+        route.speed
+      );
+      const stopRotation = around(mapRef.current, 0.3);
       setStop(() => stopRotation);
     }
   };
 
   useEffect(() => {
-    if (isPlaying) startAnimation();
+    if (isNotNil(route)) startAnimation();
     else if (stop !== null) {
       stop();
     }
-  }, [isPlaying]);
+  }, [route]);
 
   return (
     <MapGl

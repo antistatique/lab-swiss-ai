@@ -12,7 +12,7 @@ const follow = (
     const targetRoute = routes.features[0].geometry.coordinates;
     const cameraRoute = routes.features[1].geometry.coordinates;
 
-    const cameraAltitude = 2000;
+    const cameraAltitude = 1500;
     // get the overall distance of each route so we can interpolate along them
     const routeDistance = lineDistance(lineString(targetRoute));
     const cameraRouteDistance = lineDistance(lineString(cameraRoute));
