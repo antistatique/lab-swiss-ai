@@ -10,15 +10,16 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 type Props = {
   isPlaying: boolean;
   route: FeatureCollection<LineString>;
+  onClick: (e: mapboxgl.MapLayerMouseEvent) => void;
 };
 
-const Map = ({ isPlaying, route }: Props): JSX.Element => {
+const Map = ({ isPlaying, route, onClick }: Props): JSX.Element => {
   const mapRef = useRef<MapRef | null>(null);
   const [stop, setStop] = React.useState<(() => void) | null>(null);
 
   const startAnimation = async () => {
     if (mapRef.current !== null) {
-      await follow(route, mapRef.current, 1000);
+      await follow(route, mapRef.current, 10000);
       const stopRotation = around(mapRef.current, 0.1);
       console.log('stopRotation', stopRotation);
       setStop(() => stopRotation);
@@ -51,13 +52,15 @@ const Map = ({ isPlaying, route }: Props): JSX.Element => {
         'space-color': '#000000',
         'star-intensity': 0.15,
       }}
-      style={{ width: '100vw', height: '100vh' }}
+      style={{ position: 'absolute', inset: 0 }}
       terrain={{ source: 'mapbox-dem', exaggeration: 1 }}
       mapStyle="https://vectortiles.geo.admin.ch/styles/ch.swisstopo.leichte-basiskarte-imagery.vt/style.json"
       maxBounds={[
         [5.272288963213526, 45.38694371415983],
         [11.40758367952867, 48.228588627435585],
       ]}
+      localFontFamily="Space Grotesk"
+      onClick={onClick}
     >
       <Source
         id="mapbox-dem"
