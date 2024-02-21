@@ -3,6 +3,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { identity, isNil, isNotNil } from 'ramda';
 
 import Chat from '@/components/Chat';
+import GetStarted from '@/components/GetStarted';
 import Map from '@/components/Map';
 import Tour from '@/components/Tour';
 import routes from '@/config/routes';
@@ -81,6 +82,7 @@ const App = () => {
 
   return (
     <QueryClientProvider client={queryClient}>
+      <GetStarted />
       <div className="fixed top-0 left-0 z-50 flex">
         <div className="flex p-4 gap-2">
           <button
