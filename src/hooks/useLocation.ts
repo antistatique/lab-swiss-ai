@@ -9,7 +9,7 @@ export const getLocations = async (
   lng: number
 ): Promise<GeocodingApiResponse> => {
   const { data } = await axios(
-    `https://api.mapbox.com/geocoding/v5/mapbox.places/${lat},${lng}.json?access_token=${import.meta.env.VITE_MAPBOX_ACCESS_TOKEN}`
+    `https://api.mapbox.com/geocoding/v5/mapbox.places/${lat},${lng}.json?access_token=${process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN}`
   );
   return data;
 };

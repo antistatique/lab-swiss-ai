@@ -1,4 +1,6 @@
-import React, { useEffect, useState } from 'react';
+'use client';
+
+import React, { useState } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { identity, isNil, isNotNil } from 'ramda';
 
@@ -7,7 +9,6 @@ import GetStarted from '@/components/GetStarted';
 import Map from '@/components/Map';
 import Tour from '@/components/Tour';
 import routes from '@/config/routes';
-import useChatGpt from '@/hooks/useChatGpt';
 import { getLocations } from '@/hooks/useLocation';
 import { RouteName } from '@/types/Routes';
 import placeFromLocations from '@/utils/placeFromLocations';
@@ -16,20 +17,18 @@ const queryClient = new QueryClient();
 
 const App = () => {
   const [currentRoute, setCurrentRoute] = useState<RouteName | null>(null);
-  const [thinking, setThinking] = useState(false);
+  const [location, setLocation] = useState<string | null>(null);
   const [playing, setPlaying] = useState(false);
   const [stop, setStop] = useState<(() => void) | null>();
   const [guided, setGuided] = useState(true);
-  const chat = useChatGpt();
 
   const handleClick = async (e: mapboxgl.MapLayerMouseEvent) => {
-    setThinking(true);
     const {
       lngLat: { lng, lat },
     } = e;
     const locations = await getLocations(lng, lat);
     const place = placeFromLocations(locations);
-    await chat.start(
+    setLocation(
       JSON.stringify({
         zipCityCantonCountry: place,
         coordinates: { lng, lat },
@@ -44,13 +43,12 @@ const App = () => {
     }
   };
 
-  const handleAnimationComplete = async (s: () => void) => {
+  const handleAnimationComplete = (s: () => void) => {
     if (isNotNil(currentRoute)) {
       setPlaying(false);
-      setThinking(true);
       setStop(() => s);
 
-      await chat.start(
+      setLocation(
         JSON.stringify({
           placeName: routes[currentRoute].location,
         })
@@ -61,24 +59,11 @@ const App = () => {
   const handleSelectRoute = (route: RouteName) => {
     setCurrentRoute(route);
     setPlaying(true);
-    chat.clear();
     if (isNotNil(stop)) {
       stop();
       setStop(null);
     }
   };
-
-  useEffect(() => {
-    if (chat.messages.length > 0) {
-      setThinking(false);
-    }
-  }, [chat.messages]);
-
-  useEffect(() => {
-    if (chat.error) {
-      setThinking(false);
-    }
-  }, [chat.error]);
 
   return (
     <QueryClientProvider client={queryClient}>
@@ -113,11 +98,7 @@ const App = () => {
           />
         </div>
         <div className="w-1/4 h-screen overflow-y-auto">
-          <Chat
-            messages={chat.messages}
-            onSend={chat.ask}
-            thinking={thinking}
-          />
+          <Chat location={location} />
         </div>
       </div>
     </QueryClientProvider>

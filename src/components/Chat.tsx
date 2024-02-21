@@ -1,22 +1,50 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
+import { useChat } from 'ai/react';
+import { isNotNil } from 'ramda';
 
-import { Messages } from '@/types/Chat';
 import { cn } from '@/utils/cn';
 
 type Props = {
-  messages: Messages;
-  thinking?: boolean;
-  onSend: (message: string) => void;
+  location: string | null;
 };
 
-const Chat = ({ messages, thinking = false, onSend }: Props): JSX.Element => {
-  const [input, setInput] = useState('');
+const Chat = ({ location }: Props): JSX.Element => {
+  const formRef = useRef<HTMLFormElement | null>(null);
   const bottomRef = useRef<HTMLDivElement | null>(null);
+  const {
+    messages,
+    input,
+    handleInputChange,
+    handleSubmit,
+    setMessages,
+    reload,
+  } = useChat({
+    body: { location },
+  });
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
+
+  useEffect(() => {
+    if (isNotNil(location)) {
+      setMessages([
+        {
+          id: 'base-0',
+          role: 'system',
+          content:
+            'You are specialised Swiss touristic guide that will answer only about Swiss location questions. Answer in French',
+        },
+        {
+          id: 'base-1',
+          role: 'user',
+          content: `Tell me more about the following place "${location}" in max 50 words. Don't include coordinates in your answer.`,
+        },
+      ]);
+      reload();
+    }
+  }, [location]);
 
   return (
     <div className="relative w-full min-h-full px-4 pt-4 grid grid-cols-1 row-auto gap-y-4 auto-rows-max">
@@ -28,49 +56,43 @@ const Chat = ({ messages, thinking = false, onSend }: Props): JSX.Element => {
         />
       </div>
       <div className="flex flex-col w-full min-h-[calc(100vh-200px)] gap-4">
-        {messages.map(({ role, content }, i) => (
-          <div
-            key={`message-${i}`}
-            className={cn(
-              'flex gap-2',
-              role === 'user' && 'flex-row-reverse text-right'
-            )}
-          >
-            <span className="text-xl">
-              {role === 'assistant' ? '🤖' : '🤓'}
-            </span>
-            <span
+        {messages
+          .filter(i => !i.id.includes('base-'))
+          .map(({ role, content }, i) => (
+            <div
+              key={`message-${i}`}
               className={cn(
-                'p-2 text-sm rounded-lg bg-gray-100',
-                role === 'user' && 'bg-blue-100'
+                'flex gap-2',
+                role === 'user' && 'flex-row-reverse text-right'
               )}
             >
-              {content}
-            </span>
-          </div>
-        ))}
-        {thinking && (
-          <div className="flex gap-2">
-            <span className="text-xl">🤖</span>
-            <span className="p-2 text-sm bg-gray-100 rounded-lg">...</span>
-          </div>
-        )}
+              <span className="text-xl">
+                {role === 'assistant' ? '🤖' : '🤓'}
+              </span>
+              <span
+                className={cn(
+                  'p-2 text-sm rounded-lg bg-gray-100',
+                  role === 'user' && 'bg-blue-100'
+                )}
+              >
+                {content}
+              </span>
+            </div>
+          ))}
       </div>
       <div ref={bottomRef} />
       <form
+        action=""
+        ref={formRef}
         className="sticky bottom-0 flex self-end w-full pb-4 gap-1"
-        onSubmit={e => {
-          e.preventDefault();
-          onSend(input);
-          setInput('');
-        }}
+        onSubmit={handleSubmit}
       >
         <input
           type="text"
           className="block w-full text-gray-900 border-2 border-gray-200 rounded-md py-1.5 px-2.5 placeholder:text-gray-400 text-[16px]"
           placeholder="Ask me anything"
           value={input}
-          onChange={e => setInput(e.target.value)}
+          onChange={handleInputChange}
           disabled={messages.length === 0}
         />
         <button

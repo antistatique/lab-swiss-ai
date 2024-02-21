@@ -36,7 +36,7 @@ const Map = ({ route, onClick, onAnimationComplete }: Props): JSX.Element => {
   return (
     <MapGl
       ref={mapRef}
-      mapboxAccessToken={import.meta.env.VITE_MAPBOX_ACCESS_TOKEN}
+      mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN}
       initialViewState={{
         longitude: 7.514804113009831,
         latitude: 46.07963874912346,

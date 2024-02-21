@@ -4,7 +4,7 @@ import type { MapRef } from 'react-map-gl';
 import { easeCubicOut } from 'd3-ease';
 import { MercatorCoordinate } from 'mapbox-gl';
 
-import { computeCameraPosition } from './util.js';
+import { computeCameraPosition } from './util';
 
 const flyInAndRotate = async ({
   map,
