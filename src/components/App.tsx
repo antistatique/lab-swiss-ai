@@ -9,9 +9,7 @@ import GetStarted from '@/components/GetStarted';
 import Map from '@/components/Map';
 import Tour from '@/components/Tour';
 import routes from '@/config/routes';
-import { getLocations } from '@/hooks/useLocation';
 import { RouteName } from '@/types/Routes';
-import placeFromLocations from '@/utils/placeFromLocations';
 
 const queryClient = new QueryClient();
 
@@ -20,21 +18,7 @@ const App = () => {
   const [location, setLocation] = useState<string | null>(null);
   const [playing, setPlaying] = useState(false);
   const [stop, setStop] = useState<(() => void) | null>();
-  const [guided, setGuided] = useState(true);
-
-  const handleClick = async (e: mapboxgl.MapLayerMouseEvent) => {
-    const {
-      lngLat: { lng, lat },
-    } = e;
-    const locations = await getLocations(lng, lat);
-    const place = placeFromLocations(locations);
-    setLocation(
-      JSON.stringify({
-        zipCityCantonCountry: place,
-        coordinates: { lng, lat },
-      })
-    );
-  };
+  const [guided, setGuided] = useState(false);
 
   const handleStop = () => {
     if (isNotNil(stop)) {
@@ -93,8 +77,9 @@ const App = () => {
         <div className="sticky top-0 w-3/4">
           <Map
             route={isNotNil(currentRoute) ? routes[currentRoute] : undefined}
-            onClick={guided ? identity : handleClick}
+            onClick={guided ? identity : setLocation}
             onAnimationComplete={handleAnimationComplete}
+            guided={guided}
           />
         </div>
         <div className="w-1/4 h-screen overflow-y-auto">

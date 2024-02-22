@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import MapGl, { MapRef, Source } from 'react-map-gl';
 import { isNotNil } from 'ramda';
 
@@ -10,12 +10,22 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 
 type Props = {
   route?: Route;
-  onClick: (e: mapboxgl.MapLayerMouseEvent) => void;
+  onClick: (name: string) => void;
   onAnimationComplete: (stop: () => void) => void;
+  guided: boolean;
 };
 
-const Map = ({ route, onClick, onAnimationComplete }: Props): JSX.Element => {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let throttleTimer: any = null;
+
+const Map = ({
+  route,
+  onClick,
+  onAnimationComplete,
+  guided,
+}: Props): JSX.Element => {
   const mapRef = useRef<MapRef | null>(null);
+  const [cursor, setCursor] = useState('auto');
 
   const startAnimation = async () => {
     if (mapRef.current !== null && isNotNil(route)) {
@@ -32,6 +42,25 @@ const Map = ({ route, onClick, onAnimationComplete }: Props): JSX.Element => {
   useEffect(() => {
     if (isNotNil(route)) startAnimation();
   }, [route]);
+
+  const handleClick = (e: mapboxgl.MapLayerMouseEvent) => {
+    const features = mapRef.current?.queryRenderedFeatures(e.point);
+    const name = features?.[0]?.properties?.name;
+    if (isNotNil(name)) onClick(name);
+  };
+
+  const onMouseMove = (e: mapboxgl.MapLayerMouseEvent) => {
+    if (!guided) {
+      if (!throttleTimer) {
+        throttleTimer = setTimeout(() => {
+          throttleTimer = null; // once the timeout function executes, reset the timer
+          const features = mapRef.current?.queryRenderedFeatures(e.point);
+          const hasName = isNotNil(features?.[0]?.properties?.name);
+          setCursor(hasName ? 'pointer' : 'auto');
+        }, 20);
+      }
+    }
+  };
 
   return (
     <MapGl
@@ -60,7 +89,9 @@ const Map = ({ route, onClick, onAnimationComplete }: Props): JSX.Element => {
         [11.40758367952867, 48.228588627435585],
       ]}
       localFontFamily="Space Grotesk"
-      onClick={onClick}
+      onClick={handleClick}
+      onMouseMove={onMouseMove}
+      cursor={cursor}
     >
       <Source
         id="mapbox-dem"
