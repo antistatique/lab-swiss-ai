@@ -12,5 +12,16 @@
     "mouse_wheel": "Molette",
     "zoom": "Zoomer / Dézoomer",
     "begin": "Démarrer le tour"
+  },
+  "chat": {
+    "elevation": "Altitude",
+    "your_question": "Votre question",
+    "what_next": "Que voulez-vous faire maintenant ?",
+    "ask_maya": "Questionner Maya sur ce lieu...",
+    "continue": "Aller au lieu suivant"
+  },
+  "modes": {
+    "free": "Je me promène",
+    "guided": "Visite guidée"
   }
 }

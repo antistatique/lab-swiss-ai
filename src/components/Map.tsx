@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import MapGl, { MapRef, Source } from 'react-map-gl';
 import { isNotNil } from 'ramda';
 
+import { Location } from '@/types/Location';
 import { Route } from '@/types/Routes';
 import around from '@/utils/around';
 import playAnimations from '@/utils/mb/play-animations';
@@ -10,7 +11,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 
 type Props = {
   route?: Route;
-  onClick: (name: string) => void;
+  onClick: (location: Location) => void;
   onAnimationComplete: (stop: () => void) => void;
   guided: boolean;
 };
@@ -45,8 +46,26 @@ const Map = ({
 
   const handleClick = (e: mapboxgl.MapLayerMouseEvent) => {
     const features = mapRef.current?.queryRenderedFeatures(e.point);
+
     const name = features?.[0]?.properties?.name;
-    if (isNotNil(name)) onClick(name);
+    const geometry = features?.[0]?.geometry;
+    const lngLat = geometry?.type === 'Point' ? geometry?.coordinates : [0, 0];
+    const elevation =
+      mapRef.current?.queryTerrainElevation({
+        lng: lngLat[0],
+        lat: lngLat[1],
+      }) ?? 0;
+
+    if (isNotNil(name)) {
+      onClick({
+        name,
+        coordinates: {
+          lng: lngLat[0],
+          lat: lngLat[1],
+        },
+        elevation,
+      });
+    }
   };
 
   const onMouseMove = (e: mapboxgl.MapLayerMouseEvent) => {

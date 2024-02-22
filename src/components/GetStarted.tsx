@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { motion, useIsPresent } from 'framer-motion';
 import parse from 'html-react-parser';
 
 import Button from '@/components/Button';
@@ -7,14 +8,31 @@ import Divider from '@/components/Divider';
 import Maya from '@/components/Maya';
 import PaperFront from '@/components/PaperFront';
 
-const GetStarted = (): JSX.Element => {
+type Props = {
+  onStart: () => void;
+};
+
+const GetStarted = ({ onStart }: Props): JSX.Element => {
   const { t } = useTranslation();
+  const isPresent = useIsPresent();
+
   return (
-    <div className="fixed inset-0 bg-stone-900/50 z-[99]">
-      <div className="fixed bottom-0 left-0 flex justify-center w-full max-h-screen pt-10 overflow-y-auto">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.7 }}
+      className="fixed inset-0 bg-stone-900/50 z-[99]"
+    >
+      <motion.div
+        className="fixed bottom-0 left-0 flex justify-center w-full max-h-screen pt-10 overflow-y-auto"
+        initial={{ y: 0 }}
+        animate={{ y: isPresent ? 0 : '100vh' }}
+        transition={{ duration: 0.4 }}
+      >
         <div className="relative w-[340px]">
           <PaperFront withClip>
-            <h2 className="font-bold border-b py-0.5 border-t-[3px] border-stone-900">
+            <h2 className="py-1 font-bold border-b border-t-[3px] border-stone-900">
               {t('intro.subtitle')}
             </h2>
             <div className="flex items-center justify-between mt-4">
@@ -56,11 +74,11 @@ const GetStarted = (): JSX.Element => {
             <select className="w-full mb-3 bg-stone-100">
               <option value="fr">Français</option>
             </select>
-            <Button>{t('intro.begin')}</Button>
+            <Button onClick={onStart}>{t('intro.begin')}</Button>
           </div>
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 
