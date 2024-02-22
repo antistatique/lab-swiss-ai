@@ -1,7 +1,67 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+import parse from 'html-react-parser';
 
-const GetStarted = (): JSX.Element => (
-  <div className="fixed inset-0 z-50 hidden bg-stone-900/50">hello</div>
-);
+import Button from '@/components/Button';
+import Divider from '@/components/Divider';
+import Maya from '@/components/Maya';
+import PaperFront from '@/components/PaperFront';
+
+const GetStarted = (): JSX.Element => {
+  const { t } = useTranslation();
+  return (
+    <div className="fixed inset-0 bg-stone-900/50 z-[99]">
+      <div className="fixed bottom-0 left-0 flex justify-center w-full max-h-screen pt-10 overflow-y-auto">
+        <div className="relative w-[340px]">
+          <PaperFront withClip>
+            <h2 className="font-bold border-b py-0.5 border-t-[3px] border-stone-900">
+              {t('intro.subtitle')}
+            </h2>
+            <div className="flex items-center justify-between mt-4">
+              <h1 className="font-serif text-xl">{parse(t('intro.title'))}</h1>
+              <Maya />
+            </div>
+            <p className="mt-4">{t('intro.welcome')}</p>
+            <p className="mt-4 prose-a:underline prose-a:transition-colors hover:prose-a:text-orange-600 prose-a:underline-offset-4 prose-a:decoration-1">
+              {parse(t('intro.credits'))}
+            </p>
+          </PaperFront>
+          <Divider />
+          <div className="p-4 shadow bg-stone-100">
+            <h2 className="font-bold">{t('intro.howto_title')}</h2>
+            <div className="flex items-center px-4 py-2 mt-3 bg-stone-200 gap-4">
+              <img src="/vectors/mouse-left.svg" alt="mouse left schema" />
+              <span>
+                <h3 className="font-bold">{t('intro.mouse_left')}</h3>
+                <span>{t('intro.move')}</span>
+              </span>
+            </div>
+            <div className="flex items-center px-4 py-2 bg-stone-200 gap-4 mt-1.5">
+              <img src="/vectors/mouse-right.svg" alt="mouse right schema" />
+              <span>
+                <h3 className="font-bold">{t('intro.mouse_right')}</h3>
+                <span>{t('intro.rotate')}</span>
+              </span>
+            </div>
+            <div className="flex items-center px-4 py-2 bg-stone-200 gap-4  mt-1.5">
+              <img src="/vectors/mouse-wheel.svg" alt="mouse wheel schema" />
+              <span>
+                <h3 className="font-bold">{t('intro.mouse_wheel')}</h3>
+                <span>{t('intro.zoom')}</span>
+              </span>
+            </div>
+          </div>
+          <Divider />
+          <div className="p-4 shadow bg-stone-100">
+            <select className="w-full mb-3 bg-stone-100">
+              <option value="fr">Français</option>
+            </select>
+            <Button>{t('intro.begin')}</Button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default GetStarted;

@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react';
 import { useChat } from 'ai/react';
 import { isNotNil } from 'ramda';
 
-import { cn } from '@/utils/cn';
+import cm from '@/utils/cm';
 
 type Props = {
   location: string | null;
@@ -61,7 +61,7 @@ const Chat = ({ location }: Props): JSX.Element => {
           .map(({ role, content }, i) => (
             <div
               key={`message-${i}`}
-              className={cn(
+              className={cm(
                 'flex gap-2',
                 role === 'user' && 'flex-row-reverse text-right'
               )}
@@ -70,7 +70,7 @@ const Chat = ({ location }: Props): JSX.Element => {
                 {role === 'assistant' ? '🤖' : '🤓'}
               </span>
               <span
-                className={cn(
+                className={cm(
                   'p-2 text-sm rounded-lg bg-gray-100',
                   role === 'user' && 'bg-blue-100'
                 )}

@@ -1,7 +1,20 @@
 import React from 'react'; // Add import statement for React
 import type { Metadata } from 'next';
+import { Instrument_Sans, Montagu_Slab } from 'next/font/google';
 
 import '@/styles/index.css';
+
+const instrumentSans = Instrument_Sans({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-instrument-sans',
+});
+
+const montaguSlab = Montagu_Slab({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-montagu-slab',
+});
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,8 +28,11 @@ const RootLayout = (
     children: React.ReactNode;
   }> // Change function component to arrow function
 ) => (
-  <html lang="en">
-    <body>{children}</body>
+  <html
+    lang="en"
+    className={`${montaguSlab.variable} ${instrumentSans.variable}`}
+  >
+    <body className="text-stone-900 font-base leading-5">{children}</body>
   </html>
 );
 export default RootLayout;

@@ -11,6 +11,8 @@ import Tour from '@/components/Tour';
 import routes from '@/config/routes';
 import { RouteName } from '@/types/Routes';
 
+import '@/locales/i18n';
+
 const queryClient = new QueryClient();
 
 const App = () => {
