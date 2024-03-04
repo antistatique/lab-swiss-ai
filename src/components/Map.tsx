@@ -51,10 +51,12 @@ const Map = ({
     const geometry = features?.[0]?.geometry;
     const lngLat = geometry?.type === 'Point' ? geometry?.coordinates : [0, 0];
     const elevation =
+      features?.[0]?.properties?.ele ??
       mapRef.current?.queryTerrainElevation({
         lng: lngLat[0],
         lat: lngLat[1],
-      }) ?? 0;
+      }) ??
+      0;
 
     if (isNotNil(name)) {
       onClick({
@@ -63,7 +65,7 @@ const Map = ({
           lng: lngLat[0],
           lat: lngLat[1],
         },
-        elevation,
+        elevation: Math.round(elevation),
       });
     }
   };

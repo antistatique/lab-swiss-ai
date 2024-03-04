@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { AnimatePresence, motion } from 'framer-motion';
+import { isNotNil } from 'ramda';
 
 import Chevron from '@/components/Chevron';
 import Divider from '@/components/Divider';
@@ -8,25 +9,26 @@ import MenuButton from '@/components/MenuButton';
 import PaperFront from '@/components/PaperFront';
 import TourItem from '@/components/TourItem';
 import tours from '@/config/tours';
-import { Route } from '@/types/Routes';
 import cm from '@/utils/cm';
 
 const duration = 0.4;
 
 type Props = {
-  onSelect: (route: Route) => void;
+  currentTour: string;
+  currentRoute: string | null;
+  onSelect: (tour: string, route: string) => void;
   disabled?: boolean;
 };
 
-const Tour = ({ disabled, onSelect }: Props): JSX.Element => {
-  const [routes, setRoutes] = useState<Route[]>([]);
+const Tour = ({
+  currentTour,
+  currentRoute,
+  disabled,
+  onSelect,
+}: Props): JSX.Element => {
   const [open, setOpen] = useState(false);
   const [childView, setChildView] = useState(false);
   const { t } = useTranslation();
-
-  useEffect(() => {
-    setRoutes(tours[0].routes);
-  }, []);
 
   return (
     <div className="fixed top-0 left-0 z-50 m-4 w-[340px]">
@@ -83,9 +85,9 @@ const Tour = ({ disabled, onSelect }: Props): JSX.Element => {
         }}
       >
         <PaperFront className="py-0" />
-        {tours.map((tour, i) => (
+        {Object.keys(tours).map((tour, i) => (
           <motion.div
-            key={tour.title}
+            key={tours[tour].title}
             initial={{
               height: 0,
             }}
@@ -114,16 +116,15 @@ const Tour = ({ disabled, onSelect }: Props): JSX.Element => {
               <TourItem
                 i={i}
                 duration={duration}
-                title={tour.title}
-                subtitle={tour.subtitle}
-                thumbnail={tour.thumbnail}
+                title={tours[tour].title}
+                subtitle={tours[tour].subtitle}
+                thumbnail={tours[tour].thumbnail}
                 onClick={() => {
-                  setRoutes(tour.routes);
                   setTimeout(() => {
                     setChildView(true);
                   }, duration * 1000);
                 }}
-                active={i === 1}
+                active={tour === currentTour}
                 open={open && !childView}
               />
             </div>
@@ -155,9 +156,9 @@ const Tour = ({ disabled, onSelect }: Props): JSX.Element => {
           <Chevron className="text-orange-500" />
           {t('navigation.tours')}
         </button>
-        {routes.map((route, i) => (
+        {Object.keys(tours[currentTour].routes).map((route, i) => (
           <motion.div
-            key={route.title}
+            key={tours[currentTour].routes[route].title}
             initial={{
               height: 0,
             }}
@@ -186,16 +187,16 @@ const Tour = ({ disabled, onSelect }: Props): JSX.Element => {
               <TourItem
                 i={i}
                 duration={duration}
-                title={route.title}
-                subtitle={route.subtitle}
-                thumbnail={route.thumbnail}
+                title={tours[currentTour].routes[route].title}
+                subtitle={tours[currentTour].routes[route].subtitle}
+                thumbnail={tours[currentTour].routes[route].thumbnail}
                 onClick={() => {
-                  onSelect(route);
+                  onSelect(currentTour, route);
                   setTimeout(() => {
                     setOpen(false);
                   }, 200);
                 }}
-                active={i === 1}
+                active={isNotNil(currentRoute) && route === currentRoute}
                 open={open && childView}
               />
             </div>

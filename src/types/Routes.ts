@@ -1,12 +1,10 @@
 import { FeatureCollection, LineString } from 'geojson';
 
-export type RouteName = 'step1' | 'step2' | 'step3';
-
 export type Tour = {
   title: string;
   subtitle: string;
   thumbnail: string;
-  routes: Route[];
+  routes: Record<string, Route>;
 };
 
 export type Route = {

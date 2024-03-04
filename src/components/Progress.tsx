@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, useIsPresent } from 'framer-motion';
 import { range } from 'ramda';
@@ -14,9 +14,16 @@ type Props = {
 };
 
 const Progress = ({ location, speed }: Props): JSX.Element => {
+  const [speak, setSpeak] = useState(true);
   const [progression, setProgression] = useState<number>(speed);
   const isPresent = useIsPresent();
   const { t } = useTranslation();
+
+  useEffect(() => {
+    setTimeout(() => {
+      setSpeak(false);
+    }, 2000);
+  }, []);
 
   useInterval(
     () => {
@@ -61,7 +68,7 @@ const Progress = ({ location, speed }: Props): JSX.Element => {
 
             <div>
               <span className="float-left pr-10 -mx-8 -mt-2">
-                <Maya />
+                <Maya speak={speak} />
               </span>
               <p className="mt-2">{t('progress.enjoy_the_view')}</p>
             </div>
