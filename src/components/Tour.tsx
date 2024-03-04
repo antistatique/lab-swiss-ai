@@ -128,7 +128,6 @@ const Tour = ({
                   setChildView(true);
                   setTour(tour);
                 }}
-                active={tour === currentTour}
                 open={open && !childView}
               />
             </div>

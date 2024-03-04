@@ -4,12 +4,13 @@ import { useTranslation } from 'react-i18next';
 import { Message, useChat } from 'ai/react';
 import { motion, useIsPresent } from 'framer-motion';
 import { decimalToSexagesimal } from 'geolib';
-import { isNotNil } from 'ramda';
+import { isEmpty, isNotNil } from 'ramda';
 
 import Button from '@/components/Button';
 import Divider from '@/components/Divider';
 import Maya from '@/components/Maya';
 import PaperFront from '@/components/PaperFront';
+import type { Image } from '@/types/Image';
 import cm from '@/utils/cm';
 
 type Props = {
@@ -20,6 +21,7 @@ type Props = {
     lng: number;
   };
   onContinue?: () => void;
+  images?: Image[];
 };
 
 const initialMessages: Message[] = [
@@ -36,6 +38,7 @@ const Chat = ({
   elevation,
   coordinates,
   onContinue,
+  images,
 }: Props): JSX.Element => {
   const locationProxy = useRef<string | null>(null);
   const isPresent = useIsPresent();
@@ -124,6 +127,22 @@ const Chat = ({
                       {content}
                     </div>
                   </div>
+                  {i === 0 && isNotNil(images) && !isEmpty(images) && (
+                    <div className="flex items-center justify-center w-full pt-4 pb-8 bg-stone-100">
+                      {images.map((image, j) => (
+                        <img
+                          key={`location-image-${j}`}
+                          src={image.url}
+                          alt={location as string}
+                          className={cm(
+                            'border-4 border-white shadow w-[40%] shadow',
+                            j % 2 === 0 && 'rotate-[-3deg] translate-x-2',
+                            j % 2 === 1 && 'rotate-[3deg] -translate-x-2'
+                          )}
+                        />
+                      ))}
+                    </div>
+                  )}
                 </div>
               ))}
           </div>

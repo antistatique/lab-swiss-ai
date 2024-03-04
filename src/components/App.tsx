@@ -12,6 +12,7 @@ import Map from '@/components/Map';
 import Progress from '@/components/Progress';
 import Tour from '@/components/Tour';
 import tours, { completeTour } from '@/config/tours';
+import useImages from '@/hooks/useImages';
 import type { Location } from '@/types/Location';
 
 import '@/locales/i18n';
@@ -26,6 +27,8 @@ const App = () => {
   const [playing, setPlaying] = useState(false);
   const [stop, setStop] = useState<(() => void) | null>();
   const [guided, setGuided] = useState(true);
+
+  const { setQuery, images } = useImages();
 
   const handleStop = () => {
     if (isNotNil(stop)) {
@@ -88,6 +91,12 @@ const App = () => {
     }
   }, [guided]);
 
+  useEffect(() => {
+    if (isNotNil(location)) {
+      setQuery(location.name);
+    }
+  }, [location]);
+
   return (
     <QueryClientProvider client={queryClient}>
       <AnimatePresence>
@@ -129,6 +138,7 @@ const App = () => {
             elevation={location.elevation}
             coordinates={location.coordinates}
             onContinue={guided ? handleNextRoute : undefined}
+            images={images}
           />
         )}
       </AnimatePresence>
