@@ -126,7 +126,7 @@ const Tour = ({
                 thumbnail={tours[tourKey].thumbnail}
                 onClick={() => {
                   setChildView(true);
-                  setTour(tour);
+                  setTour(tourKey);
                 }}
                 open={open && !childView}
               />

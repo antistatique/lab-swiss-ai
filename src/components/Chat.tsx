@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React, { useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
+import Markdown from 'react-markdown';
 import { Message, useChat } from 'ai/react';
 import { motion, useIsPresent } from 'framer-motion';
 import { decimalToSexagesimal } from 'geolib';
@@ -124,7 +125,9 @@ const Chat = ({
                           {t('chat.your_question')} :
                         </h3>
                       )}
-                      {content}
+                      <Markdown className="prose-ul:space-y-2 prose-ol:space-y-2 space-y-2">
+                        {content}
+                      </Markdown>
                     </div>
                   </div>
                   {i === 0 && isNotNil(images) && !isEmpty(images) && (
@@ -135,7 +138,7 @@ const Chat = ({
                           src={image.url}
                           alt={location as string}
                           className={cm(
-                            'border-4 border-white shadow w-[40%] shadow',
+                            'border-4 border-white shadow w-[40%]',
                             j % 2 === 0 && 'rotate-[-3deg] translate-x-2',
                             j % 2 === 1 && 'rotate-[3deg] -translate-x-2'
                           )}
@@ -167,7 +170,7 @@ const Chat = ({
                 <button
                   type="submit"
                   className="h-10 border bg-stone-900 border-stone-900 text-stone-100 aspect-square disabled:text-stone-300"
-                  disabled={messages.length === 0}
+                  disabled={messages.length === 0 || isLoading}
                 >
                   ↑
                 </button>
