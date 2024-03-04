@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { AnimatePresence, motion } from 'framer-motion';
 import { isNotNil } from 'ramda';
@@ -27,8 +27,13 @@ const Tour = ({
   onSelect,
 }: Props): JSX.Element => {
   const [open, setOpen] = useState(false);
+  const [tour, setTour] = useState(currentTour);
   const [childView, setChildView] = useState(false);
   const { t } = useTranslation();
+
+  useEffect(() => {
+    setTour(currentTour);
+  }, [currentTour]);
 
   return (
     <div className="fixed top-0 left-0 z-50 m-4 w-[340px]">
@@ -74,7 +79,7 @@ const Tour = ({
 
       {/* Tours */}
       <motion.div
-        className="absolute w-full top-16"
+        className="absolute w-full top-16 w-[340px]"
         initial={{ opacity: 0 }}
         animate={{
           opacity: !childView && open ? 1 : 0,
@@ -85,9 +90,9 @@ const Tour = ({
         }}
       >
         <PaperFront className="py-0" />
-        {Object.keys(tours).map((tour, i) => (
+        {Object.keys(tours).map((tourKey, i) => (
           <motion.div
-            key={tours[tour].title}
+            key={tours[tourKey].title}
             initial={{
               height: 0,
             }}
@@ -116,13 +121,12 @@ const Tour = ({
               <TourItem
                 i={i}
                 duration={duration}
-                title={tours[tour].title}
-                subtitle={tours[tour].subtitle}
-                thumbnail={tours[tour].thumbnail}
+                title={tours[tourKey].title}
+                subtitle={tours[tourKey].subtitle}
+                thumbnail={tours[tourKey].thumbnail}
                 onClick={() => {
-                  setTimeout(() => {
-                    setChildView(true);
-                  }, duration * 1000);
+                  setChildView(true);
+                  setTour(tour);
                 }}
                 active={tour === currentTour}
                 open={open && !childView}
@@ -135,7 +139,7 @@ const Tour = ({
       {/* Routes */}
       <motion.div
         className={cm(
-          'absolute top-16',
+          'absolute top-16 w-[340px]',
           (!childView || !open) && 'pointer-events-none'
         )}
         initial={{ opacity: 0 }}
@@ -156,9 +160,9 @@ const Tour = ({
           <Chevron className="text-orange-500" />
           {t('navigation.tours')}
         </button>
-        {Object.keys(tours[currentTour].routes).map((route, i) => (
+        {Object.keys(tours[tour].routes).map((route, i) => (
           <motion.div
-            key={tours[currentTour].routes[route].title}
+            key={tours[tour].routes[route].title}
             initial={{
               height: 0,
             }}
@@ -187,11 +191,11 @@ const Tour = ({
               <TourItem
                 i={i}
                 duration={duration}
-                title={tours[currentTour].routes[route].title}
-                subtitle={tours[currentTour].routes[route].subtitle}
-                thumbnail={tours[currentTour].routes[route].thumbnail}
+                title={tours[tour].routes[route].title}
+                subtitle={tours[tour].routes[route].subtitle}
+                thumbnail={tours[tour].routes[route].thumbnail}
                 onClick={() => {
-                  onSelect(currentTour, route);
+                  onSelect(tour, route);
                   setTimeout(() => {
                     setOpen(false);
                   }, 200);

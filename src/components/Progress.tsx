@@ -22,7 +22,7 @@ const Progress = ({ location, speed }: Props): JSX.Element => {
   useEffect(() => {
     setTimeout(() => {
       setSpeak(false);
-    }, 2000);
+    }, 3000);
   }, []);
 
   useInterval(
