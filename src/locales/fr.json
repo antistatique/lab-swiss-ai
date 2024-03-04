@@ -23,5 +23,14 @@
   "modes": {
     "free": "Je me promène",
     "guided": "Visite guidée"
+  },
+  "navigation": {
+    "tours": "Tours",
+    "close": "Fermer",
+    "locations": "Les lieux"
+  },
+  "progress": {
+    "heading_for": "Direction",
+    "enjoy_the_view": "Profitez de la vue, nous arriveront bientôt."
   }
 }

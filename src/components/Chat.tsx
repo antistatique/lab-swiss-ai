@@ -19,6 +19,7 @@ type Props = {
     lat: number;
     lng: number;
   };
+  onContinue?: () => void;
 };
 
 const initialMessages: Message[] = [
@@ -30,7 +31,12 @@ const initialMessages: Message[] = [
   },
 ];
 
-const Chat = ({ location, elevation, coordinates }: Props): JSX.Element => {
+const Chat = ({
+  location,
+  elevation,
+  coordinates,
+  onContinue,
+}: Props): JSX.Element => {
   const locationProxy = useRef<string | null>(null);
   const isPresent = useIsPresent();
   const { t } = useTranslation();
@@ -149,12 +155,14 @@ const Chat = ({ location, elevation, coordinates }: Props): JSX.Element => {
               </div>
             </form>
           </div>
-          <Divider />
-          <div className="p-4 shadow bg-stone-100">
-            <Button onClick={() => console.log('continue')}>
-              {t('chat.continue')}
-            </Button>
-          </div>
+          {isNotNil(onContinue) && (
+            <>
+              <Divider />
+              <div className="p-4 shadow bg-stone-100">
+                <Button onClick={onContinue}>{t('chat.continue')}</Button>
+              </div>
+            </>
+          )}
         </div>
       </motion.div>
     </motion.div>

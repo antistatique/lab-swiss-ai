@@ -10,9 +10,12 @@ type Props = {
 const Maya = ({ speak = false }: Props): JSX.Element => {
   const [open, setOpen] = useState(false);
 
-  useInterval(() => {
-    if (speak) setOpen(i => !i);
-  }, 80);
+  useInterval(
+    () => {
+      setOpen(i => !i);
+    },
+    speak ? 80 : null
+  );
 
   useEffect(() => {
     if (!speak) setOpen(false);
