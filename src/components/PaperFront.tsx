@@ -24,7 +24,7 @@ const PaperFront = ({
         <img
           src="/images/clip.png"
           alt="clip"
-          className="absolute z-10 block right-8 top-[-22px] w-[26px] h-[61px]"
+          className="absolute z-10 block right-8 top-[-38px] w-[26px] h-[61px]"
         />
       )}
       {children}

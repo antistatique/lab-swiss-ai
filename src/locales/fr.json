@@ -11,7 +11,8 @@
     "rotate": "Faire pivoter la carte",
     "mouse_wheel": "Molette",
     "zoom": "Zoomer / Dézoomer",
-    "begin": "Démarrer le tour"
+    "begin": "Démarrer le tour",
+    "continue": "Continuer le tour"
   },
   "chat": {
     "elevation": "Altitude",

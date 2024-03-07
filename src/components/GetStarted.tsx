@@ -9,10 +9,11 @@ import Maya from '@/components/Maya';
 import PaperFront from '@/components/PaperFront';
 
 type Props = {
+  started: boolean;
   onStart: () => void;
 };
 
-const GetStarted = ({ onStart }: Props): JSX.Element => {
+const GetStarted = ({ onStart, started }: Props): JSX.Element => {
   const { t } = useTranslation();
   const isPresent = useIsPresent();
 
@@ -74,7 +75,9 @@ const GetStarted = ({ onStart }: Props): JSX.Element => {
             <select className="w-full mb-3 bg-stone-100">
               <option value="fr">Français</option>
             </select>
-            <Button onClick={onStart}>{t('intro.begin')}</Button>
+            <Button onClick={onStart}>
+              {started ? t('intro.continue') : t('intro.begin')}
+            </Button>
           </div>
         </div>
       </motion.div>

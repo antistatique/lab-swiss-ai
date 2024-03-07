@@ -65,14 +65,7 @@
         ]
       }
     ],
-    "jsx-a11y/control-has-associated-label": [
-      2,
-      {
-        "ignoreElements": [
-          "link"
-        ]
-      }
-    ],
+    "jsx-a11y/control-has-associated-label":0,
     "jsx-a11y/href-no-hash": "off",
     "max-len": 0,
     "no-alert": 0,

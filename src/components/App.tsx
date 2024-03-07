@@ -20,6 +20,7 @@ import '@/locales/i18n';
 const queryClient = new QueryClient();
 
 const App = () => {
+  const [infoOpen, setInfoOpen] = useState(true);
   const [started, setStarted] = useState(false);
   const [currentTour, setCurrentTour] = useState<string | null>(null);
   const [currentRoute, setCurrentRoute] = useState<string | null>(null);
@@ -69,8 +70,9 @@ const App = () => {
     handleStop();
   };
 
-  useEffect(() => {
-    if (started) {
+  const handleStart = () => {
+    if (!started) {
+      setStarted(true);
       setTimeout(() => {
         const { start } = completeTour();
         const [tour, route] = start.split('.');
@@ -79,7 +81,7 @@ const App = () => {
         setPlaying(true);
       }, 400);
     }
-  }, [started]);
+  };
 
   useEffect(() => {
     setLocation(null);
@@ -100,7 +102,15 @@ const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <AnimatePresence>
-        {!started && <GetStarted onStart={() => setStarted(true)} />}
+        {infoOpen && (
+          <GetStarted
+            started={started}
+            onStart={() => {
+              handleStart();
+              setInfoOpen(false);
+            }}
+          />
+        )}
       </AnimatePresence>
       {isNotNil(currentTour) && (
         <Tour
@@ -110,7 +120,12 @@ const App = () => {
           disabled={playing || !guided}
         />
       )}
-      <Controls guided={guided} setGuided={setGuided} playing={playing} />
+      <Controls
+        guided={guided}
+        setGuided={setGuided}
+        setInfoOpen={setInfoOpen}
+        playing={playing}
+      />
       <div className="fixed inset-0">
         <Map
           route={

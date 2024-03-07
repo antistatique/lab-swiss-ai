@@ -31,8 +31,12 @@ const TourItem = ({
     animate={{ height: open ? 'auto' : 0 }}
     transition={{ duration }}
     type="button"
+    disabled={active}
     onClick={() => onClick(i)}
-    className="relative w-full overflow-hidden hover:text-orange-600 transition-colors group"
+    className={cm(
+      'relative w-full overflow-hidden transition-colors group',
+      !active && 'hover:text-orange-600'
+    )}
   >
     {/* Duplicate content to get the natural height of the item */}
     <div
