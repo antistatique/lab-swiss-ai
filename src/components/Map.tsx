@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
-import MapGl, { MapRef, Source } from 'react-map-gl';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
+import MapGl, { Layer, MapRef, Source } from 'react-map-gl';
 import { isNotNil } from 'ramda';
 
 import { Location } from '@/types/Location';
@@ -25,6 +25,10 @@ const Map = ({
   onAnimationComplete,
   guided,
 }: Props): JSX.Element => {
+  const [labelId, setLabelId] = useState<string | null>(null);
+  const [currentMarker, setCurrentMarker] = useState<[number, number] | null>(
+    null
+  );
   const mapRef = useRef<MapRef | null>(null);
   const [cursor, setCursor] = useState('auto');
 
@@ -40,8 +44,34 @@ const Map = ({
     }
   };
 
+  const onMapLoad = useCallback(() => {
+    const layers = mapRef.current?.getStyle().layers;
+    if (isNotNil(layers)) {
+      for (const layer of layers) {
+        if (layer.type === 'symbol') {
+          setLabelId(layer.id);
+          break;
+        }
+      }
+    }
+
+    mapRef.current?.loadImage(`/images/marker.png`, (error, image) => {
+      if (error) throw error;
+      if (!mapRef.current?.hasImage('marker') && isNotNil(image)) {
+        mapRef.current?.addImage('marker', image);
+      }
+    });
+  }, []);
+
   useEffect(() => {
-    if (isNotNil(route)) startAnimation();
+    if (isNotNil(route)) {
+      startAnimation();
+      setCurrentMarker(
+        route.paths.features[0].geometry.coordinates.at(-1) as [number, number]
+      );
+    } else {
+      setCurrentMarker(null);
+    }
   }, [route]);
 
   const handleClick = (e: mapboxgl.MapLayerMouseEvent) => {
@@ -110,6 +140,7 @@ const Map = ({
         [11.40758367952867, 48.228588627435585],
       ]}
       localFontFamily="Space Grotesk"
+      onLoad={onMapLoad}
       onClick={handleClick}
       onMouseMove={onMouseMove}
       cursor={cursor}
@@ -122,6 +153,42 @@ const Map = ({
         tileSize={512}
         maxzoom={14}
       />
+      {isNotNil(currentMarker) && (
+        <Source
+          id="marker-data"
+          type="geojson"
+          data={{
+            type: 'FeatureCollection',
+            features: [
+              {
+                type: 'Feature',
+                properties: {},
+                geometry: {
+                  coordinates: currentMarker,
+                  type: 'Point',
+                },
+              },
+            ],
+          }}
+        >
+          <Layer
+            beforeId={labelId ?? ''}
+            {...{
+              id: 'marker-point',
+              type: 'symbol',
+              source: 'marker-data',
+              layout: {
+                'icon-image': 'marker',
+                'icon-size': 0.5,
+                'icon-padding': 0,
+                'icon-anchor': 'bottom',
+                'icon-allow-overlap': true,
+                'icon-ignore-placement': true,
+              },
+            }}
+          />
+        </Source>
+      )}
     </MapGl>
   );
 };
