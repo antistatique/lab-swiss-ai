@@ -14,6 +14,7 @@ import Tour from '@/components/Tour';
 import tours, { completeTour } from '@/config/tours';
 import useImages from '@/hooks/useImages';
 import type { Location } from '@/types/Location';
+import type { RouteFeature } from '@/types/Routes';
 
 import '@/locales/i18n';
 
@@ -23,7 +24,7 @@ const App = () => {
   const [infoOpen, setInfoOpen] = useState(true);
   const [started, setStarted] = useState(false);
   const [currentTour, setCurrentTour] = useState<string | null>(null);
-  const [currentRoute, setCurrentRoute] = useState<string | null>(null);
+  const [currentRoute, setCurrentRoute] = useState<RouteFeature | null>(null);
   const [location, setLocation] = useState<Location | null>();
   const [playing, setPlaying] = useState(false);
   const [stop, setStop] = useState<(() => void) | null>();
@@ -44,7 +45,10 @@ const App = () => {
       setStop(() => s);
 
       setLocation({
-        name: tours[currentTour].routes[currentRoute].location,
+        name:
+          tours[currentTour].routes.features.find(
+            i => currentRoute.properties.slug === i.properties.slug
+          )?.properties.location ?? '',
         coordinates: {
           lng: 6.5,
           lat: 46.5,
@@ -54,7 +58,7 @@ const App = () => {
     }
   };
 
-  const handleSelectRoute = (tour: string, route: string) => {
+  const handleSelectRoute = (tour: string, route: RouteFeature) => {
     setCurrentTour(tour);
     setCurrentRoute(route);
     setPlaying(true);
@@ -62,10 +66,15 @@ const App = () => {
   };
 
   const handleNextRoute = () => {
-    const nextRoute = completeTour()[`${currentTour}.${currentRoute}`];
+    const nextRoute =
+      completeTour()[`${currentTour}.${currentRoute?.properties.slug}`];
     const [tour, route] = nextRoute.split('.');
     setCurrentTour(tour);
-    setCurrentRoute(route);
+    setCurrentRoute(
+      tours[tour].routes.features.find(
+        i => route === i.properties.slug
+      ) as RouteFeature
+    );
     setPlaying(true);
     handleStop();
   };
@@ -77,7 +86,11 @@ const App = () => {
         const { start } = completeTour();
         const [tour, route] = start.split('.');
         setCurrentTour(tour);
-        setCurrentRoute(route);
+        setCurrentRoute(
+          tours[tour].routes.features.find(
+            i => route === i.properties.slug
+          ) as RouteFeature
+        );
         setPlaying(true);
       }, 400);
     }
@@ -130,7 +143,7 @@ const App = () => {
         <Map
           route={
             isNotNil(currentTour) && isNotNil(currentRoute)
-              ? tours[currentTour].routes[currentRoute]
+              ? currentRoute
               : undefined
           }
           onClick={guided ? identity : setLocation}
@@ -141,8 +154,8 @@ const App = () => {
       <AnimatePresence>
         {isNotNil(currentTour) && isNotNil(currentRoute) && playing && (
           <Progress
-            speed={tours[currentTour].routes[currentRoute].speed}
-            location={tours[currentTour].routes[currentRoute].title}
+            speed={currentRoute.properties.speed}
+            location={currentRoute.properties.title}
           />
         )}
       </AnimatePresence>

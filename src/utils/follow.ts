@@ -10,11 +10,11 @@ const follow = (
 ) =>
   new Promise<void>(resolve => {
     const targetRoute = routes.features[0].geometry.coordinates;
-    const cameraRoute = routes.features[1].geometry.coordinates;
+    const cameraRoute = routes.features[0].geometry.coordinates;
 
     const cameraAltitude = 1500;
     // get the overall distance of each route so we can interpolate along them
-    const routeDistance = lineDistance(lineString(targetRoute));
+    // const routeDistance = lineDistance(lineString(targetRoute));
     const cameraRouteDistance = lineDistance(lineString(cameraRoute));
 
     let start = 0;
@@ -30,8 +30,8 @@ const follow = (
         return;
       }
 
-      const alongRoute = along(lineString(targetRoute), routeDistance * phase)
-        .geometry.coordinates;
+      // const alongRoute = along(lineString(targetRoute), routeDistance * phase)
+      //   .geometry.coordinates;
 
       const alongCamera = along(
         lineString(cameraRoute),
@@ -50,8 +50,8 @@ const follow = (
       );
 
       camera.lookAtPoint({
-        lng: alongRoute[0],
-        lat: alongRoute[1],
+        lng: targetRoute.at(-1)?.[0] as number,
+        lat: targetRoute.at(-1)?.[1] as number,
       });
 
       map.setFreeCameraOptions(camera);

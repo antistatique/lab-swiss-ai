@@ -10,6 +10,7 @@ import { computeCameraPosition } from './util';
 const animatePath = async ({
   map,
   duration,
+  rotation = -150,
   path,
   startBearing,
   startAltitude,
@@ -17,6 +18,7 @@ const animatePath = async ({
 }: {
   map: MapRef;
   duration: number;
+  rotation?: number;
   path: Feature<LineString>;
   startBearing: number;
   startAltitude: number;
@@ -47,7 +49,7 @@ const animatePath = async ({
       };
 
       // slowly rotate the map at a constant rate
-      const bearing = startBearing - animationPhase * -150.0;
+      const bearing = startBearing - animationPhase * rotation;
 
       // Variant to get the bearing from the current point to the next point
       // Play with the 0.XX to get the right amount of rotation

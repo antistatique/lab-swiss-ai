@@ -3,14 +3,14 @@ import MapGl, { Layer, MapRef, Source } from 'react-map-gl';
 import { isNotNil } from 'ramda';
 
 import { Location } from '@/types/Location';
-import { Route } from '@/types/Routes';
+import type { RouteFeature } from '@/types/Routes';
 import around from '@/utils/around';
 import playAnimations from '@/utils/mb/play-animations';
 
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 type Props = {
-  route?: Route;
+  route?: RouteFeature;
   onClick: (location: Location) => void;
   onAnimationComplete: (stop: () => void) => void;
   guided: boolean;
@@ -36,8 +36,9 @@ const Map = ({
     if (mapRef.current !== null && isNotNil(route)) {
       await playAnimations(
         mapRef.current,
-        route.paths.features[0],
-        route.speed
+        route,
+        route.properties.speed,
+        route.properties.rotation
       );
       const stop = around(mapRef.current, 0.1);
       onAnimationComplete(stop);
@@ -66,9 +67,7 @@ const Map = ({
   useEffect(() => {
     if (isNotNil(route)) {
       startAnimation();
-      setCurrentMarker(
-        route.paths.features[0].geometry.coordinates.at(-1) as [number, number]
-      );
+      setCurrentMarker(route.geometry.coordinates.at(-1) as [number, number]);
     } else {
       setCurrentMarker(null);
     }

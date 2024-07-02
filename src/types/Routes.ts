@@ -1,17 +1,20 @@
-import { FeatureCollection, LineString } from 'geojson';
+import { Feature, FeatureCollection, LineString } from 'geojson';
+
+export type RouteFeature = Feature<LineString, Route>;
+
+export type Route = {
+  speed: number;
+  location: string;
+  title: string;
+  slug: string;
+  subtitle: string;
+  thumbnail: string;
+  rotation: number;
+};
 
 export type Tour = {
   title: string;
   subtitle: string;
   thumbnail: string;
-  routes: Record<string, Route>;
-};
-
-export type Route = {
-  paths: FeatureCollection<LineString>;
-  speed: number;
-  location: string;
-  title: string;
-  subtitle: string;
-  thumbnail: string;
+  routes: FeatureCollection<LineString, Route>;
 };

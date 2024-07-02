@@ -1,0 +1,147 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "speed": 8000,
+        "rotation": -40,
+        "location": "Lausanne, Switzerland",
+        "title": "Lausanne",
+        "slug": "lausanne",
+        "subtitle": "Ville olympique",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Cath%C3%A9drale_de_Lausanne_depuis_le_Champ_de_l%27Air.JPG/640px-Cath%C3%A9drale_de_Lausanne_depuis_le_Champ_de_l%27Air.JPG"
+      },
+      "geometry": {
+        "coordinates": [
+          [6.443682183701014, 46.43135848124632],
+          [6.538625134899917, 46.49731576474079],
+          [6.635349497341252, 46.522611185858494]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "speed": 6000,
+        "rotation": 80,
+        "location": "Lavaux, Switzerland",
+        "title": "Lavaux",
+        "slug": "lavaux",
+        "subtitle": "Vignobles en terrasses",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Lavaux_Switzerland.jpg/640px-Lavaux_Switzerland.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          [6.635313294633335, 46.52261175483392],
+          [6.672668805170645, 46.492229475476904],
+          [6.714320214956004, 46.48197496184619],
+          [6.735882575513102, 46.49371712452765]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "speed": 12000,
+        "rotation": 20,
+        "location": "Château de Chillon, Switzerland",
+        "title": "Chillon",
+        "slug": "chillon",
+        "subtitle": "Ancient castle",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg/640px-001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          [6.735820784045217, 46.49339472249579],
+          [6.762478786652224, 46.47080396484685],
+          [6.927714644174216, 46.414286731163315]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "speed": 14000,
+        "rotation": 20,
+        "location": "Dents du Midi, Switzerland",
+        "title": "Dents du Midi",
+        "slug": "midi",
+        "subtitle": "Door to the Rhone Valley",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Dents_du_Midi_et_Dent_de_Val%C3%A8re_-_juillet_2022.jpg/640px-Dents_du_Midi_et_Dent_de_Val%C3%A8re_-_juillet_2022.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          [6.927542483165752, 46.414315799984166],
+          [6.903436547779137, 46.3652328948329],
+          [6.960426699421362, 46.278970789615784],
+          [6.937478365454211, 46.17035387982705]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "speed": 8000,
+        "rotation": -90,
+        "location": "Lac d'Émosson, Switzerland",
+        "title": "Lac d'Émosson",
+        "slug": "emosson",
+        "subtitle": "Dam lake",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Lac_Emosson_Picswiss.jpg/640px-Lac_Emosson_Picswiss.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          [6.936635941813165, 46.170105252532494],
+          [6.952566640265218, 46.14081064685746],
+          [6.955861915893223, 46.11970975726871],
+          [6.914197793081769, 46.0915528222194],
+          [6.912832376270103, 46.08406563037951],
+          [6.918653760283746, 46.075079758263456],
+          [6.927268100174359, 46.06895613899093]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "speed": 24000,
+        "rotation": -200,
+        "location": "Col du Grand-Saint-Bernard, Switzerland",
+        "title": "Col du Grand-Saint-Bernard",
+        "slug": "bernard",
+        "subtitle": "Pass to Italy",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Grand_St_Bernard.jpg/640px-Grand_St_Bernard.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          [6.9270523466542215, 46.06961020085717],
+          [6.953828288649049, 46.05525324169861],
+          [6.9623276544043335, 46.06017521875046],
+          [6.966501990573988, 46.06424140016253],
+          [6.969008393841705, 46.06783218544493],
+          [6.975313749260749, 46.07146755259106],
+          [6.97710715483754, 46.07112458327265],
+          [6.988431237929888, 46.06495693556681],
+          [6.994466217223561, 46.053281389985784],
+          [6.9949214228957, 46.04035700040454],
+          [7.025159167948026, 46.01891943665057],
+          [7.032848726413018, 45.996726340891584],
+          [7.0406602987032425, 45.99287982448164],
+          [7.068120511833256, 46.00024678896557],
+          [7.093863304313558, 45.98547953519015],
+          [7.109613828244385, 45.96184288754275],
+          [7.096885534722485, 45.93019644054138],
+          [7.1491194976017365, 45.87759251356039],
+          [7.170943313339961, 45.86864269587298]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
+}

@@ -9,14 +9,15 @@ import MenuButton from '@/components/MenuButton';
 import PaperFront from '@/components/PaperFront';
 import TourItem from '@/components/TourItem';
 import tours from '@/config/tours';
+import type { RouteFeature } from '@/types/Routes';
 import cm from '@/utils/cm';
 
 const duration = 0.4;
 
 type Props = {
   currentTour: string;
-  currentRoute: string | null;
-  onSelect: (tour: string, route: string) => void;
+  currentRoute: RouteFeature | null;
+  onSelect: (tour: string, route: RouteFeature) => void;
   disabled?: boolean;
 };
 
@@ -79,7 +80,7 @@ const Tour = ({
 
       {/* Tours */}
       <motion.div
-        className="absolute w-full top-16 w-[340px]"
+        className="absolute top-16 w-[340px]"
         initial={{ opacity: 0 }}
         animate={{
           opacity: !childView && open ? 1 : 0,
@@ -159,9 +160,9 @@ const Tour = ({
           <Chevron className="text-orange-500" />
           {t('navigation.tours')}
         </button>
-        {Object.keys(tours[tour].routes).map((route, i) => (
+        {tours[tour].routes.features.map((route, i) => (
           <motion.div
-            key={tours[tour].routes[route].title}
+            key={route.properties.slug}
             initial={{
               height: 0,
             }}
@@ -190,9 +191,9 @@ const Tour = ({
               <TourItem
                 i={i}
                 duration={duration}
-                title={tours[tour].routes[route].title}
-                subtitle={tours[tour].routes[route].subtitle}
-                thumbnail={tours[tour].routes[route].thumbnail}
+                title={route.properties.title}
+                subtitle={route.properties.subtitle}
+                thumbnail={route.properties.thumbnail}
                 onClick={() => {
                   onSelect(tour, route);
                   setTimeout(() => {

@@ -10,7 +10,8 @@ import flyInAndRotate from './fly-in-and-rotate';
 const playAnimations = async (
   map: MapRef,
   path: Feature<LineString>,
-  speed: number
+  speed: number,
+  rotation?: number
 ) =>
   // eslint-disable-next-line no-async-promise-executor
   new Promise<void>(async resolve => {
@@ -41,6 +42,7 @@ const playAnimations = async (
     await animatePath({
       map,
       duration: speed,
+      rotation,
       path,
       startBearing: bearing,
       startAltitude: altitude,
