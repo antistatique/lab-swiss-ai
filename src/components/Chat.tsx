@@ -11,6 +11,7 @@ import Button from '@/components/Button';
 import Divider from '@/components/Divider';
 import Maya from '@/components/Maya';
 import PaperFront from '@/components/PaperFront';
+import languages from '@/locales/languages.json';
 import type { Image } from '@/types/Image';
 import cm from '@/utils/cm';
 
@@ -30,7 +31,7 @@ const initialMessages: Message[] = [
     id: 'base-0',
     role: 'system',
     content:
-      'You are specialised Swiss touristic guide that will answer only about Swiss location questions. Answer in French',
+      'You are specialised Swiss touristic guide that will answer only about Swiss location questions. Answer in the desired language.',
   },
 ];
 
@@ -43,7 +44,8 @@ const Chat = ({
 }: Props): JSX.Element => {
   const locationProxy = useRef<string | null>(null);
   const isPresent = useIsPresent();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = languages[i18n.language as keyof typeof languages];
 
   const bottomRef = useRef<HTMLDivElement | null>(null);
   const {
@@ -69,7 +71,7 @@ const Chat = ({
       append({
         id: 'base-1',
         role: 'user',
-        content: `In one paragraph, tell me more about the following place "${location}" in maximum 50 words. Don't include coordinates in your answer.`,
+        content: `In one paragraph, tell me more about the following place "${location}" in ${lang} and with maximum 50 words. Don't include coordinates in your answer.`,
       });
     }
   }, [location]);

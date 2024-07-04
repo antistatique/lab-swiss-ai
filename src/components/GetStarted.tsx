@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, useIsPresent } from 'framer-motion';
 import parse from 'html-react-parser';
+import i18next from 'i18next';
 
 import Button from '@/components/Button';
 import Divider from '@/components/Divider';
@@ -15,7 +16,7 @@ type Props = {
 };
 
 const GetStarted = ({ onStart, started }: Props): JSX.Element => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const isPresent = useIsPresent();
 
   return (
@@ -75,12 +76,12 @@ const GetStarted = ({ onStart, started }: Props): JSX.Element => {
           <div className="p-4 shadow bg-stone-100">
             <select
               className="w-full mb-3 bg-stone-100"
-              defaultValue="fr"
-              onChange={console.log}
+              defaultValue={i18n.language}
+              onChange={({ target }) => i18next.changeLanguage(target.value)}
             >
               {Object.keys(languages).map(key => (
                 <option key={`lang-${key}`} value={key}>
-                  {languages[key]}
+                  {languages[key as keyof typeof languages]}
                 </option>
               ))}
             </select>
