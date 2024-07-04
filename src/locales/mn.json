@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Вэб үзүүр",
+    "title": "Швейцари<br />Өгүүлбэр Тэмцэх",
+    "welcome": "Тавтай морил, би Мая. Швейцарыг алхахад туслах болно.",
+    "credits": "Yann ба Pierre-ийн зохиолыг энд ярих <a href='https://antistatique.net' target='_blank'>Antistatique</a>-д бүтээгдсэн",
+    "howto_title": "Нэгж карт дээр явцадах заавар: ",
+    "mouse_left": "Зүүн товч",
+    "move": "Карт дээр гүйх",
+    "mouse_right": "Баруун товч",
+    "rotate": "Карт гүйлгэх",
+    "mouse_wheel": "Гуталга",
+    "zoom": "Дэлгэц / Цохилт",
+    "begin": "Тэмцэх эхлэх",
+    "continue": "Тэмцэх үргэлжлүүлэх"
+  },
+  "chat": {
+    "elevation": "Өндөр",
+    "your_question": "Таны асуулт",
+    "what_next": "Энээр юу хийхийг хүссэн вэ?",
+    "ask_maya": "Маягаас энэ орондоо асуу",
+    "continue": "Дараагийн орох"
+  },
+  "modes": {
+    "free": "Би явагч",
+    "guided": "Захидал"
+  },
+  "navigation": {
+    "tours": "Тэмцэх",
+    "close": "Хаах",
+    "locations": "Орон нутгууд"
+  },
+  "progress": {
+    "heading_for": "Чиглэл",
+    "enjoy_the_view": "Харагдацыг ажилчинд олгоно уу, бид хурдацтай."
+  }
+}

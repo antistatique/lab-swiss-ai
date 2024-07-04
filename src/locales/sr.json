@@ -1,0 +1,37 @@
+{
+	"intro": {
+		"subtitle": "Веб искуство",
+		"title": "Швајцарска<br />Велика Тура",
+		"welcome": "Добродошли, ја сам Маја. Бићу ваш водич кроз откривање Швајцарске!",
+		"credits": "Искуство обављено код <a href='https://antistatique.net' target='_blank'>Antistatique</a> од стране Јана и Пијера, о којима говоримо у овом <a href='https://antistatique.net' target='_blank'>чланку</a>.",
+		"howto_title": "Како навиговати кроз мапу:",
+		"mouse_left": "Леви клик",
+		"move": "Кретање по мапи",
+		"mouse_right": "Десни клик",
+		"rotate": "Ротирање мапе",
+		"mouse_wheel": "Точак",
+		"zoom": "Зумирање / одзумирање",
+		"begin": "Покрени тур",
+		"continue": "Настави тур"
+	},
+	"chat": {
+		"elevation": "Надморска висина",
+		"your_question": "Ваше питање",
+		"what_next": "Шта желите да радите сада?",
+		"ask_maya": "Питајте Мају овде...",
+		"continue": "Иди на следеће место"
+	},
+	"modes": {
+		"free": "Шетам сам",
+		"guided": "Вођена тура"
+	},
+	"navigation": {
+		"tours": "Турови",
+		"close": "Затвори",
+		"locations": "Локације"
+	},
+	"progress": {
+		"heading_for": "Смер",
+		"enjoy_the_view": "Уживајте у погледу, ускоро ћемо стићи."
+	}
+}

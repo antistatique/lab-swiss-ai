@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Web Deneyimi",
+    "title": "İsviçre<br />Büyük Tur",
+    "welcome": "Hoş geldiniz, ben Maya. İsviçre'yi keşfetmek için rehberiniz olacağım!",
+    "credits": "<a href='https://antistatique.net' target='_blank'>Antistatique</a> tarafından Yann ve Pierre tarafından yapılan bir deneyim, hakkında konuştuğumuz bu <a href='https://antistatique.net' target='_blank'>makale</a>.",
+    "howto_title": "Haritada nasıl gezinilir:",
+    "mouse_left": "Sol tık",
+    "move": "Haritada hareket etmek",
+    "mouse_right": "Sağ tık",
+    "rotate": "Haritayı döndürmek",
+    "mouse_wheel": "Kaydırıcı",
+    "zoom": "Yakınlaşma / Uzaklaşma",
+    "begin": "Turu Başlat",
+    "continue": "Tur'a Devam Et"
+  },
+  "chat": {
+    "elevation": "Yükseklik",
+    "your_question": "Sorunuz",
+    "what_next": "Şimdi ne yapmak istersiniz?",
+    "ask_maya": "Bu yeri Maya'ya sormak...",
+    "continue": "Bir sonraki yere git"
+  },
+  "modes": {
+    "free": "Dolaşıyorum",
+    "guided": "Rehberli Tur"
+  },
+  "navigation": {
+    "tours": "Turlar",
+    "close": "Kapat",
+    "locations": "Konumlar"
+  },
+  "progress": {
+    "heading_for": "Yön",
+    "enjoy_the_view": "Manzaranın keyfini çıkarın, yakında varacağız."
+  }
+}

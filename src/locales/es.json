@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Experiencia web",
+    "title": "Suiza<br />Gran Tour",
+    "welcome": "¡Bienvenido, soy Maya. ¡Seré tu guía para descubrir Suiza!",
+    "credits": "Una experiencia realizada en <a href='https://antistatique.net' target='_blank'>Antistatique</a> por Yann y Pierre, de quienes hablamos en este <a href='https://antistatique.net' target='_blank'>artículo</a>.",
+    "howto_title": "Cómo navegar en el mapa :",
+    "mouse_left": "Clic izquierdo",
+    "move": "Moverse por el mapa",
+    "mouse_right": "Clic derecho",
+    "rotate": "Rotar el mapa",
+    "mouse_wheel": "Rueda",
+    "zoom": "Acercar / Alejar",
+    "begin": "Comenzar el tour",
+    "continue": "Continuar el tour"
+  },
+  "chat": {
+    "elevation": "Altitud",
+    "your_question": "Tu pregunta",
+    "what_next": "¿Qué deseas hacer ahora?",
+    "ask_maya": "Preguntar a Maya sobre este lugar...",
+    "continue": "Ir al siguiente lugar"
+  },
+  "modes": {
+    "free": "Paseo libre",
+    "guided": "Visita guiada"
+  },
+  "navigation": {
+    "tours": "Tours",
+    "close": "Cerrar",
+    "locations": "Los lugares"
+  },
+  "progress": {
+    "heading_for": "Dirección",
+    "enjoy_the_view": "Disfruta de la vista, ¡llegaremos pronto!"
+  }
+}

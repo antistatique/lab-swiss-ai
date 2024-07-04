@@ -1,0 +1,37 @@
+{
+	"intro": {
+		"subtitle": "Trải nghiệm web",
+		"title": "Đại Lục<br />Thụy Sĩ",
+		"welcome": "Chào mừng, tôi là Maya. Tôi sẽ là hướng dẫn viên của bạn trong việc khám phá Thụy Sĩ!",
+		"credits": "Một trải nghiệm được thực hiện tại <a href='https://antistatique.net' target='_blank'>Antistatique</a> bởi Yann và Pierre, về họ chúng tôi đã nói trong <a href='https://antistatique.net' target='_blank'>bài viết</a> này.",
+		"howto_title": "Cách điều hướng trên bản đồ:",
+		"mouse_left": "Nhấp chuột trái",
+		"move": "Di chuyển trên bản đồ",
+		"mouse_right": "Nhấp chuột phải",
+		"rotate": "Xoay bản đồ",
+		"mouse_wheel": "Bánh xe chuột",
+		"zoom": "Thu phóng / Phóng to",
+		"begin": "Bắt đầu tour",
+		"continue": "Tiếp tục tour"
+	},
+	"chat": {
+		"elevation": "Độ cao",
+		"your_question": "Câu hỏi của bạn",
+		"what_next": "Bạn muốn làm gì tiếp theo?",
+		"ask_maya": "Hỏi Maya về địa điểm này...",
+		"continue": "Đi đến địa điểm tiếp theo"
+	},
+	"modes": {
+		"free": "Tự do khám phá",
+		"guided": "Thăm quan có hướng dẫn"
+	},
+	"navigation": {
+		"tours": "Chuyến du lịch",
+		"close": "Đóng",
+		"locations": "Địa điểm"
+	},
+	"progress": {
+		"heading_for": "Hướng đến",
+		"enjoy_the_view": "Hãy tận hưởng cảnh đẹp, chúng ta sẽ đến nơi sớm thôi."
+	}
+}

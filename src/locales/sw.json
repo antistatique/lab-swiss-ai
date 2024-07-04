@@ -1,0 +1,37 @@
+{
+	"intro": {
+		"subtitle": "Uzoefu wa Wavuti",
+		"title": "Suisse<br />Grand Tour",
+		"welcome": "Karibu, mimi ni Maya. Nitakuwa mwongozaji wako katika kugundua Uswisi!",
+		"credits": "Uzoefu uliofanywa na <a href='https://antistatique.net' target='_blank'>Antistatique</a> na Yann na Pierre, ambao tunazungumzia katika <a href='https://antistatique.net' target='_blank'>makala</a> hii.",
+		"howto_title": "Jinsi ya kutumia ramani:",
+		"mouse_left": "Bofya kushoto",
+		"move": "Kuhamia kwenye ramani",
+		"mouse_right": "Bofya kulia",
+		"rotate": "Pindua ramani",
+		"mouse_wheel": "Mzunguko",
+		"zoom": "Kuongeza / Kupunguza",
+		"begin": "Anza ziara",
+		"continue": "Endelea na ziara"
+	},
+	"chat": {
+		"elevation": "Eneo",
+		"your_question": "Swali lako",
+		"what_next": "Unataka kufanya nini sasa?",
+		"ask_maya": "Uliza Maya kuhusu eneo hili...",
+		"continue": "Nenda kwenye eneo la pili"
+	},
+	"modes": {
+		"free": "Natembea",
+		"guided": "Ziara iliyosimamiwa"
+	},
+	"navigation": {
+		"tours": "Ziara",
+		"close": "Funga",
+		"locations": "Maeneo"
+	},
+	"progress": {
+		"heading_for": "Mwelekeo",
+		"enjoy_the_view": "Furahia mandhari, tutafika hivi karibuni."
+	}
+}

@@ -7,6 +7,7 @@ import Button from '@/components/Button';
 import Divider from '@/components/Divider';
 import Maya from '@/components/Maya';
 import PaperFront from '@/components/PaperFront';
+import languages from '@/locales/languages.json';
 
 type Props = {
   started: boolean;
@@ -72,8 +73,16 @@ const GetStarted = ({ onStart, started }: Props): JSX.Element => {
           </div>
           <Divider />
           <div className="p-4 shadow bg-stone-100">
-            <select className="w-full mb-3 bg-stone-100">
-              <option value="fr">Français</option>
+            <select
+              className="w-full mb-3 bg-stone-100"
+              defaultValue="fr"
+              onChange={console.log}
+            >
+              {Object.keys(languages).map(key => (
+                <option key={`lang-${key}`} value={key}>
+                  {languages[key]}
+                </option>
+              ))}
             </select>
             <Button onClick={onStart}>
               {started ? t('intro.continue') : t('intro.begin')}

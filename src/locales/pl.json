@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Doświadczenie internetowe",
+    "title": "Szwajcaria<br />Wielka Trasa",
+    "welcome": "Witaj, jestem Maya. Będę twoim przewodnikiem po odkrywaniu Szwajcarii!",
+    "credits": "Doświadczenie stworzone w <a href='https://antistatique.net' target='_blank'>Antistatique</a> przez Yanna i Pierre'a, o których piszemy w tym <a href='https://antistatique.net' target='_blank'>artykule</a>.",
+    "howto_title": "Jak nawigować po mapie:",
+    "mouse_left": "Lewy przycisk myszy",
+    "move": "Przesuń się po mapie",
+    "mouse_right": "Prawy przycisk myszy",
+    "rotate": "Obróć mapę",
+    "mouse_wheel": "Kółko myszy",
+    "zoom": "Powiększ / Pomniejsz",
+    "begin": "Rozpocznij trasę",
+    "continue": "Kontynuuj trasę"
+  },
+  "chat": {
+    "elevation": "Wysokość",
+    "your_question": "Twoje pytanie",
+    "what_next": "Co chcesz teraz zrobić?",
+    "ask_maya": "Zadaj Mayi pytanie o to miejsce...",
+    "continue": "Przejdź do następnego miejsca"
+  },
+  "modes": {
+    "free": "Spaceruję",
+    "guided": "Zwiedzanie z przewodnikiem"
+  },
+  "navigation": {
+    "tours": "Trasy",
+    "close": "Zamknij",
+    "locations": "Miejsca"
+  },
+  "progress": {
+    "heading_for": "Kierunek",
+    "enjoy_the_view": "Ciesz się widokiem, niedługo dotrzemy."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Experiència web",
+    "title": "Suïssa<br />Gran Tour",
+    "welcome": "Benvinguts, sóc la Maya. Seré la vostra guia per descobrir Suïssa!",
+    "credits": "Una experiència realitzada a <a href='https://antistatique.net' target='_blank'>Antistatique</a> per Yann i Pierre, dels quals parlem en aquest <a href='https://antistatique.net' target='_blank'>article</a>.",
+    "howto_title": "Com navegar en el mapa:",
+    "mouse_left": "Clic esquerra",
+    "move": "Moure's pel mapa",
+    "mouse_right": "Clic dret",
+    "rotate": "Girar el mapa",
+    "mouse_wheel": "Roda del ratolí",
+    "zoom": "Fer zoom / Allunyar",
+    "begin": "Iniciar el tour",
+    "continue": "Continuar el tour"
+  },
+  "chat": {
+    "elevation": "Altitud",
+    "your_question": "La vostra pregunta",
+    "what_next": "Què voleu fer ara?",
+    "ask_maya": "Questionar la Maya sobre aquest lloc...",
+    "continue": "Anar al següent lloc"
+  },
+  "modes": {
+    "free": "Jo pasejo",
+    "guided": "Visita guiada"
+  },
+  "navigation": {
+    "tours": "Rutes",
+    "close": "Tancar",
+    "locations": "Els llocs"
+  },
+  "progress": {
+    "heading_for": "Direcció",
+    "enjoy_the_view": "Gaudiu de la vista, aviat arribarem."
+  }
+}

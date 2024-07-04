@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Web Experience",
+    "title": "Switzerland<br />Grand Tour",
+    "welcome": "Welcome, I'm Maya. I will be your guide to discover Switzerland!",
+    "credits": "An experience created at <a href='https://antistatique.net' target='_blank'>Antistatique</a> by Yann and Pierre, whom we talk about in this <a href='https://antistatique.net' target='_blank'>article</a>.",
+    "howto_title": "How to navigate on the map:",
+    "mouse_left": "Left click",
+    "move": "Move on the map",
+    "mouse_right": "Right click",
+    "rotate": "Rotate the map",
+    "mouse_wheel": "Mouse wheel",
+    "zoom": "Zoom in / Zoom out",
+    "begin": "Start the tour",
+    "continue": "Continue the tour"
+  },
+  "chat": {
+    "elevation": "Elevation",
+    "your_question": "Your question",
+    "what_next": "What would you like to do next?",
+    "ask_maya": "Ask Maya about this place ...",
+    "continue": "Go to the next location"
+  },
+  "modes": {
+    "free": "I am strolling",
+    "guided": "Guided tour"
+  },
+  "navigation": {
+    "tours": "Tours",
+    "close": "Close",
+    "locations": "Locations"
+  },
+  "progress": {
+    "heading_for": "Heading",
+    "enjoy_the_view": "Enjoy the view, we will arrive soon."
+  }
+}

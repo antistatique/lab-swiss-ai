@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Web doživljaj",
+    "title": "Švicarska<br />Velika turneja",
+    "welcome": "Dobrodošli, ja sam Maya. Bit ću vaš vodič kroz Švicarsku!",
+    "credits": "Iskustvo stvoreno kod <a href='https://antistatique.net' target='_blank'>Antistatique</a> od strane Yanna i Pierrea, o kojima govorimo u ovom <a href='https://antistatique.net' target='_blank'>članku</a>.",
+    "howto_title": "Kako se kretati po karti:",
+    "mouse_left": "Lijevi klik",
+    "move": "Pomicanje po karti",
+    "mouse_right": "Desni klik",
+    "rotate": "Rotiranje karte",
+    "mouse_wheel": "Kotačić",
+    "zoom": "Uvećati / Smanjiti prikaz",
+    "begin": "Započni turneju",
+    "continue": "Nastavi turneju"
+  },
+  "chat": {
+    "elevation": "Visina",
+    "your_question": "Vaše pitanje",
+    "what_next": "Što želite učiniti sljedeće?",
+    "ask_maya": "Pitajte Mayu o ovom mjestu...",
+    "continue": "Idi na sljedeće mjesto"
+  },
+  "modes": {
+    "free": "Slobodno istraživanje",
+    "guided": "Vođena tura"
+  },
+  "navigation": {
+    "tours": "Ture",
+    "close": "Zatvori",
+    "locations": "Lokacije"
+  },
+  "progress": {
+    "heading_for": "Smjer",
+    "enjoy_the_view": "Uživajte u pogledu, uskoro ćemo stići."
+  }
+}

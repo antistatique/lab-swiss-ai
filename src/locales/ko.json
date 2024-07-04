@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "웹 경험",
+    "title": "스위스<br />그랜드 투어",
+    "welcome": "환영합니다. 저는 마야입니다. 스위스를 탐험하는 데 도와드리겠습니다!",
+    "credits": "Yann과 Pierre에 의해 <a href='https://antistatique.net' target='_blank'>Antistatique</a>에서 제작된 경험입니다. 이에 대해 이 <a href='https://antistatique.net' target='_blank'>기사</a>에서 이야기합니다.",
+    "howto_title": "지도에서의 탐색 방법 :",
+    "mouse_left": "왼쪽 클릭",
+    "move": "지도 이동",
+    "mouse_right": "오른쪽 클릭",
+    "rotate": "지도 회전",
+    "mouse_wheel": "휠",
+    "zoom": "확대 / 축소",
+    "begin": "투어 시작",
+    "continue": "투어 계속"
+  },
+  "chat": {
+    "elevation": "고도",
+    "your_question": "귀하의 질문",
+    "what_next": "다음에 무엇을 하고 싶으신가요?",
+    "ask_maya": "이 장소에 대해 마야에게 질문하기...",
+    "continue": "다음 장소로 이동"
+  },
+  "modes": {
+    "free": "자유롭게 돌아다님",
+    "guided": "가이드 투어"
+  },
+  "navigation": {
+    "tours": "투어",
+    "close": "닫기",
+    "locations": "장소"
+  },
+  "progress": {
+    "heading_for": "방향",
+    "enjoy_the_view": "전망을 즐기세요, 곧 도착할 겁니다."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Pengalaman web",
+    "title": "Pengembaraan<br />Suisse",
+    "welcome": "Selamat datang, saya Maya. Saya akan menjadi panduan Anda untuk menemukan Suisse!",
+    "credits": "Pengalaman ini dibuat di <a href='https://antistatique.net' target='_blank'>Antistatique</a> oleh Yann dan Pierre, yang kita bicarakan dalam <a href='https://antistatique.net' target='_blank'>artikel</a> ini.",
+    "howto_title": "Bagaimana navigasi peta:",
+    "mouse_left": "Klik kiri",
+    "move": "Bergerak di peta",
+    "mouse_right": "Klik kanan",
+    "rotate": "Memutar peta",
+    "mouse_wheel": "Roda mouse",
+    "zoom": "Memperbesar / Memperkecil",
+    "begin": "Mulai tur",
+    "continue": "Lanjutkan tur"
+  },
+  "chat": {
+    "elevation": "Ketinggian",
+    "your_question": "Pertanyaan Anda",
+    "what_next": "Apa yang ingin Anda lakukan selanjutnya?",
+    "ask_maya": "Tanyakan Maya tentang tempat ini...",
+    "continue": "Pergi ke tempat berikutnya"
+  },
+  "modes": {
+    "free": "Saya berjalan-jalan",
+    "guided": "Tur dipandu"
+  },
+  "navigation": {
+    "tours": "Tur",
+    "close": "Tutup",
+    "locations": "Tempat-tempat"
+  },
+  "progress": {
+    "heading_for": "Arah",
+    "enjoy_the_view": "Nikmati pemandangan, kita akan segera sampai."
+  }
+}

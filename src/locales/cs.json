@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Webový zážitek",
+    "title": "Švýcarsko<br />Velká cesta",
+    "welcome": "Vítejte, jsem Maya. Budu vaším průvodcem při objevování Švýcarska!",
+    "credits": "Zážitek vytvořený v <a href='https://antistatique.net' target='_blank'>Antistatique</a> Yannem a Pierrem, o kterých mluvíme v tomto <a href='https://antistatique.net' target='_blank'>článku</a>.",
+    "howto_title": "Jak se pohybovat po mapě:",
+    "mouse_left": "Levé tlačítko myši",
+    "move": "Pohyb na mapě",
+    "mouse_right": "Pravé tlačítko myši",
+    "rotate": "Otočit mapou",
+    "mouse_wheel": "Kolečko",
+    "zoom": "Přiblížit / Oddálit",
+    "begin": "Začít prohlídku",
+    "continue": "Pokračovat v prohlídce"
+  },
+  "chat": {
+    "elevation": "Nadmořská výška",
+    "your_question": "Vaše otázka",
+    "what_next": "Co chcete udělat teď?",
+    "ask_maya": "Zeptat se Mayi na toto místo...",
+    "continue": "Pokračovat na další místo"
+  },
+  "modes": {
+    "free": "Procházím se",
+    "guided": "Průvodce"
+  },
+  "navigation": {
+    "tours": "Prohlídky",
+    "close": "Zavřít",
+    "locations": "Lokace"
+  },
+  "progress": {
+    "heading_for": "Směr",
+    "enjoy_the_view": "Užijte si pohled, brzy dorazíme."
+  }
+}

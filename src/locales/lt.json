@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Interneto patirtis",
+    "title": "Šveicarija<br />Didysis turas",
+    "welcome": "Sveiki atvykę, aš esu Maija. Būsiu jūsų gidas Šveicarijos atradimui!",
+    "credits": "Patirtis sukūrė <a href='https://antistatique.net' target='_blank'>Antistatique</a> Yann ir Pierre, apie kuriuos mes kalbame šiame <a href='https://antistatique.net' target='_blank'>straipsnyje</a>.",
+    "howto_title": "Kaip naviguoti žemėlapyje:",
+    "mouse_left": "Kairysis pelės klavišas",
+    "move": "Judėti žemėlapyje",
+    "mouse_right": "Dešinysis pelės klavišas",
+    "rotate": "Pasukti žemėlapį",
+    "mouse_wheel": "Ratukas",
+    "zoom": "Artinti / Tolinžymėti",
+    "begin": "Pradėti turą",
+    "continue": "Tęsti turą"
+  },
+  "chat": {
+    "elevation": "Aukštis",
+    "your_question": "Jūsų klausimas",
+    "what_next": "Ką norėtumėte padaryti dabar?",
+    "ask_maya": "Užduokite Maijai klausimą apie šią vietą...",
+    "continue": "Pereiti prie kitoje vietovėje"
+  },
+  "modes": {
+    "free": "Aš pasivaikščioju",
+    "guided": "Gidas lydimas"
+  },
+  "navigation": {
+    "tours": "Turai",
+    "close": "Uždaryti",
+    "locations": "Vietovės"
+  },
+  "progress": {
+    "heading_for": "Kryptis",
+    "enjoy_the_view": "Mėgaukitės vaizdu, mes greitai priartėsime."
+  }
+}

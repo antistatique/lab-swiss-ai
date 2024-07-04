@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "ဝက်ခြင်း Web",
+    "title": "ဆွီဆူး<br />အကြောင်း အစ",
+    "welcome": "ကြိုဆိုပါတယ်။ ကျွန်တော်က Maya ဖြင့် ဆွေးနွေးရေးကြည့်ရအောင် ရှာရှိနိုင်ပါပြီ။",
+    "credits": "<a href='https://antistatique.net' target='_blank'>Antistatique</a> မှ ဖော်ပြထားတဲ့ အဓိပ္ပါယ် Yann နှင့် Pierre များဖြင့် ဤ <a href='https://antistatique.net' target='_blank'>ဆောင်ရွက်</a> တွင် အင်တာနက်သို့ အလိုအလျောက် မျှော်လင့်ပါသည်။",
+    "howto_title": "ဆိုတာ ဘယ်လို ရှာဖွေချိန်:",
+    "mouse_left": "ခေါက်ကြီး",
+    "move": "မြဲခြားရေး",
+    "mouse_right": "ညာဖတ္လိုက်",
+    "rotate": "မြောလင့်တယ်",
+    "mouse_wheel": "ကွက်လှော်",
+    "zoom": "ဖြင့် / မျှင်းတယ်",
+    "begin": "အစတည်သတင်း",
+    "continue": "အဆင့်ဖလိုအောင်"
+  },
+  "chat": {
+    "elevation": "အလင်းအတင်း",
+    "your_question": "သင့်မေးခွန်",
+    "what_next": "ဘာ နောက်ဆုံးခြားရင် ?",
+    "ask_maya": "ဒီနေရာမှ Maya ဆိုတာ...",
+    "continue": "နောက်ဆုံးပိတ်ပိတ်ဆုံး"
+  },
+  "modes": {
+    "free": "ကျေးဇူးပြုစွာ ယူနစ်",
+    "guided": "ချယ်ရီဝင့်အောင်"
+  },
+  "navigation": {
+    "tours": "အစာအိမ်",
+    "close": "ပိတ်ဆုံး",
+    "locations": "နေရာများ"
+  },
+  "progress": {
+    "heading_for": "ရှေ့ပြီး",
+    "enjoy_the_view": "အုတ်ပြန် ခွင့်မျှစွာ ရုပ်တုိ့ရှင်ကိုပြောပြထားပေးပါပြီ။"
+  }
+}

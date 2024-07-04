@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Weboplevelse",
+    "title": "Schweiz<br />Stor rundtur",
+    "welcome": "Velkommen, jeg er Maya. Jeg vil være din guide til at opdage Schweiz!",
+    "credits": "En oplevelse skabt hos <a href='https://antistatique.net' target='_blank'>Antistatique</a> af Yann og Pierre, som vi taler om i denne <a href='https://antistatique.net' target='_blank'>artikel</a>.",
+    "howto_title": "Sådan navigerer du på kortet:",
+    "mouse_left": "Venstre klik",
+    "move": "Bevæg dig rundt på kortet",
+    "mouse_right": "Højreklik",
+    "rotate": "Roter kortet",
+    "mouse_wheel": "Scrollhjul",
+    "zoom": "Zoom ind / Zoom ud",
+    "begin": "Start turen",
+    "continue": "Fortsæt turen"
+  },
+  "chat": {
+    "elevation": "Højde",
+    "your_question": "Dit spørgsmål",
+    "what_next": "Hvad vil du gøre nu?",
+    "ask_maya": "Spørg Maya om dette sted...",
+    "continue": "Gå til næste sted"
+  },
+  "modes": {
+    "free": "Jeg går bare rundt",
+    "guided": "Guidet tur"
+  },
+  "navigation": {
+    "tours": "Ture",
+    "close": "Luk",
+    "locations": "Stederne"
+  },
+  "progress": {
+    "heading_for": "Retning mod",
+    "enjoy_the_view": "Nyd udsigten, vi når snart frem."
+  }
+}

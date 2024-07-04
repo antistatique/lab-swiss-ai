@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Karanasan sa web",
+    "title": "Suisse<br />Grand Tour",
+    "welcome": "Maligayang pagdating, ako si Maya. Ako ang inyong gabay sa pagdiskubre sa Switzerland!",
+    "credits": "Isang karanasang ginawa sa <a href='https://antistatique.net' target='_blank'>Antistatique</a> ni Yann at Pierre, na binanggit natin sa <a href='https://antistatique.net' target='_blank'>artikulo</a> na ito.",
+    "howto_title": "Paano mag-navigate sa mapa:",
+    "mouse_left": "Kaliwang click",
+    "move": "Paglipat sa mapa",
+    "mouse_right": "Kanan click",
+    "rotate": "Pag-ikot ng mapa",
+    "mouse_wheel": "Wheel",
+    "zoom": "I-zoom / I-dezoom",
+    "begin": "Simulan ang tour",
+    "continue": "Ituloy ang tour"
+  },
+  "chat": {
+    "elevation": "Taas ng Lokasyon",
+    "your_question": "Ang iyong tanong",
+    "what_next": "Anong gusto mong gawin ngayon?",
+    "ask_maya": "Itanong kay Maya tungkol sa lugar na ito...",
+    "continue": "Pumunta sa susunod na lugar"
+  },
+  "modes": {
+    "free": "Naglalakad-lang",
+    "guided": "Inaasisteng pagbisita"
+  },
+  "navigation": {
+    "tours": "Mga Tour",
+    "close": "Isara",
+    "locations": "Mga Lugar"
+  },
+  "progress": {
+    "heading_for": "Direksyon",
+    "enjoy_the_view": "Mag-enjoy sa tanawin, malapit na tayo."
+  }
+}

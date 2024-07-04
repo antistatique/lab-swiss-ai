@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Web体验",
+    "title": "瑞士<br />大环游",
+    "welcome": "欢迎，我是玛雅。我将是您探索瑞士的导游！",
+    "credits": "此体验由Yann和Pierre在<a href='https://antistatique.net' target='_blank'>Antistatique</a>完成，我们在这篇<a href='https://antistatique.net' target='_blank'>文章</a>中提到。",
+    "howto_title": "如何在地图上导航：",
+    "mouse_left": "左键单击",
+    "move": "在地图上移动",
+    "mouse_right": "右键单击",
+    "rotate": "旋转地图",
+    "mouse_wheel": "滚轮",
+    "zoom": "放大 / 缩小",
+    "begin": "开始环游",
+    "continue": "继续环游"
+  },
+  "chat": {
+    "elevation": "海拔",
+    "your_question": "您的问题",
+    "what_next": "接下来想做什么？",
+    "ask_maya": "询问玛雅这个地方...",
+    "continue": "前往下一个地点"
+  },
+  "modes": {
+    "free": "自由漫步",
+    "guided": "导游参观"
+  },
+  "navigation": {
+    "tours": "环游",
+    "close": "关闭",
+    "locations": "地点"
+  },
+  "progress": {
+    "heading_for": "前往",
+    "enjoy_the_view": "欣赏景色，我们很快就会到达。"
+  }
+}

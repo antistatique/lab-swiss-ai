@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Veebikogemus",
+    "title": "Šveits<br />Suur Ringreis",
+    "welcome": "Tere tulemast, mina olen Maya. Ma olen teie giid Šveitsi avastamiseks!",
+    "credits": "Kogemus loodud siin <a href='https://antistatique.net' target='_blank'>Antistatique</a> poolt Yann ja Pierre, keda mainitakse selles <a href='https://antistatique.net' target='_blank'>artiklis</a>.",
+    "howto_title": "Kuidas kaardil navigeerida:",
+    "mouse_left": "Vasak hiireklõps",
+    "move": "Kaardil liikumine",
+    "mouse_right": "Parem hiireklõps",
+    "rotate": "Kaardi pööramine",
+    "mouse_wheel": "Hiire kerimine",
+    "zoom": "Suumimine / Väljazoomimine",
+    "begin": "Alusta ringreisi",
+    "continue": "Jätka ringreisi"
+  },
+  "chat": {
+    "elevation": "Kõrgus",
+    "your_question": "Teie küsimus",
+    "what_next": "Mida soovite nüüd teha?",
+    "ask_maya": "Küsige Mayalt selle koha kohta...",
+    "continue": "Mine järgmisesse kohta"
+  },
+  "modes": {
+    "free": "Ma jalutan",
+    "guided": "Juhendatud ringkäik"
+  },
+  "navigation": {
+    "tours": "Ringkäigud",
+    "close": "Sulge",
+    "locations": "Kohad"
+  },
+  "progress": {
+    "heading_for": "Suund",
+    "enjoy_the_view": "Nautige vaadet, jõuame peagi kohale."
+  }
+}

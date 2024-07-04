@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Web taariikhda",
+    "title": "Switzerland<br />Tour-weyn",
+    "welcome": "Soo dhawaada, waxaan ahay Maya. Waxaan kuu soo bandhignayaa ka degi Switzerland!",
+    "credits": "Kalsoonida sameeyay <a href='https://antistatique.net' target='_blank'>Antistatique</a> kaasoo sameeyay Yann iyo Pierre, waxayna kaga hadlaan <a href='https://antistatique.net' target='_blank'>maqaalkan</a>.",
+    "howto_title": "Sida loo fidiyo khariidka:",
+    "mouse_left": "Guddiga bidix",
+    "move": "Sii deji buugga",
+    "mouse_right": "Guddiga midig",
+    "rotate": "Daba koriyay buugga",
+    "mouse_wheel": "Furidda",
+    "zoom": "Zoomer / Baaritaan",
+    "begin": "Bilow tour-ka",
+    "continue": "Ku sii wadaag"
+  },
+  "chat": {
+    "elevation": "Koox",
+    "your_question": "Su'aalkeega",
+    "what_next": "Waa maxay dhicin kartaa?",
+    "ask_maya": "Baro Maya wax badan oo ku saabsan goobtani...",
+    "continue": "Tag goobtan xigta"
+  },
+  "modes": {
+    "free": "Dhagaxaan",
+    "guided": "Xiriirkiisa"
+  },
+  "navigation": {
+    "tours": "Tours",
+    "close": "Dhig",
+    "locations": "Goobaha"
+  },
+  "progress": {
+    "heading_for": "Qaab",
+    "enjoy_the_view": "Ka faa'iido taariikhda, waxaan soo dhammaannaysoon hore."
+  }
+}

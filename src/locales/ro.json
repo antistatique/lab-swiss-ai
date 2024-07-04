@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Experiență web",
+    "title": "Turul Elveției",
+    "welcome": "Bine ați venit, sunt Maya. Voi fi ghidul dumneavoastră în explorarea Elveției!",
+    "credits": "O experiență realizată la <a href='https://antistatique.net' target='_blank'>Antistatique</a> de către Yann și Pierre, despre care vorbim în acest <a href='https://antistatique.net' target='_blank'>articol</a>.",
+    "howto_title": "Cum să navigați pe hartă:",
+    "mouse_left": "Click stânga",
+    "move": "Deplasare pe hartă",
+    "mouse_right": "Click dreapta",
+    "rotate": "Rotirea hărții",
+    "mouse_wheel": "Roată",
+    "zoom": "Mărirea / Micșorarea",
+    "begin": "Începeți turul",
+    "continue": "Continuați turul"
+  },
+  "chat": {
+    "elevation": "Altitudine",
+    "your_question": "Întrebarea dvs.",
+    "what_next": "Ce doriți să faceți acum?",
+    "ask_maya": "Întrebați-l pe Maya despre acest loc...",
+    "continue": "Mergeti la următorul loc"
+  },
+  "modes": {
+    "free": "Plimbare liberă",
+    "guided": "Tur ghidat"
+  },
+  "navigation": {
+    "tours": "Tururi",
+    "close": "Închide",
+    "locations": "Locurile"
+  },
+  "progress": {
+    "heading_for": "Direcție",
+    "enjoy_the_view": "Bucurați-vă de priveliște, vom ajunge curând."
+  }
+}

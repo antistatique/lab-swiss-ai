@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Pengalaman web",
+    "title": "Suisse<br />Grand Tour",
+    "welcome": "Selamat datang, saya Maya. Saya akan menjadi panduan anda untuk meneroka Switzerland!",
+    "credits": "Sebuah pengalaman yang dibuat di <a href='https://antistatique.net' target='_blank'>Antistatique</a> oleh Yann dan Pierre, yang kita bincangkan dalam <a href='https://antistatique.net' target='_blank'>artikel</a> ini.",
+    "howto_title": "Bagaimana cara bergerak di peta:",
+    "mouse_left": "Klik kiri",
+    "move": "Bergerak di peta",
+    "mouse_right": "Klik kanan",
+    "rotate": "Memutarkan peta",
+    "mouse_wheel": "Roda mouse",
+    "zoom": "Zum masuk / keluar",
+    "begin": "Mulakan lawatan",
+    "continue": "Teruskan lawatan"
+  },
+  "chat": {
+    "elevation": "Ketinggian",
+    "your_question": "Soalan anda",
+    "what_next": "Apa yang ingin anda lakukan selepas ini?",
+    "ask_maya": "Tanyakan Maya tentang tempat ini...",
+    "continue": "Pergi ke tempat seterusnya"
+  },
+  "modes": {
+    "free": "Saya berjalan-jalan",
+    "guided": "Lawatan berpanduan"
+  },
+  "navigation": {
+    "tours": "Lawatan",
+    "close": "Tutup",
+    "locations": "Tempat-tempat"
+  },
+  "progress": {
+    "heading_for": "Arah tuju",
+    "enjoy_the_view": "Nikmatilah pemandangan, kami akan tiba tidak lama lagi."
+  }
+}

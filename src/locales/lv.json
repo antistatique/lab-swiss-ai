@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Tīmekļa pieredze",
+    "title": "Šveices<br />Lielais tūrs",
+    "welcome": "Laipni lūdzam! Es esmu Maia. Es būšu jūsu ceļvedis, lai atklātu Šveici!",
+    "credits": "Pieredze izveidota <a href='https://antistatique.net' target='_blank'>Antistatique</a> uzņēmumā, kuru izveidoja Jans un Pjērs, par kuriem mēs runājam šajā <a href='https://antistatique.net' target='_blank'>rakstā</a>.",
+    "howto_title": "Kā pārvietoties pa karti:",
+    "mouse_left": "Labais klikšķis",
+    "move": "Pārvietoties pa karti",
+    "mouse_right": "Labais klikšķis",
+    "rotate": "Pagriezt karti",
+    "mouse_wheel": "Ritenis",
+    "zoom": "Pietuvināt / Attālināt",
+    "begin": "Sākt tūri",
+    "continue": "Turpināt tūri"
+  },
+  "chat": {
+    "elevation": "Augstums",
+    "your_question": "Jūsu jautājums",
+    "what_next": "Ko vēlaties darīt tagad?",
+    "ask_maya": "Jautājiet Maiai par šo vietu...",
+    "continue": "Doties uz nākamo vietu"
+  },
+  "modes": {
+    "free": "Es pastaigājos",
+    "guided": "Gidots apskats"
+  },
+  "navigation": {
+    "tours": "Tūres",
+    "close": "Aizvērt",
+    "locations": "Vietas"
+  },
+  "progress": {
+    "heading_for": "Virziens",
+    "enjoy_the_view": "Izbaudiet skatu, mēs drīz sasniegsim mērķi."
+  }
+}

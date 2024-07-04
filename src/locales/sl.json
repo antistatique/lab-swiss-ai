@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Spletna izkušnja",
+    "title": "Švica<br />Velika tura",
+    "welcome": "Dobrodošli, jaz sem Maya. Bom vaš vodič za odkrivanje Švice!",
+    "credits": "Izkušnja izvedena pri <a href='https://antistatique.net' target='_blank'>Antistatique</a> od Yanna in Pierrea, o katerih govorimo v tem <a href='https://antistatique.net' target='_blank'>članku</a>.",
+    "howto_title": "Kako krmariti po zemljevidu:",
+    "mouse_left": "Levi klik",
+    "move": "Premik na zemljevidu",
+    "mouse_right": "Desni klik",
+    "rotate": "Vrtenje zemljevida",
+    "mouse_wheel": "Kolesce",
+    "zoom": "Povečava / Pomanjšava",
+    "begin": "Začni turo",
+    "continue": "Nadaljuj s turo"
+  },
+  "chat": {
+    "elevation": "Višina",
+    "your_question": "Vaše vprašanje",
+    "what_next": "Kaj želite storiti zdaj?",
+    "ask_maya": "Vprašaj Mayo o tem kraju...",
+    "continue": "Pojdi na naslednji kraj"
+  },
+  "modes": {
+    "free": "Prosti sprehod",
+    "guided": "Voden ogled"
+  },
+  "navigation": {
+    "tours": "Ture",
+    "close": "Zapri",
+    "locations": "Lokacije"
+  },
+  "progress": {
+    "heading_for": "Smer",
+    "enjoy_the_view": "Uživajte v razgledu, kmalu bomo tam."
+  }
+}

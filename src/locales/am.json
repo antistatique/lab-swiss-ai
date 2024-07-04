@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "የውድ ድር",
+    "title": "ስዊስ<br />እንስታቱር",
+    "welcome": "እንኳን በደህና መጣህ፡ ተስፋችሁን ስነደብ፡ የሜይሃ ነኝ።",
+    "credits": "የደጋሚ ተረጋግጬ በ <a href='https://antistatique.net' target='_blank'>አንሲታቲክ</a> በዚህ ሸልዩነት ሊስት ባለ፡ በያን እና ጊሬ ባሉት መጀመሪያዎች፡ ይሔን ጽሑፍ መሰረቶች <a href='https://antistatique.net' target='_blank'>ይበለጥ</a>።",
+    "howto_title": "በአደራሳ እናውቃለᴇ፦",
+    "mouse_left": "ቀለም ማራኪ",
+    "move": "ምንጭዝ ለማለፍ አድርግ",
+    "mouse_right": "ቀለም ትክክለኛ",
+    "rotate": "ካወክ ከሳጥን",
+    "mouse_wheel": "ዋጋ ኳስ",
+    "zoom": "ዛም ፈፅዝ / ጐን",
+    "begin": "ስለዚህ እሳት",
+    "continue": "እስኪጠፋ"
+  },
+  "chat": {
+    "elevation": "ማህንድ፡",
+    "your_question": "ገና ምን እንደሆነች",
+    "what_next": "በምን አስቧኝ?",
+    "ask_maya": "ፈቃድ ይጠየቃል መያዣን...",
+    "continue": "ቀጣይ ወደ ቀጣይ ቦታ"
+  },
+  "modes": {
+    "free": "የእንስተዋል",
+    "guided": "የመላእክት ጉልቻ"
+  },
+  "navigation": {
+    "tours": "ለመላእክታት",
+    "close": "ዝጋ",
+    "locations": "አቅራቢዎች"
+  },
+  "progress": {
+    "heading_for": "ካልሰጠኝ",
+    "enjoy_the_view": "መዝለህ፡ የጥበብ ሰራዊት መቆሚያዎች አለዎት።"
+  }
+}

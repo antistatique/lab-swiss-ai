@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Webervaring",
+    "title": "Zwitserland<br />Grote Tour",
+    "welcome": "Welkom, ik ben Maya. Ik zal uw gids zijn om Zwitserland te ontdekken!",
+    "credits": "Een ervaring gemaakt bij <a href='https://antistatique.net' target='_blank'>Antistatique</a> door Yann en Pierre, over wie we praten in dit <a href='https://antistatique.net' target='_blank'>artikel</a>.",
+    "howto_title": "Hoe te navigeren op de kaart:",
+    "mouse_left": "Linkermuisknop",
+    "move": "Bewegen op de kaart",
+    "mouse_right": "Rechtermuisknop",
+    "rotate": "Kaart draaien",
+    "mouse_wheel": "Scrollwiel",
+    "zoom": "Inzoomen / Uitzoomen",
+    "begin": "Tour starten",
+    "continue": "Tour voortzetten"
+  },
+  "chat": {
+    "elevation": "Hoogte",
+    "your_question": "Uw vraag",
+    "what_next": "Wat wilt u nu doen?",
+    "ask_maya": "Maya bevragen over deze locatie...",
+    "continue": "Ga naar de volgende locatie"
+  },
+  "modes": {
+    "free": "Ik loop rond",
+    "guided": "Geleide tour"
+  },
+  "navigation": {
+    "tours": "Tours",
+    "close": "Sluiten",
+    "locations": "Locaties"
+  },
+  "progress": {
+    "heading_for": "Richting",
+    "enjoy_the_view": "Geniet van het uitzicht, we zullen er snel zijn."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Nettleseropplevelse",
+    "title": "Sveits<br />Grand Tour",
+    "welcome": "Velkommen, jeg er Maya. Jeg vil være guiden din for å oppdage Sveits!",
+    "credits": "En opplevelse laget hos <a href='https://antistatique.net' target='_blank'>Antistatique</a> av Yann og Pierre, som vi snakker om i denne <a href='https://antistatique.net' target='_blank'>artikkelen</a>.",
+    "howto_title": "Hvordan navigere på kartet:",
+    "mouse_left": "Venstre klikk",
+    "move": "Beveg deg på kartet",
+    "mouse_right": "Høyre klikk",
+    "rotate": "Roter kartet",
+    "mouse_wheel": "Hjul",
+    "zoom": "Zoome inn / ut",
+    "begin": "Start turen",
+    "continue": "Fortsett turen"
+  },
+  "chat": {
+    "elevation": "Høyde",
+    "your_question": "Ditt spørsmål",
+    "what_next": "Hva vil du gjøre nå?",
+    "ask_maya": "Spør Maya om dette stedet...",
+    "continue": "Gå til neste sted"
+  },
+  "modes": {
+    "free": "Jeg vandrer rundt",
+    "guided": "Guidet tur"
+  },
+  "navigation": {
+    "tours": "Turer",
+    "close": "Lukk",
+    "locations": "Stedene"
+  },
+  "progress": {
+    "heading_for": "Retning",
+    "enjoy_the_view": "Nyt utsikten, vi kommer snart frem."
+  }
+}

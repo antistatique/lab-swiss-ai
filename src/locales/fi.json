@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Web-kokemus",
+    "title": "Sveitsi<br />Suuri kierros",
+    "welcome": "Tervetuloa, olen Maya. Olen oppaasi Sveitsin tutkimisessa!",
+    "credits": "Kokemus toteutettiin yrityksessä <a href='https://antistatique.net' target='_blank'>Antistatique</a> Yannin ja Pierren toimesta, joista kerromme tässä <a href='https://antistatique.net' target='_blank'>artikkelissa</a>.",
+    "howto_title": "Kuinka navigoida kartalla:",
+    "mouse_left": "Vasen painike",
+    "move": "Liiku kartalla",
+    "mouse_right": "Oikea painike",
+    "rotate": "Käännä karttaa",
+    "mouse_wheel": "Hiiren pyörä",
+    "zoom": "Zoomaa / Loitonna",
+    "begin": "Aloita kierros",
+    "continue": "Jatka kierrosta"
+  },
+  "chat": {
+    "elevation": "Korkeus",
+    "your_question": "Kysymyksesi",
+    "what_next": "Mitä haluat tehdä seuraavaksi?",
+    "ask_maya": "Kysy Mayalta tästä paikasta...",
+    "continue": "Siirry seuraavaan paikkaan"
+  },
+  "modes": {
+    "free": "Kuljen vapaasti",
+    "guided": "Opastettu kierros"
+  },
+  "navigation": {
+    "tours": "Kierrokset",
+    "close": "Sulje",
+    "locations": "Paikat"
+  },
+  "progress": {
+    "heading_for": "Suunta",
+    "enjoy_the_view": "Nauti näkymästä, saavumme pian."
+  }
+}

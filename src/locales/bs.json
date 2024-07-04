@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Web iskustvo",
+    "title": "Švajcarska<br />Veliki tura",
+    "welcome": "Dobrodošli, ja sam Maya. Ja ću biti vaš vodič kroz Švajcarsku!",
+    "credits": "Iskustvo napravljeno kod <a href='https://antistatique.net' target='_blank'>Antistatique</a> od strane Yanna i Pierrea, o kojima govore u ovom <a href='https://antistatique.net' target='_blank'>članku</a>.",
+    "howto_title": "Kako koristiti mapu:",
+    "mouse_left": "Lijevi klik",
+    "move": "Pomeranje po karti",
+    "mouse_right": "Desni klik",
+    "rotate": "Rotiranje karte",
+    "mouse_wheel": "Tocak miša",
+    "zoom": "Uvećati / Smanjiti",
+    "begin": "Pokreni turu",
+    "continue": "Nastavi turu"
+  },
+  "chat": {
+    "elevation": "Visina",
+    "your_question": "Vaše pitanje",
+    "what_next": "Šta želite uraditi sada?",
+    "ask_maya": "Pitajte Mayu o ovom mjestu...",
+    "continue": "Idi na sljedeće mjesto"
+  },
+  "modes": {
+    "free": "Slobodno šetam",
+    "guided": "Vođena tura"
+  },
+  "navigation": {
+    "tours": "Ture",
+    "close": "Zatvori",
+    "locations": "Lokacije"
+  },
+  "progress": {
+    "heading_for": "Smjer",
+    "enjoy_the_view": "Uživajte u pogledu, uskoro ćemo stići."
+  }
+}

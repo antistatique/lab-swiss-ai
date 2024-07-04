@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "ویب تجربہ",
+    "title": "سویس <br /> بڑا ٹور",
+    "welcome": "خوش آمدید، میں مائیا ہوں۔ میں سویس کی دریافت کے لیے آپ کا راہنما بنوں گی۔",
+    "credits": "ایک تجربہ جس کو <a href='https://antistatique.net' target='_blank'>Antistatique</a> نے Yann اور Pierre کے زیر اہتمام تیار کیا ہے، جن پر ہم اس <a href='https://antistatique.net' target='_blank'>مضمون</a> میں بات کر رہے ہیں۔",
+    "howto_title": "نقشہ پر چلنے کا طریقہ:",
+    "mouse_left": "بائیں کلک",
+    "move": "نقشہ پر حرکت کریں",
+    "mouse_right": "دائیں کلک",
+    "rotate": "نقشہ گھمائیں",
+    "mouse_wheel": "ماؤس کا پہیا",
+    "zoom": "چھوٹا / بڑا کریں",
+    "begin": "ٹور شروع کریں",
+    "continue": "ٹور جاری رکھیں"
+  },
+  "chat": {
+    "elevation": "بلندی",
+    "your_question": "آپ کا سوال",
+    "what_next": "آپ اب کیا کرنا چاہتے ہیں؟",
+    "ask_maya": "اس جگہ پر مائیا سے سوال کریں...",
+    "continue": "اگلی جگہ پر جائیں"
+  },
+  "modes": {
+    "free": "میں گشت کرتا ہوں",
+    "guided": "رہنمائی شدہ دورہ"
+  },
+  "navigation": {
+    "tours": "ٹورز",
+    "close": "بند کریں",
+    "locations": "مقامات"
+  },
+  "progress": {
+    "heading_for": "رخ",
+    "enjoy_the_view": "منظر لطف اندوز ہے، ہم جلد پہنچ جائیں گے۔"
+  }
+}

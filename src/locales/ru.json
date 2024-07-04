@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Веб-опыт",
+    "title": "Швейцария<br />Большой тур",
+    "welcome": "Добро пожаловать, я Майя. Я буду вашим гидом по Швейцарии!",
+    "credits": "Опыт сделан в <a href='https://antistatique.net' target='_blank'>Antistatique</a> Yann и Pierre, о которых мы говорим в этой <a href='https://antistatique.net' target='_blank'>статье</a>.",
+    "howto_title": "Как пользоваться картой:",
+    "mouse_left": "Левый клик",
+    "move": "Перемещаться по карте",
+    "mouse_right": "Правый клик",
+    "rotate": "Поворачивать карту",
+    "mouse_wheel": "Колесо",
+    "zoom": "Увеличить / Уменьшить",
+    "begin": "Начать тур",
+    "continue": "Продолжить тур"
+  },
+  "chat": {
+    "elevation": "Высота",
+    "your_question": "Ваш вопрос",
+    "what_next": "Что вы хотите сделать дальше?",
+    "ask_maya": "Спросить Майю об этом месте...",
+    "continue": "Перейти к следующему месту"
+  },
+  "modes": {
+    "free": "Я гуляю",
+    "guided": "Экскурсия с гидом"
+  },
+  "navigation": {
+    "tours": "Туры",
+    "close": "Закрыть",
+    "locations": "Места"
+  },
+  "progress": {
+    "heading_for": "Направление",
+    "enjoy_the_view": "Наслаждайтесь видом, мы скоро прибудем."
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"intro": {
+		"subtitle": "ประสบการณ์เว็บ",
+		"title": "ทัวร์สวิส<br />โฮป เที่ยวใหญ่",
+		"welcome": "ยินดีต้อนรับ ฉันคือมายา ฉันจะเป็นผู้ช่วยแนะนำคุณในการค้นพบประเทศสวิส !",
+		"credits": "ประสบการณ์นี้ถูกสร้างขึ้นที่ <a href='https://antistatique.net' target='_blank'>Antistatique</a> โดย ยันและปีแร์ ซึ่งเราพูดถึงใน <a href='https://antistatique.net' target='_blank'>บทความ</a> นี้",
+		"howto_title": "วิธีการนำทางบนแผนที่ :",
+		"mouse_left": "คลิกซ้าย",
+		"move": "เคลื่อนที่บนแผนที่",
+		"mouse_right": "คลิกขวา",
+		"rotate": "หมุนแผนที่",
+		"mouse_wheel": "ล้อ",
+		"zoom": "ซูม/ถอดซูม",
+		"begin": "เริ่มทัวร์",
+		"continue": "ทำต่อทัวร์"
+	},
+	"chat": {
+		"elevation": "ความสูง",
+		"your_question": "คำถามของคุณ",
+		"what_next": "คุณต้องการทำอะไรต่อ ?",
+		"ask_maya": "ถามมายาเกี่ยวกับสถานที่นี้...",
+		"continue": "ไปสู่สถานที่ถัดไป"
+	},
+	"modes": {
+		"free": "ฉันเดินเอง",
+		"guided": "การเยี่ยมชมแบบมีการนำเสนอ"
+	},
+	"navigation": {
+		"tours": "ทัวร์",
+		"close": "ปิด",
+		"locations": "สถานที่"
+	},
+	"progress": {
+		"heading_for": "ทิศทาง",
+		"enjoy_the_view": "สนุกกับวิว ที่นี่เราจะมาถึงเร็วๆ นี้"
+	}
+}

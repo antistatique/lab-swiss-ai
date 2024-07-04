@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Vefupplifun",
+    "title": "Sviss<br />Stórferð",
+    "welcome": "Velkomin, ég er Maya. Ég mun leiða þig í göngu um Sviss !",
+    "credits": "Reynsla unnin hjá <a href='https://antistatique.net' target='_blank'>Antistatique</a> af Yann og Pierre, sem við höfum fræðst um í þessum <a href='https://antistatique.net' target='_blank'>grein</a>.",
+    "howto_title": "Hvernig á að sigla á kortið :",
+    "mouse_left": "Vinstri smell",
+    "move": "Fara um á kortinu",
+    "mouse_right": "Hægri smell",
+    "rotate": "Snúa kortinu",
+    "mouse_wheel": "Hjól",
+    "zoom": "Nálgun / Fjarlægð",
+    "begin": "Byrja ferðina",
+    "continue": "Halda áfram ferðinni"
+  },
+  "chat": {
+    "elevation": "Hæð yfir sjávarmáli",
+    "your_question": "Spurning þín",
+    "what_next": "Hvað viltu gera næst ?",
+    "ask_maya": "Spurðu Mayu um þennan stað...",
+    "continue": "Fara á næsta stað"
+  },
+  "modes": {
+    "free": "Ég flýg",
+    "guided": "Leiðsögn"
+  },
+  "navigation": {
+    "tours": "Ferðir",
+    "close": "Loka",
+    "locations": "Staðsetningar"
+  },
+  "progress": {
+    "heading_for": "Á loft",
+    "enjoy_the_view": "Njóttu utsýnisins, viðkomumst brátt."
+  }
+}

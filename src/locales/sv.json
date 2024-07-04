@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Webbupplevelse",
+    "title": "Schweiz<br />Grand Tour",
+    "welcome": "Välkommen, jag är Maya. Jag kommer att vara din guide för att upptäcka Schweiz!",
+    "credits": "En upplevelse skapad hos <a href='https://antistatique.net' target='_blank'>Antistatique</a> av Yann och Pierre, som vi pratar om i denna <a href='https://antistatique.net' target='_blank'>artikel</a>.",
+    "howto_title": "Hur man navigerar på kartan:",
+    "mouse_left": "Vänsterklick",
+    "move": "Röra sig på kartan",
+    "mouse_right": "Högerklick",
+    "rotate": "Rotera kartan",
+    "mouse_wheel": "Skrollhjul",
+    "zoom": "Zooma / Zooma ut",
+    "begin": "Starta turen",
+    "continue": "Fortsätt turen"
+  },
+  "chat": {
+    "elevation": "Höjd",
+    "your_question": "Din fråga",
+    "what_next": "Vad vill du göra nu?",
+    "ask_maya": "Fråga Maya om denna plats...",
+    "continue": "Gå till nästa plats"
+  },
+  "modes": {
+    "free": "Jag promenerar",
+    "guided": "Guidad tur"
+  },
+  "navigation": {
+    "tours": "Turer",
+    "close": "Stäng",
+    "locations": "Platserna"
+  },
+  "progress": {
+    "heading_for": "Riktning",
+    "enjoy_the_view": "Njut av vyn, vi kommer snart fram."
+  }
+}

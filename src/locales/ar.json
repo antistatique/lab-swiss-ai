@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "تجربة الويب",
+    "title": "جولة سويسرا<br />الكبرى",
+    "welcome": "مرحبًا، أنا مايا. سأكون مرشدك لاكتشاف سويسرا!",
+    "credits": "تم إنشاء هذه التجربة في <a href='https://antistatique.net' target='_blank'>Antistatique</a> بواسطة يان وبيير، اللذان نتحدث عنهما في هذا <a href='https://antistatique.net' target='_blank'>المقال</a>.",
+    "howto_title": "كيفية التنقل على الخريطة:",
+    "mouse_left": "النقر بالزر الأيسر",
+    "move": "التنقل على الخريطة",
+    "mouse_right": "النقر بالزر الأيمن",
+    "rotate": "تدوير الخريطة",
+    "mouse_wheel": "عجلة الماوس",
+    "zoom": "تكبير / تصغير",
+    "begin": "بدء الجولة",
+    "continue": "متابعة الجولة"
+  },
+  "chat": {
+    "elevation": "الارتفاع",
+    "your_question": "سؤالك",
+    "what_next": "ماذا تريد أن تفعل الآن؟",
+    "ask_maya": "استفسار مايا حول هذا المكان...",
+    "continue": "الانتقال إلى المكان التالي"
+  },
+  "modes": {
+    "free": "أتجول",
+    "guided": "جولة موجهة"
+  },
+  "navigation": {
+    "tours": "جولات",
+    "close": "إغلاق",
+    "locations": "الأماكن"
+  },
+  "progress": {
+    "heading_for": "الاتجاه نحو",
+    "enjoy_the_view": "استمتع بالمنظر، سنصل قريبًا."
+  }
+}

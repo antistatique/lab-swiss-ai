@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Përvojë në ueb",
+    "title": "Turneja e Madhe<br />në Zvicër",
+    "welcome": "Mirësevini, unë jam Maya. Do të jem udhëheqëseja juaj për të zbuluar Zvicrën!",
+    "credits": "Një përvojë e krijuar në <a href='https://antistatique.net' target='_blank'>Antistatique</a> nga Yann dhe Pierre, për të cilët flasim në këtë <a href='https://antistatique.net' target='_blank'>artikull</a>.",
+    "howto_title": "Si të navigoni në hartë:",
+    "mouse_left": "Kliko majtas",
+    "move": "Leviz në hartë",
+    "mouse_right": "Kliko djathtas",
+    "rotate": "Rrotullo hartën",
+    "mouse_wheel": "Rrotullë",
+    "zoom": "Bënë zoom / Zmadhon",
+    "begin": "Fillo turneën",
+    "continue": "Vazhdo turneun"
+  },
+  "chat": {
+    "elevation": "Lartësi",
+    "your_question": "Pyetja juaj",
+    "what_next": "Çfarë dëshironi të bëni tani?",
+    "ask_maya": "Pyetni Mayën për këtë vend...",
+    "continue": "Shko tek vendi i ardhshëm"
+  },
+  "modes": {
+    "free": "Eksploro vetë",
+    "guided": "Vizitë e guiduar"
+  },
+  "navigation": {
+    "tours": "Turnet",
+    "close": "Mbylle",
+    "locations": "Vendet"
+  },
+  "progress": {
+    "heading_for": "Kah",
+    "enjoy_the_view": "Mësoni nga pamja, shpejt do të arrijmë."
+  }
+}

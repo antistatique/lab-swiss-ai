@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "वेब अनुभव",
+    "title": "स्विट्जरलैंड<br />ग्रांड टूर",
+    "welcome": "स्विट्जरलैंड की खोज के लिए मैं माया हूं। आपका स्वागत है!",
+    "credits": "<a href='https://antistatique.net' target='_blank'>अंटिस्टेटिक</a> में यान और पिएर द्वारा बनाया गया एक अनुभव। जिनके बारे में हम इस <a href='https://antistatique.net' target='_blank'>लेख</a> में चर्चा करते हैं।",
+    "howto_title": "नक्शे पर कैसे नेविगेट करें :",
+    "mouse_left": "बाएं क्लिक",
+    "move": "नक्शे पर घूमें",
+    "mouse_right": "दाएं क्लिक",
+    "rotate": "नक्शा घुमाएं",
+    "mouse_wheel": "माउस व्हील",
+    "zoom": "ज़ूम इन/आउट",
+    "begin": "टूर शुरू करें",
+    "continue": "टूर जारी रखें"
+  },
+  "chat": {
+    "elevation": "ऊंचाई",
+    "your_question": "आपका सवाल",
+    "what_next": "अब आप क्या करना चाहेंगे ?",
+    "ask_maya": "इस स्थान पर माया से प्रश्न करें...",
+    "continue": "अगले स्थान पर जाएं"
+  },
+  "modes": {
+    "free": "मैं घूम रहा हूं",
+    "guided": "निर्देशित दौरा"
+  },
+  "navigation": {
+    "tours": "टूर्स",
+    "close": "बंद करें",
+    "locations": "स्थान"
+  },
+  "progress": {
+    "heading_for": "दिशा",
+    "enjoy_the_view": "विचार का आनंद लें, हम जल्द ही पहुंच जाएंगे।"
+  }
+}

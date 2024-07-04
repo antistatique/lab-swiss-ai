@@ -1,0 +1,37 @@
+{
+  "intro": {
+    "subtitle": "Webes élmény",
+    "title": "Svájc<br />Nagy Körút",
+    "welcome": "Isten hozott, Maya vagyok. Én leszek a csoportvezetőd Svájc felfedezésében!",
+    "credits": "Az élményt a <a href='https://antistatique.net' target='_blank'>Antistatique</a> készítette Yann és Pierre közreműködésével, akikről beszélünk ebben a <a href='https://antistatique.net' target='_blank'>cikkben</a>.",
+    "howto_title": "Hogyan navigálhat a térképen:",
+    "mouse_left": "Bal egér gomb",
+    "move": "Térképen való mozgás",
+    "mouse_right": "Jobb egér gomb",
+    "rotate": "Térkép forgatása",
+    "mouse_wheel": "Görgő",
+    "zoom": "Nagyítás / Kicsinyítés",
+    "begin": "Túra indítása",
+    "continue": "Túra folytatása"
+  },
+  "chat": {
+    "elevation": "Magasság",
+    "your_question": "A kérdésed",
+    "what_next": "Mit szeretnél most csinálni?",
+    "ask_maya": "Maya megkérdezése erről a helyről...",
+    "continue": "Tovább a következő helyre"
+  },
+  "modes": {
+    "free": "Szabadon sétálok",
+    "guided": "Vezetett túra"
+  },
+  "navigation": {
+    "tours": "Túrák",
+    "close": "Bezárás",
+    "locations": "Helyszínek"
+  },
+  "progress": {
+    "heading_for": "Irány",
+    "enjoy_the_view": "Élvezd a kilátást, hamarosan odaérünk."
+  }
+}
