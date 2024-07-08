@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { AnimatePresence } from 'framer-motion';
 import { identity, isNotNil } from 'ramda';
@@ -29,6 +30,7 @@ const App = () => {
   const [playing, setPlaying] = useState(false);
   const [stop, setStop] = useState<(() => void) | null>();
   const [guided, setGuided] = useState(true);
+  const { t } = useTranslation();
 
   const { setQuery, images } = useImages();
 
@@ -44,11 +46,12 @@ const App = () => {
       setPlaying(false);
       setStop(() => s);
 
+      const route = tours[currentTour].routes.features.find(
+        i => currentRoute.properties.slug === i.properties.slug
+      );
+
       setLocation({
-        name:
-          tours[currentTour].routes.features.find(
-            i => currentRoute.properties.slug === i.properties.slug
-          )?.properties.location ?? '',
+        name: route ? t(`routes.${route.properties.slug}.title`) : '',
         coordinates: {
           lng: 6.5,
           lat: 46.5,
@@ -155,7 +158,7 @@ const App = () => {
         {isNotNil(currentTour) && isNotNil(currentRoute) && playing && (
           <Progress
             speed={currentRoute.properties.speed}
-            location={currentRoute.properties.title}
+            location={t(`routes.${currentRoute.properties.slug}.title`)}
           />
         )}
       </AnimatePresence>

@@ -93,7 +93,7 @@ const Tour = ({
         <PaperFront className="py-0" />
         {Object.keys(tours).map((tourKey, i) => (
           <motion.div
-            key={tours[tourKey].title}
+            key={tourKey}
             initial={{
               height: 0,
             }}
@@ -122,8 +122,8 @@ const Tour = ({
               <TourItem
                 i={i}
                 duration={duration}
-                title={tours[tourKey].title}
-                subtitle={tours[tourKey].subtitle}
+                title={t(`tours.${tourKey}.title`)}
+                subtitle={t(`tours.${tourKey}.subtitle`)}
                 thumbnail={tours[tourKey].thumbnail}
                 onClick={() => {
                   setChildView(true);
@@ -191,8 +191,8 @@ const Tour = ({
               <TourItem
                 i={i}
                 duration={duration}
-                title={route.properties.title}
-                subtitle={route.properties.subtitle}
+                title={t(`routes.${route.properties.slug}.title`)}
+                subtitle={t(`routes.${route.properties.slug}.subtitle`)}
                 thumbnail={route.properties.thumbnail}
                 onClick={() => {
                   onSelect(tour, route);

@@ -6,10 +6,7 @@
       "properties": {
         "speed": 8000,
         "rotation": -40,
-        "location": "Lausanne, Switzerland",
-        "title": "Lausanne",
         "slug": "lausanne",
-        "subtitle": "Ville olympique",
         "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Cath%C3%A9drale_de_Lausanne_depuis_le_Champ_de_l%27Air.JPG/640px-Cath%C3%A9drale_de_Lausanne_depuis_le_Champ_de_l%27Air.JPG"
       },
       "geometry": {
@@ -26,10 +23,7 @@
       "properties": {
         "speed": 6000,
         "rotation": 80,
-        "location": "Lavaux, Switzerland",
-        "title": "Lavaux",
         "slug": "lavaux",
-        "subtitle": "Vignobles en terrasses",
         "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Lavaux_Switzerland.jpg/640px-Lavaux_Switzerland.jpg"
       },
       "geometry": {
@@ -47,10 +41,7 @@
       "properties": {
         "speed": 12000,
         "rotation": 20,
-        "location": "Château de Chillon, Switzerland",
-        "title": "Chillon",
         "slug": "chillon",
-        "subtitle": "Ancient castle",
         "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg/640px-001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg"
       },
       "geometry": {
@@ -67,10 +58,7 @@
       "properties": {
         "speed": 14000,
         "rotation": 20,
-        "location": "Dents du Midi, Switzerland",
-        "title": "Dents du Midi",
         "slug": "midi",
-        "subtitle": "Door to the Rhone Valley",
         "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Dents_du_Midi_et_Dent_de_Val%C3%A8re_-_juillet_2022.jpg/640px-Dents_du_Midi_et_Dent_de_Val%C3%A8re_-_juillet_2022.jpg"
       },
       "geometry": {

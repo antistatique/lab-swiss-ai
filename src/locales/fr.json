@@ -33,5 +33,169 @@
   "progress": {
     "heading_for": "Direction",
     "enjoy_the_view": "Profitez de la vue, nous arriveront bientôt."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 De Lausanne au Valais",
+      "subtitle": "Entrer dans les Alpes suisses"
+    },
+    "valais": {
+      "title": "#2 De Martigny à la Jungfrau",
+      "subtitle": "Au cœur des Alpes suisses"
+    },
+    "bern": {
+      "title": "#3 De la Jungfrau au Gotthard",
+      "subtitle": "Visiter le centre de la Suisse"
+    },
+    "ticino": {
+      "title": "#4 Autour du Tessin",
+      "subtitle": "La Suisse méditerranéenne"
+    },
+    "grischun": {
+      "title": "#5 De l'Engadine à Zurich",
+      "subtitle": "Découvrir la Suisse orientale"
+    },
+    "zurich": {
+      "title": "#6 De Zurich au Chasseral",
+      "subtitle": "Voyage sur le plateau suisse"
+    },
+    "vully": {
+      "title": "#7 Du Chasseral à Genève",
+      "subtitle": "Terminez votre voyage en Suisse romande"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Ville olympique"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Vignobles en terrasses"
+    },
+    "chillon": {
+      "title": "Château de Chillon",
+      "subtitle": "Château médiéval"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Porte de la vallée du Rhône"
+    },
+    "dixence": {
+      "title": "Barrage de la Grande Dixence",
+      "subtitle": "Plus haut barrage du monde"
+    },
+    "vignoble-valaisan": {
+      "title": "Vignoble valaisan",
+      "subtitle": "Coteaux ensoleillés"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Symbole des Alpes"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Plus grand glacier des Alpes"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Reine des neiges"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Vallée des 72 cascades"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Capitale de l'aventure"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "Ville des ponts"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Berceau de la Suisse"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Colonne vertébrale souterraine des Alpes suisses"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Capitale tessinoise"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Ville de la dolce vita"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Perle du Lago Maggiore"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Rivière turquoise"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Col alpin"
+    },
+    "engadin": {
+      "title": "Engadine",
+      "subtitle": "Vallée des sports d'hiver"
+    },
+    "national-park": {
+      "title": "Parc national suisse",
+      "subtitle": "Nature sauvage"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Village thermal"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Ville de congrès"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Vue panoramique"
+    },
+    "zurich": {
+      "title": "Zurich",
+      "subtitle": "Ville financière"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Chutes du Rhin"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Ville baroque"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Village médiéval"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Point de vue"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Joyau viticole entre lacs et collines"
+    },
+    "joux": {
+      "title": "Lac de Joux",
+      "subtitle": "Région horlogère"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Vignobles vaudois"
+    },
+    "geneve": {
+      "title": "Genève",
+      "subtitle": "Ville internationale"
+    }
   }
 }
