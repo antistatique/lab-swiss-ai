@@ -1,29 +1,29 @@
 {
   "intro": {
-    "subtitle": "ウェブ体験",
+    "subtitle": "Webエクスペリエンス",
     "title": "スイス<br />グランドツアー",
     "welcome": "ようこそ、私はマヤです。スイスをご案内いたします！",
-    "credits": "<a href='https://antistatique.net' target='_blank'>Antistatique</a>で制作された体験、YannとPierreによるもので、この<a href='https://antistatique.net' target='_blank'>記事</a>で言及されています。",
+    "credits": "YannとPierreによって<a href='https://antistatique.net' target='_blank'>Antistatique</a>で制作された体験、詳細はこの<a href='https://antistatique.net' target='_blank'>記事</a>をご覧ください。",
     "howto_title": "地図の操作方法：",
     "mouse_left": "左クリック",
     "move": "地図を移動する",
     "mouse_right": "右クリック",
-    "rotate": "地図を回転させる",
-    "mouse_wheel": "ホイール",
-    "zoom": "ズームイン / ズームアウト",
+    "rotate": "地図を回転する",
+    "mouse_wheel": "マウスホイール",
+    "zoom": "ズームイン/ズームアウト",
     "begin": "ツアーを開始",
     "continue": "ツアーを続ける"
   },
   "chat": {
     "elevation": "標高",
-    "your_question": "質問",
-    "what_next": "次に何をしますか？",
-    "ask_maya": "この場所についてマヤに質問する...",
+    "your_question": "ご質問",
+    "what_next": "次に何をしたいですか？",
+    "ask_maya": "この場所についてマヤに質問...",
     "continue": "次の場所に移動"
   },
   "modes": {
-    "free": "自由に移動",
-    "guided": "ガイド付きツアー"
+    "free": "自由に歩く",
+    "guided": "ガイドツアー"
   },
   "navigation": {
     "tours": "ツアー",
@@ -32,6 +32,170 @@
   },
   "progress": {
     "heading_for": "進行方向",
-    "enjoy_the_view": "景色をお楽しみください、すぐに到着します。"
+    "enjoy_the_view": "景色を楽しんでください、すぐに到着します。"
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 ローザンヌからヴァレーへ",
+      "subtitle": "スイスアルプスへ"
+    },
+    "valais": {
+      "title": "#2 マルティニーからユングフラウへ",
+      "subtitle": "スイスアルプスの中心部へ"
+    },
+    "bern": {
+      "title": "#3 ユングフラウからゴッタルドへ",
+      "subtitle": "スイス中部を訪れる"
+    },
+    "ticino": {
+      "title": "#4 ティチーノ周辺",
+      "subtitle": "地中海風スイス"
+    },
+    "grischun": {
+      "title": "#5 エンガディンからチューリッヒへ",
+      "subtitle": "東スイスを探検"
+    },
+    "zurich": {
+      "title": "#6 チューリッヒからシャッサラルへ",
+      "subtitle": "スイス高原への旅"
+    },
+    "vully": {
+      "title": "#7 シャッサラルからジュネーヴへ",
+      "subtitle": "スイス・ロマンディークの旅の締めくくり"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "ローザンヌ",
+      "subtitle": "オリンピックの都市"
+    },
+    "lavaux": {
+      "title": "ラヴォー",
+      "subtitle": "テラス畑"
+    },
+    "chillon": {
+      "title": "シヨン城",
+      "subtitle": "中世の城"
+    },
+    "midi": {
+      "title": "デント・デュ・ミディ",
+      "subtitle": "ローヌ渓谷の入口"
+    },
+    "dixence": {
+      "title": "グランデ・ディクサンスダム",
+      "subtitle": "世界最高のダム"
+    },
+    "vignoble-valaisan": {
+      "title": "ヴィニョーブル・ヴァレー",
+      "subtitle": "日当たりの良い丘"
+    },
+    "matterhorn": {
+      "title": "マッターホルン",
+      "subtitle": "アルプスの象徴"
+    },
+    "aletsch": {
+      "title": "アレッチュ氷河",
+      "subtitle": "アルプス最大の氷河"
+    },
+    "jungfrau": {
+      "title": "ユングフラウ",
+      "subtitle": "雪の女王"
+    },
+    "lauterbrunnen": {
+      "title": "ロウターブルンネン",
+      "subtitle": "72の滝の谷"
+    },
+    "interlaken": {
+      "title": "インターラーケン",
+      "subtitle": "アドベンチャーの中心地"
+    },
+    "luzern": {
+      "title": "ルツェルン",
+      "subtitle": "橋の街"
+    },
+    "grutli": {
+      "title": "リュトリ",
+      "subtitle": "スイスの聖地"
+    },
+    "gothard": {
+      "title": "ゴッタルド",
+      "subtitle": "スイスアルプスの地下骨格"
+    },
+    "bellinzona": {
+      "title": "ベリンツォーナ",
+      "subtitle": "ティチーノの首都"
+    },
+    "lugano": {
+      "title": "ルガーノ",
+      "subtitle": "ドルチェ・ヴィータの街"
+    },
+    "ascona": {
+      "title": "アスコーナ",
+      "subtitle": "マッジョーレ湖の真珠"
+    },
+    "verzasca": {
+      "title": "ヴェルツァスカ",
+      "subtitle": "ターコイズ色の川"
+    },
+    "bernardino": {
+      "title": "サン・ベルナルディーノ",
+      "subtitle": "アルプスの峠"
+    },
+    "engadin": {
+      "title": "エンガディン",
+      "subtitle": "冬スポーツの谷"
+    },
+    "national-park": {
+      "title": "スイス国立公園",
+      "subtitle": "自然保護区"
+    },
+    "scuol": {
+      "title": "シュオール",
+      "subtitle": "温泉の町"
+    },
+    "davos": {
+      "title": "ダボス",
+      "subtitle": "会議の街"
+    },
+    "santis": {
+      "title": "ザンティス",
+      "subtitle": "パノラマビュー"
+    },
+    "zurich": {
+      "title": "チューリッヒ",
+      "subtitle": "金融の街"
+    },
+    "rheinfall": {
+      "title": "ラインの滝",
+      "subtitle": "ライン川の滝"
+    },
+    "aarau": {
+      "title": "アーラウ",
+      "subtitle": "バロックの街"
+    },
+    "ursanne": {
+      "title": "サン・ウルサンヌ",
+      "subtitle": "中世の村"
+    },
+    "chasseral": {
+      "title": "シャスラル",
+      "subtitle": "展望地"
+    },
+    "vully": {
+      "title": "ヴリュー",
+      "subtitle": "湖と丘の間の葡萄畑の宝石"
+    },
+    "joux": {
+      "title": "ジュー湖",
+      "subtitle": "時計産業地帯"
+    },
+    "cote": {
+      "title": "ラ・コート",
+      "subtitle": "ヴォード地方のブドウ畑"
+    },
+    "geneve": {
+      "title": "ジュネーヴ",
+      "subtitle": "国際都市"
+    }
   }
 }

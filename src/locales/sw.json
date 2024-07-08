@@ -1,37 +1,201 @@
 {
-	"intro": {
-		"subtitle": "Uzoefu wa Wavuti",
-		"title": "Suisse<br />Grand Tour",
-		"welcome": "Karibu, mimi ni Maya. Nitakuwa mwongozaji wako katika kugundua Uswisi!",
-		"credits": "Uzoefu uliofanywa na <a href='https://antistatique.net' target='_blank'>Antistatique</a> na Yann na Pierre, ambao tunazungumzia katika <a href='https://antistatique.net' target='_blank'>makala</a> hii.",
-		"howto_title": "Jinsi ya kutumia ramani:",
-		"mouse_left": "Bofya kushoto",
-		"move": "Kuhamia kwenye ramani",
-		"mouse_right": "Bofya kulia",
-		"rotate": "Pindua ramani",
-		"mouse_wheel": "Mzunguko",
-		"zoom": "Kuongeza / Kupunguza",
-		"begin": "Anza ziara",
-		"continue": "Endelea na ziara"
-	},
-	"chat": {
-		"elevation": "Eneo",
-		"your_question": "Swali lako",
-		"what_next": "Unataka kufanya nini sasa?",
-		"ask_maya": "Uliza Maya kuhusu eneo hili...",
-		"continue": "Nenda kwenye eneo la pili"
-	},
-	"modes": {
-		"free": "Natembea",
-		"guided": "Ziara iliyosimamiwa"
-	},
-	"navigation": {
-		"tours": "Ziara",
-		"close": "Funga",
-		"locations": "Maeneo"
-	},
-	"progress": {
-		"heading_for": "Mwelekeo",
-		"enjoy_the_view": "Furahia mandhari, tutafika hivi karibuni."
-	}
+  "intro": {
+    "subtitle": "Uzoefu wa mtandao",
+    "title": "Uswisi<br />Msafara Mkuu",
+    "welcome": "Karibu, mimi ni Maya. Nitakuwa mwongozaji wako katika kugundua Uswisi!",
+    "credits": "Uzoefu ulioundwa na <a href='https://antistatique.net' target='_blank'>Antistatique</a> na Yann na Pierre, ambao tunazungumzia katika <a href='https://antistatique.net' target='_blank'>makala hii</a>.",
+    "howto_title": "Jinsi ya kutumia ramani:",
+    "mouse_left": "Bofya kushoto",
+    "move": "Sogeza kwenye ramani",
+    "mouse_right": "Bofya kulia",
+    "rotate": "Punga ramani",
+    "mouse_wheel": "Gurudumu la panya",
+    "zoom": "Kuza / Punguza",
+    "begin": "Anza safari",
+    "continue": "Endelea na safari"
+  },
+  "chat": {
+    "elevation": "Altitude",
+    "your_question": "Swali lako",
+    "what_next": "Unataka kufanya nini sasa?",
+    "ask_maya": "Uliza Maya kuhusu mahali hapa...",
+    "continue": "Endelea hadi mahali inayofuata"
+  },
+  "modes": {
+    "free": "Natembea kwa uhuru",
+    "guided": "Ziara iliyongozwa"
+  },
+  "navigation": {
+    "tours": "Mizunguko",
+    "close": "Funga",
+    "locations": "Maeneo"
+  },
+  "progress": {
+    "heading_for": "Mwelekeo",
+    "enjoy_the_view": "Furahia mandhari, tutafika hivi karibuni."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Kutoka Lausanne kwenda Valais",
+      "subtitle": "Kuingia katika milima ya Uswisi"
+    },
+    "valais": {
+      "title": "#2 Kutoka Martigny kwenda Jungfrau",
+      "subtitle": "Katikati mwa milima ya Uswisi"
+    },
+    "bern": {
+      "title": "#3 Kutoka Jungfrau kwenda Gotthard",
+      "subtitle": "Tembelea kitovu cha Uswisi"
+    },
+    "ticino": {
+      "title": "#4 Karibu na Ticino",
+      "subtitle": "Uswisi wa kimitaani"
+    },
+    "grischun": {
+      "title": "#5 Kutoka Engadine kwenda Zurich",
+      "subtitle": "Kugundua Uswisi wa mashariki"
+    },
+    "zurich": {
+      "title": "#6 Kutoka Zurich kwenda Chasseral",
+      "subtitle": "Safari kwenye nyanda za Uswisi"
+    },
+    "vully": {
+      "title": "#7 Kutoka Chasseral kwenda Geneva",
+      "subtitle": "Malizia safari yako kusini mwa Uswisi"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Mji wa Olimpiki"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Mashamba ya mizabibu yenye ngazi"
+    },
+    "chillon": {
+      "title": "Kasri la Chillon",
+      "subtitle": "Kasri la kati"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Lango la bonde la Rhône"
+    },
+    "dixence": {
+      "title": "Barrage ya Grande Dixence",
+      "subtitle": "Barrage kubwa zaidi duniani"
+    },
+    "vignoble-valaisan": {
+      "title": "Vignoble Valaisan",
+      "subtitle": "Miteremko ya jua"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Ishara ya milima"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Barafu kubwa zaidi ya milima ya Uswisi"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Malkia wa theluji"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Bonde la maporomoko 72"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Mji mkuu wa michezo ya hatari"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "Mji wa madaraja"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Kitovu cha Uswisi"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Mfumo wa mawimbi wa milima ya Uswisi chini ya ardhi"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Mji mkuu wa Ticino"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Mji wa maisha matamu"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Lulu ya Ziwa Maggiore"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Mto wa buluu"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Mlango wa nyanda za alpine"
+    },
+    "engadin": {
+      "title": "Engadine",
+      "subtitle": "Bonde la michezo ya majira ya baridi"
+    },
+    "national-park": {
+      "title": "Hifadhi ya Kitaifa ya Uswisi",
+      "subtitle": "Mazingira ya asili"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Kijiji cha maji ya moto"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Mji wa mikutano"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Mandhari ya panoramic"
+    },
+    "zurich": {
+      "title": "Zurich",
+      "subtitle": "Mji wa kifedha"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Maporomoko ya Mto Rhine"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Mji wa baroque"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Kijiji cha kati"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Tovuti ya kutazama"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Vito vya mizabibu kati ya maziwa na vilima"
+    },
+    "joux": {
+      "title": "Lac de Joux",
+      "subtitle": "Eneo la saa"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Mashamba ya mizabibu ya Vaudois"
+    },
+    "geneve": {
+      "title": "Geneva",
+      "subtitle": "Mji wa kimataifa"
+    }
+  }
 }

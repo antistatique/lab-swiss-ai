@@ -9,14 +9,23 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-async function delayedIteration(keys: string[], delayMs: number) {
+async function delayedIteration(keys, delayMs) {
   for (const key of keys) {
     const response = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo-0125',
       messages: [
         {
           role: 'user',
-          content: `Translate the following French JSON string translations file to ${languages[key]} and be sure to keep the keys untouched. The response should only be the translated JSON string: \`\`\`${JSON.stringify(origin, null, 2)}\`\`\``,
+          // content: `Translate the following French JSON string translations file to ${languages[key]} and be sure to keep the keys untouched. The response should only be the translated JSON string: \`\`\`${JSON.stringify(origin, null, 2)}\`\`\``,
+          content: `
+Given the following JSON string translations file in French:
+${JSON.stringify(origin, null, 2)}
+
+Use the following instructions to rewrite the text:
+'''
+translate it to ${languages[key]} and be sure to keep the keys untouched. The response should only be the translated JSON string
+'''
+          `
         },
       ],
     });
@@ -34,6 +43,7 @@ async function delayedIteration(keys: string[], delayMs: number) {
 }
 
 delayedIteration(
-  Object.keys(languages).filter(i => i !== 'fr'),
+  // Object.keys(languages).filter(i => i !== 'fr'),
+  Object.keys(languages).filter(i => i === 'gu'),
   100
 );

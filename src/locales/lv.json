@@ -1,29 +1,29 @@
 {
   "intro": {
     "subtitle": "Tīmekļa pieredze",
-    "title": "Šveices<br />Lielais tūrs",
-    "welcome": "Laipni lūdzam! Es esmu Maia. Es būšu jūsu ceļvedis, lai atklātu Šveici!",
-    "credits": "Pieredze izveidota <a href='https://antistatique.net' target='_blank'>Antistatique</a> uzņēmumā, kuru izveidoja Jans un Pjērs, par kuriem mēs runājam šajā <a href='https://antistatique.net' target='_blank'>rakstā</a>.",
-    "howto_title": "Kā pārvietoties pa karti:",
-    "mouse_left": "Labais klikšķis",
+    "title": "Šveice<br />Lielā tūre",
+    "welcome": "Laipni lūdzam! Es esmu Maia. Es būšu jūsu ceļvedis Šveices izpētē!",
+    "credits": "Piedāvājums, kas izstrādāts <a href='https://antistatique.net' target='_blank'>Antistatique</a> kompānijā, veica Jans un Pjērs, par kuriem mēs runājam šajā <a href='https://antistatique.net' target='_blank'>rakstā</a>.",
+    "howto_title": "Kā pārvietoties kartē:",
+    "mouse_left": "Klikšķis pa kreisi",
     "move": "Pārvietoties pa karti",
-    "mouse_right": "Labais klikšķis",
-    "rotate": "Pagriezt karti",
-    "mouse_wheel": "Ritenis",
-    "zoom": "Pietuvināt / Attālināt",
+    "mouse_right": "Klikšķis pa labi",
+    "rotate": "Pārvietot karti",
+    "mouse_wheel": "Pelēka",
+    "zoom": "Pietuvināt/Attālināt",
     "begin": "Sākt tūri",
     "continue": "Turpināt tūri"
   },
   "chat": {
     "elevation": "Augstums",
     "your_question": "Jūsu jautājums",
-    "what_next": "Ko vēlaties darīt tagad?",
-    "ask_maya": "Jautājiet Maiai par šo vietu...",
+    "what_next": "Ko jūs tagad vēlaties darīt?",
+    "ask_maya": "Uzdot jautājumu Maiai par šo vietu...",
     "continue": "Doties uz nākamo vietu"
   },
   "modes": {
     "free": "Es pastaigājos",
-    "guided": "Gidots apskats"
+    "guided": "Gidēta ekskursija"
   },
   "navigation": {
     "tours": "Tūres",
@@ -31,7 +31,171 @@
     "locations": "Vietas"
   },
   "progress": {
-    "heading_for": "Virziens",
-    "enjoy_the_view": "Izbaudiet skatu, mēs drīz sasniegsim mērķi."
+    "heading_for": "Virzība uz",
+    "enjoy_the_view": "Izbaudiet skatu, mēs drīz būsim tur."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 No Lozannas uz Valē",
+      "subtitle": "Ieeja Šveices Alpēs"
+    },
+    "valais": {
+      "title": "#2 No Martiņi uz Jungfrau",
+      "subtitle": "Šveices Alpu sirdī"
+    },
+    "bern": {
+      "title": "#3 No Jungfravas uz Gothardu",
+      "subtitle": "Apgādājiet Šveices centrā"
+    },
+    "ticino": {
+      "title": "#4 Ap Tičino",
+      "subtitle": "Šveices vidusjūras reģions"
+    },
+    "grischun": {
+      "title": "#5 No Engadinas uz Cīrihi",
+      "subtitle": "Iepazīstiet Austrumu Šveices"
+    },
+    "zurich": {
+      "title": "#6 No Cīrihes uz Haseralu",
+      "subtitle": "Ceļojums pa Šveices plato"
+    },
+    "vully": {
+      "title": "#7 No Haseralas uz Ženēvu",
+      "subtitle": "Pabeidziet savu ceļojumu pa Romandijas Šveici"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lozanna",
+      "subtitle": "Olimpiskā pilsēta"
+    },
+    "lavaux": {
+      "title": "Lava",
+      "subtitle": "Terasu vīna dārzi"
+    },
+    "chillon": {
+      "title": "Šiljona pils",
+      "subtitle": "Viduslaiku pils"
+    },
+    "midi": {
+      "title": "Diejutu kalni",
+      "subtitle": "Rhône ielejas ieeja"
+    },
+    "dixence": {
+      "title": "Dixence",
+      "subtitle": "Pasaules augstākais dambis"
+    },
+    "vignoble-valaisan": {
+      "title": "Vala volvlobe",
+      "subtitle": "Saules krāsas piegājumi"
+    },
+    "matterhorn": {
+      "title": "Materhorns",
+      "subtitle": "Alpu simbols"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Lielākais Alpu ledājs"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Sniega karaliene"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunena",
+      "subtitle": "72 ūdenskritumu ieleja"
+    },
+    "interlaken": {
+      "title": "Interlakena",
+      "subtitle": "Piedzīvojumu galvaspilsēta"
+    },
+    "luzern": {
+      "title": "Lucerna",
+      "subtitle": "Tiltu pilsēta"
+    },
+    "grutli": {
+      "title": "Ryūtlis",
+      "subtitle": "Šveices mātes uzticības nodalījums"
+    },
+    "gothard": {
+      "title": "Gotards",
+      "subtitle": "Caur Alpēm esošais mugurkauls"
+    },
+    "bellinzona": {
+      "title": "Belinzona",
+      "subtitle": "Tessino galvaspilsēta"
+    },
+    "lugano": {
+      "title": "Lugāno",
+      "subtitle": "Dolče vita pilsēta"
+    },
+    "ascona": {
+      "title": "Askona",
+      "subtitle": "Lago Magiore perle"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Tirkīzzila upe"
+    },
+    "bernardino": {
+      "title": "San Bernadino",
+      "subtitle": "Alpu kalns"
+    },
+    "engadin": {
+      "title": "Engadina",
+      "subtitle": "Ziemas sporta ieleja"
+    },
+    "national-park": {
+      "title": "Šveices Nacionālais Parks",
+      "subtitle": "Savvaļas daba"
+    },
+    "scuol": {
+      "title": "Skūla",
+      "subtitle": "Ūdens terapijas ciemats"
+    },
+    "davos": {
+      "title": "Davosa",
+      "subtitle": "Kongresu pilsēta"
+    },
+    "santis": {
+      "title": "Sāntis",
+      "subtitle": "Panorāmas skats"
+    },
+    "zurich": {
+      "title": "Cīrihe",
+      "subtitle": "Finanšu pilsēta"
+    },
+    "rheinfall": {
+      "title": "Reinas Šahts",
+      "subtitle": "Reinas ūdenskritumi"
+    },
+    "aarau": {
+      "title": "Ārau",
+      "subtitle": "Baroka pilsēta"
+    },
+    "ursanne": {
+      "title": "Sv. Urzāna",
+      "subtitle": "Viduslaiku ciemats"
+    },
+    "chasseral": {
+      "title": "Šasezals",
+      "subtitle": "Skatu punkts"
+    },
+    "vully": {
+      "title": "Volli",
+      "subtitle": "Vīna dāvana starp ezeriem un pakalniem"
+    },
+    "joux": {
+      "title": "Žū ezeru",
+      "subtitle": "Pulksteņu reģions"
+    },
+    "cote": {
+      "title": "La Kote",
+      "subtitle": "Vaudo vīna dārzi"
+    },
+    "geneve": {
+      "title": "Ženēva",
+      "subtitle": "Starptautiska pilsēta"
+    }
   }
 }

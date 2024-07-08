@@ -3,35 +3,199 @@
     "subtitle": "Web Deneyimi",
     "title": "İsviçre<br />Büyük Tur",
     "welcome": "Hoş geldiniz, ben Maya. İsviçre'yi keşfetmek için rehberiniz olacağım!",
-    "credits": "<a href='https://antistatique.net' target='_blank'>Antistatique</a> tarafından Yann ve Pierre tarafından yapılan bir deneyim, hakkında konuştuğumuz bu <a href='https://antistatique.net' target='_blank'>makale</a>.",
-    "howto_title": "Haritada nasıl gezinilir:",
-    "mouse_left": "Sol tık",
+    "credits": "Yann ve Pierre tarafından <a href='https://antistatique.net' target='_blank'>Antistatique</a> şirketinde yapılan bir deneyim, bu konuda şu <a href='https://antistatique.net' target='_blank'>makaleyi</a> okuyabilirsiniz.",
+    "howto_title": "Haritada nasıl gezinilir :",
+    "mouse_left": "Sol tıklama",
     "move": "Haritada hareket etmek",
-    "mouse_right": "Sağ tık",
+    "mouse_right": "Sağ tıklama",
     "rotate": "Haritayı döndürmek",
-    "mouse_wheel": "Kaydırıcı",
+    "mouse_wheel": "Tekerlek",
     "zoom": "Yakınlaşma / Uzaklaşma",
-    "begin": "Turu Başlat",
-    "continue": "Tur'a Devam Et"
+    "begin": "Turu başlat",
+    "continue": "Tura devam et"
   },
   "chat": {
     "elevation": "Yükseklik",
     "your_question": "Sorunuz",
     "what_next": "Şimdi ne yapmak istersiniz?",
-    "ask_maya": "Bu yeri Maya'ya sormak...",
+    "ask_maya": "Bu yere ilişkin Maya'ya soru sormak...",
     "continue": "Bir sonraki yere git"
   },
   "modes": {
-    "free": "Dolaşıyorum",
-    "guided": "Rehberli Tur"
+    "free": "Özgürce dolaşıyorum",
+    "guided": "Rehberli tur"
   },
   "navigation": {
     "tours": "Turlar",
     "close": "Kapat",
-    "locations": "Konumlar"
+    "locations": "Yerler"
   },
   "progress": {
     "heading_for": "Yön",
-    "enjoy_the_view": "Manzaranın keyfini çıkarın, yakında varacağız."
+    "enjoy_the_view": "Manzaranın tadını çıkarın, yakında varacağız."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Lausanne'dan Valais'e",
+      "subtitle": "İsviçre Alpleri'ne giriş"
+    },
+    "valais": {
+      "title": "#2 Martigny'den Jungfrau'ya",
+      "subtitle": "İsviçre Alpleri'nin kalbinde"
+    },
+    "bern": {
+      "title": "#3 Jungfrau'dan Gotthard'a",
+      "subtitle": "İsviçre'nin merkezini ziyaret etmek"
+    },
+    "ticino": {
+      "title": "#4 Tessin Çevresinde",
+      "subtitle": "Akdeniz tarzı İsviçre"
+    },
+    "grischun": {
+      "title": "#5 Engadin'den Zürih'e",
+      "subtitle": "Doğu İsviçre'yi keşfetmek"
+    },
+    "zurich": {
+      "title": "#6 Zürih'ten Chasseral'e",
+      "subtitle": "İsviçre Platosu'nda yolculuk"
+    },
+    "vully": {
+      "title": "#7 Chasseral'dan Cenevre'ye",
+      "subtitle": "İsviçre'nin batısında yolculuğunuzu tamamlayın"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lozan",
+      "subtitle": "Olimpik şehir"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Basamaklı bağlar"
+    },
+    "chillon": {
+      "title": "Chillon Kalesi",
+      "subtitle": "Ortaçağ kalesi"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Rhone Vadisi'nin kapısı"
+    },
+    "dixence": {
+      "title": "Grande Dixence Barajı",
+      "subtitle": "Dünyanın en yüksek barajı"
+    },
+    "vignoble-valaisan": {
+      "title": "Valais Bağları",
+      "subtitle": "Güneşli yamaçlar"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Alpler'in sembolü"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Alpler'in en büyük buzulu"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Karlar Kraliçesi"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "72 şelalenin vadisi"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Macera başkenti"
+    },
+    "luzern": {
+      "title": "Lucerne",
+      "subtitle": "Köprüler şehri"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "İsviçre'nin beşiği"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "İsviçre Alpleri'nin yeraltı omurgası"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Ticino'nun başkenti"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Dolce vita şehri"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Lago Maggiore'un incisi"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Türkuaz nehir"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Alp geçidi"
+    },
+    "engadin": {
+      "title": "Engadin",
+      "subtitle": "Kış sporlarının vadisi"
+    },
+    "national-park": {
+      "title": "İsviçre Ulusal Parkı",
+      "subtitle": "Vahşi doğa"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Termal köy"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Kongre şehri"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Panoramik manzara"
+    },
+    "zurich": {
+      "title": "Zürih",
+      "subtitle": "Mali şehir"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Rhein Şelalesi"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Barok şehir"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Ortaçağ köyü"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Manzara noktası"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Göller ve tepeler arasındaki üzüm incisi"
+    },
+    "joux": {
+      "title": "Lac de Joux",
+      "subtitle": "Saatçilik bölgesi"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Vaud bağları"
+    },
+    "geneve": {
+      "title": "Cenevre",
+      "subtitle": "Uluslararası şehir"
+    }
   }
 }

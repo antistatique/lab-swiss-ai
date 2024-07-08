@@ -1,37 +1,201 @@
 {
-	"intro": {
-		"subtitle": "Trải nghiệm web",
-		"title": "Đại Lục<br />Thụy Sĩ",
-		"welcome": "Chào mừng, tôi là Maya. Tôi sẽ là hướng dẫn viên của bạn trong việc khám phá Thụy Sĩ!",
-		"credits": "Một trải nghiệm được thực hiện tại <a href='https://antistatique.net' target='_blank'>Antistatique</a> bởi Yann và Pierre, về họ chúng tôi đã nói trong <a href='https://antistatique.net' target='_blank'>bài viết</a> này.",
-		"howto_title": "Cách điều hướng trên bản đồ:",
-		"mouse_left": "Nhấp chuột trái",
-		"move": "Di chuyển trên bản đồ",
-		"mouse_right": "Nhấp chuột phải",
-		"rotate": "Xoay bản đồ",
-		"mouse_wheel": "Bánh xe chuột",
-		"zoom": "Thu phóng / Phóng to",
-		"begin": "Bắt đầu tour",
-		"continue": "Tiếp tục tour"
-	},
-	"chat": {
-		"elevation": "Độ cao",
-		"your_question": "Câu hỏi của bạn",
-		"what_next": "Bạn muốn làm gì tiếp theo?",
-		"ask_maya": "Hỏi Maya về địa điểm này...",
-		"continue": "Đi đến địa điểm tiếp theo"
-	},
-	"modes": {
-		"free": "Tự do khám phá",
-		"guided": "Thăm quan có hướng dẫn"
-	},
-	"navigation": {
-		"tours": "Chuyến du lịch",
-		"close": "Đóng",
-		"locations": "Địa điểm"
-	},
-	"progress": {
-		"heading_for": "Hướng đến",
-		"enjoy_the_view": "Hãy tận hưởng cảnh đẹp, chúng ta sẽ đến nơi sớm thôi."
-	}
+  "intro": {
+    "subtitle": "Trải nghiệm web",
+    "title": "Thụy Sĩ<br />Đường đi Lớn",
+    "welcome": "Chào mừng, tôi là Maya. Tôi sẽ là hướng dẫn của bạn trong việc khám phá Thụy Sĩ!",
+    "credits": "Một trải nghiệm được thực hiện tại <a href='https://antistatique.net' target='_blank'>Antistatique</a> bởi Yann và Pierre, được đề cập trong bài <a href='https://antistatique.net' target='_blank'>bài viết</a> này.",
+    "howto_title": "Cách dẫn đi trên bản đồ:",
+    "mouse_left": "Chuột trái",
+    "move": "Di chuyển trên bản đồ",
+    "mouse_right": "Chuột phải",
+    "rotate": "Xoay bản đồ",
+    "mouse_wheel": "Bánh xe chuột",
+    "zoom": "Phóng to / Thu nhỏ",
+    "begin": "Bắt đầu hành trình",
+    "continue": "Tiếp tục hành trình"
+  },
+  "chat": {
+    "elevation": "Độ cao",
+    "your_question": "Câu hỏi của bạn",
+    "what_next": "Bạn muốn làm gì tiếp theo?",
+    "ask_maya": "Hỏi Maya về địa điểm này...",
+    "continue": "Đến địa điểm tiếp theo"
+  },
+  "modes": {
+    "free": "Tự tản bộ",
+    "guided": "Thăm quan có hướng dẫn"
+  },
+  "navigation": {
+    "tours": "Đoàn thám hiểm",
+    "close": "Đóng",
+    "locations": "Địa điểm"
+  },
+  "progress": {
+    "heading_for": "Hướng đi",
+    "enjoy_the_view": "Hãy thưởng ngoạn cảnh, chúng ta sẽ đến sớm thôi."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Từ Lausanne đến Valais",
+      "subtitle": "Bước vào dãy núi Alps Thụy Sĩ"
+    },
+    "valais": {
+      "title": "#2 Từ Martigny đến Jungfrau",
+      "subtitle": "Ở trung tâm của Alps Thụy Sĩ"
+    },
+    "bern": {
+      "title": "#3 Từ Jungfrau đến Gotthard",
+      "subtitle": "Thăm quan trung tâm Thụy Sĩ"
+    },
+    "ticino": {
+      "title": "#4 Xung quanh Tessin",
+      "subtitle": "Thụy Sĩ Địa Trung Hải"
+    },
+    "grischun": {
+      "title": "#5 Từ Engadine đến Zurich",
+      "subtitle": "Khám phá phía Đông của Thụy Sĩ"
+    },
+    "zurich": {
+      "title": "#6 Từ Zurich đến Chasseral",
+      "subtitle": "Hành trình trên cao nguyên Thụy Sĩ"
+    },
+    "vully": {
+      "title": "#7 Từ Chasseral đến Genève",
+      "subtitle": "Kết thúc hành trình của bạn tại Pháp La Mã Thụy Sĩ"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Thành phố Olympic"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Ruộng nho bậc thang"
+    },
+    "chillon": {
+      "title": "Lâu đài Chillon",
+      "subtitle": "Lâu đài thời Trung Cổ"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Cửa vào thung lũng sông Rhône"
+    },
+    "dixence": {
+      "title": "Đập Dixence lớn",
+      "subtitle": "Đập cao nhất thế giới"
+    },
+    "vignoble-valaisan": {
+      "title": "Ruộng nho Valaisan",
+      "subtitle": "Ruộng nho nắng ấm"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Biểu tượng của Alps"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Đại dương băng lớn nhất Alps"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Nữ hoàng tuyết"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Thung lũng với 72 thác nước"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Thủ đô phiêu lưu"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "Thành phố của cầu"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Nơi khởi nguồn của Thụy Sĩ"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Góc cột sống ngầm của Alps Thụy Sĩ"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Thủ đô Tessin"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Thành phố của cuộc sống ngọt ngào"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Viên ngọc trên Hồ Maggiore"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Sông màu ngọc lam"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Đèo núi Alpine"
+    },
+    "engadin": {
+      "title": "Engadine",
+      "subtitle": "Thung lũng thể thao mùa đông"
+    },
+    "national-park": {
+      "title": "Vườn quốc gia Thụy Sĩ",
+      "subtitle": "Thiên nhiên hoang dã"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Làng nghỉ dưỡng nước nóng"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Thành phố hội nghị"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Tầm nhìn toàn cảnh"
+    },
+    "zurich": {
+      "title": "Zurich",
+      "subtitle": "Thành phố tài chính"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Thác nước Rhine"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Thành phố baroque"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Làng thời Trung Cổ"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Điểm quan sát"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Ngọc quý nằm giữa hồ và đồi"
+    },
+    "joux": {
+      "title": "Hồ Joux",
+      "subtitle": "Vùng đồng hồ học"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Ruộng nho Vaud"
+    },
+    "geneve": {
+      "title": "Genève",
+      "subtitle": "Thành phố quốc tế"
+    }
+  }
 }

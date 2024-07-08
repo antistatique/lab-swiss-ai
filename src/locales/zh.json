@@ -1,9 +1,9 @@
 {
   "intro": {
-    "subtitle": "Web体验",
+    "subtitle": "网络体验",
     "title": "瑞士<br />大环游",
-    "welcome": "欢迎，我是玛雅。我将是您探索瑞士的导游！",
-    "credits": "此体验由Yann和Pierre在<a href='https://antistatique.net' target='_blank'>Antistatique</a>完成，我们在这篇<a href='https://antistatique.net' target='_blank'>文章</a>中提到。",
+    "welcome": "欢迎，我是玛雅。我将是您发现瑞士的导游！",
+    "credits": "由Yann和Pierre在<a href='https://antistatique.net' target='_blank'>Antistatique</a>完成的体验，我们在这篇<a href='https://antistatique.net' target='_blank'>文章</a>中讨论。",
     "howto_title": "如何在地图上导航：",
     "mouse_left": "左键单击",
     "move": "在地图上移动",
@@ -18,7 +18,7 @@
     "elevation": "海拔",
     "your_question": "您的问题",
     "what_next": "接下来想做什么？",
-    "ask_maya": "询问玛雅这个地方...",
+    "ask_maya": "向玛雅询问这个地方...",
     "continue": "前往下一个地点"
   },
   "modes": {
@@ -31,7 +31,171 @@
     "locations": "地点"
   },
   "progress": {
-    "heading_for": "前往",
-    "enjoy_the_view": "欣赏景色，我们很快就会到达。"
+    "heading_for": "方向",
+    "enjoy_the_view": "享受美景，我们即将到达。"
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 从洛桑到瓦莱",
+      "subtitle": "进入瑞士阿尔卑斯山"
+    },
+    "valais": {
+      "title": "#2 从马蒂尼到少女峰",
+      "subtitle": "身临瑞士阿尔卑斯山之心"
+    },
+    "bern": {
+      "title": "#3 从少女峰到戈特哈尔德",
+      "subtitle": "游览瑞士中心地带"
+    },
+    "ticino": {
+      "title": "#4 切尔席奥周边",
+      "subtitle": "地中海风情的瑞士"
+    },
+    "grischun": {
+      "title": "#5 从恩加丁到苏黎世",
+      "subtitle": "探索瑞士东部"
+    },
+    "zurich": {
+      "title": "#6 从苏黎世到夏瑟劳",
+      "subtitle": "游览瑞士高原"
+    },
+    "vully": {
+      "title": "#7 从夏瑟劳到日内瓦",
+      "subtitle": "在瑞士罗曼地区结束您的旅程"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "洛桑",
+      "subtitle": "奥林匹克城市"
+    },
+    "lavaux": {
+      "title": "拉瓦",
+      "subtitle": "梯田葡萄园"
+    },
+    "chillon": {
+      "title": "希隆城堡",
+      "subtitle": "中世纪城堡"
+    },
+    "midi": {
+      "title": "日内瓦山",
+      "subtitle": "罗纳河谷之门"
+    },
+    "dixence": {
+      "title": "第桑大坝",
+      "subtitle": "世界最高大坝"
+    },
+    "vignoble-valaisan": {
+      "title": "瓦莱葡萄园",
+      "subtitle": "阳光充足的斜坡"
+    },
+    "matterhorn": {
+      "title": "马特洪峰",
+      "subtitle": "阿尔卑斯象征"
+    },
+    "aletsch": {
+      "title": "阿莱奇",
+      "subtitle": "阿尔卑斯最大冰川"
+    },
+    "jungfrau": {
+      "title": "少女峰",
+      "subtitle": "冰雪皇后"
+    },
+    "lauterbrunnen": {
+      "title": "劳特布伦嫩",
+      "subtitle": "七十二瀑布之谷"
+    },
+    "interlaken": {
+      "title": "因特拉肯",
+      "subtitle": "冒险之都"
+    },
+    "luzern": {
+      "title": "卢塞恩",
+      "subtitle": "桥梁之城"
+    },
+    "grutli": {
+      "title": "吕特利",
+      "subtitle": "瑞士发源地"
+    },
+    "gothard": {
+      "title": "戈特哈尔德",
+      "subtitle": "瑞士地下脊柱"
+    },
+    "bellinzona": {
+      "title": "贝林佐纳",
+      "subtitle": "蒂奇诺首府"
+    },
+    "lugano": {
+      "title": "卢加诺",
+      "subtitle": "甜蜜生活之城"
+    },
+    "ascona": {
+      "title": "阿斯科纳",
+      "subtitle": "马焦雷湖明珠"
+    },
+    "verzasca": {
+      "title": "韦尔扎斯卡",
+      "subtitle": "绿松石河流"
+    },
+    "bernardino": {
+      "title": "圣贝纳迪诺",
+      "subtitle": "高山垭口"
+    },
+    "engadin": {
+      "title": "恩加丁",
+      "subtitle": "冬季运动之谷"
+    },
+    "national-park": {
+      "title": "瑞士国家公园",
+      "subtitle": "原始自然"
+    },
+    "scuol": {
+      "title": "斯库奥尔",
+      "subtitle": "温泉小镇"
+    },
+    "davos": {
+      "title": "达沃斯",
+      "subtitle": "会议之城"
+    },
+    "santis": {
+      "title": "桑蒂斯",
+      "subtitle": "全景视野"
+    },
+    "zurich": {
+      "title": "苏黎世",
+      "subtitle": "金融之都"
+    },
+    "rheinfall": {
+      "title": "莱茵瀑布",
+      "subtitle": "莱茵瀑布"
+    },
+    "aarau": {
+      "title": "阿劳",
+      "subtitle": "巴洛克城市"
+    },
+    "ursanne": {
+      "title": "圣乌尔珊",
+      "subtitle": "中世纪村庄"
+    },
+    "chasseral": {
+      "title": "夏瑟劳",
+      "subtitle": "观景点"
+    },
+    "vully": {
+      "title": "富里",
+      "subtitle": "湖泊和丘陵之间的葡萄宝石"
+    },
+    "joux": {
+      "title": "苏湖",
+      "subtitle": "钟表区"
+    },
+    "cote": {
+      "title": "拉科特",
+      "subtitle": "华多葡萄园"
+    },
+    "geneve": {
+      "title": "日内瓦",
+      "subtitle": "国际城市"
+    }
   }
 }

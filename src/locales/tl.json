@@ -1,29 +1,29 @@
 {
   "intro": {
     "subtitle": "Karanasan sa web",
-    "title": "Suisse<br />Grand Tour",
-    "welcome": "Maligayang pagdating, ako si Maya. Ako ang inyong gabay sa pagdiskubre sa Switzerland!",
-    "credits": "Isang karanasang ginawa sa <a href='https://antistatique.net' target='_blank'>Antistatique</a> ni Yann at Pierre, na binanggit natin sa <a href='https://antistatique.net' target='_blank'>artikulo</a> na ito.",
+    "title": "Switzerland<br />Great Tour",
+    "welcome": "Maligayang pagdating, ako si Maya. Ako ang iyong gabay sa pagtuklas ng Switzerland!",
+    "credits": "Isang karanasan na ginawa sa <a href='https://antistatique.net' target='_blank'>Antistatique</a> ni Yann at Pierre, na binabanggit namin sa artikulong ito na <a href='https://antistatique.net' target='_blank'>article</a>.",
     "howto_title": "Paano mag-navigate sa mapa:",
     "mouse_left": "Kaliwang click",
-    "move": "Paglipat sa mapa",
+    "move": "Magpalipat-lipat sa mapa",
     "mouse_right": "Kanan click",
-    "rotate": "Pag-ikot ng mapa",
-    "mouse_wheel": "Wheel",
-    "zoom": "I-zoom / I-dezoom",
+    "rotate": "I-rotate ang mapa",
+    "mouse_wheel": "Gulong ng mouse",
+    "zoom": "Mag-zoom in / zoom out",
     "begin": "Simulan ang tour",
-    "continue": "Ituloy ang tour"
+    "continue": "Magpatuloy sa tour"
   },
   "chat": {
-    "elevation": "Taas ng Lokasyon",
-    "your_question": "Ang iyong tanong",
-    "what_next": "Anong gusto mong gawin ngayon?",
-    "ask_maya": "Itanong kay Maya tungkol sa lugar na ito...",
+    "elevation": "Taas ng lugar",
+    "your_question": "Iyong tanong",
+    "what_next": "Ano ang gusto mong gawin ngayon?",
+    "ask_maya": "Magtanong kay Maya tungkol sa lugar na ito...",
     "continue": "Pumunta sa susunod na lugar"
   },
   "modes": {
-    "free": "Naglalakad-lang",
-    "guided": "Inaasisteng pagbisita"
+    "free": "Naglalakad ako",
+    "guided": "Pinamamahalaang tour"
   },
   "navigation": {
     "tours": "Mga Tour",
@@ -33,5 +33,169 @@
   "progress": {
     "heading_for": "Direksyon",
     "enjoy_the_view": "Mag-enjoy sa tanawin, malapit na tayo."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Mula sa Lausanne patungong Valais",
+      "subtitle": "Pumasok sa Alpes ng Switzerland"
+    },
+    "valais": {
+      "title": "#2 Mula sa Martigny patungong Jungfrau",
+      "subtitle": "Sa puso ng Alpes ng Switzerland"
+    },
+    "bern": {
+      "title": "#3 Mula sa Jungfrau patungong Gotthard",
+      "subtitle": "Dalawin ang gitna ng Switzerland"
+    },
+    "ticino": {
+      "title": "#4 Palibot ng Tessin",
+      "subtitle": "Ang Mediterranean na Switzerland"
+    },
+    "grischun": {
+      "title": "#5 Mula sa Engadine patungong Zurich",
+      "subtitle": "Tuklasin ang Silangang Switzerland"
+    },
+    "zurich": {
+      "title": "#6 Mula sa Zurich patungong Chasseral",
+      "subtitle": "Paglalakbay sa Swiss plateau"
+    },
+    "vully": {
+      "title": "#7 Mula sa Chasseral patungong Geneva",
+      "subtitle": "Tapusin ang iyong paglalakbay sa Swiss Romand"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Lungsod ng Olympics"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Terraced vineyards"
+    },
+    "chillon": {
+      "title": "Château de Chillon",
+      "subtitle": "Medieval castle"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Pinakamataas na bahagi ng Rhone Valley"
+    },
+    "dixence": {
+      "title": "Barrage de la Grande Dixence",
+      "subtitle": "Pinakamataas na dam sa mundo"
+    },
+    "vignoble-valaisan": {
+      "title": "Vignoble Valaisan",
+      "subtitle": "Sunny hillside vineyards"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Simbolo ng Alpes"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Pinakamalaking glacier sa Alpes"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Reina ng Snow"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Valley ng 72 cascades"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Capital ng Adventure"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "City of bridges"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Birthplace of Switzerland"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Underground spine ng Swiss Alps"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Tessin capital"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "City of dolce vita"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Pearl of Lago Maggiore"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Turquoise river"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Alpine pass"
+    },
+    "engadin": {
+      "title": "Engadine",
+      "subtitle": "Winter sports valley"
+    },
+    "national-park": {
+      "title": "Swiss National Park",
+      "subtitle": "Wilderness"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Thermal village"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Congress city"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Panoramic view"
+    },
+    "zurich": {
+      "title": "Zurich",
+      "subtitle": "Financial city"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Rhine Falls"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Baroque city"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Medieval village"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Viewpoint"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Wine jewel between lakes and hills"
+    },
+    "joux": {
+      "title": "Lac de Joux",
+      "subtitle": "Watch region"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Vaudois vineyards"
+    },
+    "geneve": {
+      "title": "Geneva",
+      "subtitle": "International city"
+    }
   }
 }

@@ -1,28 +1,28 @@
 {
   "intro": {
     "subtitle": "Web iskustvo",
-    "title": "Švajcarska<br />Veliki tura",
-    "welcome": "Dobrodošli, ja sam Maya. Ja ću biti vaš vodič kroz Švajcarsku!",
-    "credits": "Iskustvo napravljeno kod <a href='https://antistatique.net' target='_blank'>Antistatique</a> od strane Yanna i Pierrea, o kojima govore u ovom <a href='https://antistatique.net' target='_blank'>članku</a>.",
-    "howto_title": "Kako koristiti mapu:",
+    "title": "Švajcarska<br />Velika turneja",
+    "welcome": "Dobrodošli, ja sam Maya. Bit ću vaš vodič kroz Švicarsku!",
+    "credits": "Iskustvo kreirano kod <a href='https://antistatique.net' target='_blank'>Antistatique</a> od strane Yann-a i Pierre-a, o kojima govorimo u ovom <a href='https://antistatique.net' target='_blank'>članku</a>.",
+    "howto_title": "Kako navigirati na mapi:",
     "mouse_left": "Lijevi klik",
-    "move": "Pomeranje po karti",
+    "move": "Kretanje po mapi",
     "mouse_right": "Desni klik",
-    "rotate": "Rotiranje karte",
-    "mouse_wheel": "Tocak miša",
-    "zoom": "Uvećati / Smanjiti",
-    "begin": "Pokreni turu",
-    "continue": "Nastavi turu"
+    "rotate": "Rotiranje mape",
+    "mouse_wheel": "Točkić miša",
+    "zoom": "Povećati / Smanjiti zum",
+    "begin": "Započni turneju",
+    "continue": "Nastavi turneju"
   },
   "chat": {
     "elevation": "Visina",
-    "your_question": "Vaše pitanje",
-    "what_next": "Šta želite uraditi sada?",
-    "ask_maya": "Pitajte Mayu o ovom mjestu...",
+    "your_question": "Tvoje pitanje",
+    "what_next": "Šta želite uraditi sad?",
+    "ask_maya": "Pitaj Mayu o ovom mjestu...",
     "continue": "Idi na sljedeće mjesto"
   },
   "modes": {
-    "free": "Slobodno šetam",
+    "free": "Šetnja",
     "guided": "Vođena tura"
   },
   "navigation": {
@@ -33,5 +33,169 @@
   "progress": {
     "heading_for": "Smjer",
     "enjoy_the_view": "Uživajte u pogledu, uskoro ćemo stići."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Od Lozane do Valaisa",
+      "subtitle": "Ulazak u švicarske Alpe"
+    },
+    "valais": {
+      "title": "#2 Od Martiny-a do Jungfraua",
+      "subtitle": "U srcu švicarskih Alpa"
+    },
+    "bern": {
+      "title": "#3 Od Jungfraua do Gottharda",
+      "subtitle": "Posjetite centar Švicarske"
+    },
+    "ticino": {
+      "title": "#4 Oko Tićina",
+      "subtitle": "Švicarska mediteranska"
+    },
+    "grischun": {
+      "title": "#5 Od Engadina do Züricha",
+      "subtitle": "Otkrivanje istočne Švicarske"
+    },
+    "zurich": {
+      "title": "#6 Od Züricha do Chasserala",
+      "subtitle": "Putovanje preko švicarskog platoa"
+    },
+    "vully": {
+      "title": "#7 Od Chasserala do Ženeve",
+      "subtitle": "Završite svoje putovanje u francuskoj Švicarskoj"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lozana",
+      "subtitle": "Olimpijski grad"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Terasasti vinogradi"
+    },
+    "chillon": {
+      "title": "Dvorac Chillon",
+      "subtitle": "Srednjovjekovni dvorac"
+    },
+    "midi": {
+      "title": "Dent du Midi",
+      "subtitle": "Vrata doline Rone"
+    },
+    "dixence": {
+      "title": "Bazen Velike Dixence",
+      "subtitle": "Najveći brana na svijetu"
+    },
+    "vignoble-valaisan": {
+      "title": "Valaisanski vinogradi",
+      "subtitle": "Sunčani obronci"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Simbol Alpa"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Najveći glečer u Alpama"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Kraljica snijega"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Dolina 72 vodopada"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Glavni grad avanture"
+    },
+    "luzern": {
+      "title": "Lucern",
+      "subtitle": "Grad mostova"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Kolevka Švicarske"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Podzemna kralježnica švicarskih Alpa"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Tessinska prijestolnica"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Grad slatke života"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Biser Lago Maggiorea"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Tirkizna rijeka"
+    },
+    "bernardino": {
+      "title": "Sankt Bernhard",
+      "subtitle": "Alpski prijevoj"
+    },
+    "engadin": {
+      "title": "Engadin",
+      "subtitle": "Dolina zimskih sportova"
+    },
+    "national-park": {
+      "title": "Švicarski nacionalni park",
+      "subtitle": "Divlja priroda"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Termalno selo"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Grad kongresa"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Panoramski pogled"
+    },
+    "zurich": {
+      "title": "Zürich",
+      "subtitle": "Finansijski grad"
+    },
+    "rheinfall": {
+      "title": "Rajnski slapovi",
+      "subtitle": "Vodopadi Rajne"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Barokni grad"
+    },
+    "ursanne": {
+      "title": "Sveti Ursan",
+      "subtitle": "Srednjovjekovno selo"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Vidikovac"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Vinski dragulj između jezera i brda"
+    },
+    "joux": {
+      "title": "Joux jezero",
+      "subtitle": "Satna regija"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Vinogradi u Vaudu"
+    },
+    "geneve": {
+      "title": "Ženeva",
+      "subtitle": "Međunarodni grad"
+    }
   }
 }

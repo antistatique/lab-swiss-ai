@@ -1,37 +1,201 @@
 {
   "intro": {
-    "subtitle": "Përvojë në ueb",
-    "title": "Turneja e Madhe<br />në Zvicër",
-    "welcome": "Mirësevini, unë jam Maya. Do të jem udhëheqëseja juaj për të zbuluar Zvicrën!",
-    "credits": "Një përvojë e krijuar në <a href='https://antistatique.net' target='_blank'>Antistatique</a> nga Yann dhe Pierre, për të cilët flasim në këtë <a href='https://antistatique.net' target='_blank'>artikull</a>.",
+    "subtitle": "Përvoja në web",
+    "title": "Zvicra<br />Grand Tour",
+    "welcome": "Mirë se vini, unë jam Maya. Do të jem udhëzuesi juaj për të zbuluar Zvicrën!",
+    "credits": "Një përvojë e realizuar në <a href='https://antistatique.net' target='_blank'>Antistatique</a> nga Yann dhe Pierre, për të cilët flasim në këtë <a href='https://antistatique.net' target='_blank'>artikull</a>.",
     "howto_title": "Si të navigoni në hartë:",
     "mouse_left": "Kliko majtas",
-    "move": "Leviz në hartë",
+    "move": "Lëviz në hartë",
     "mouse_right": "Kliko djathtas",
     "rotate": "Rrotullo hartën",
-    "mouse_wheel": "Rrotullë",
-    "zoom": "Bënë zoom / Zmadhon",
-    "begin": "Fillo turneën",
-    "continue": "Vazhdo turneun"
+    "mouse_wheel": "Rregullo",
+    "zoom": "Zmadho / Zmadhimi i largët",
+    "begin": "Nis turneut",
+    "continue": "Vazhdo turneut"
   },
   "chat": {
     "elevation": "Lartësi",
     "your_question": "Pyetja juaj",
-    "what_next": "Çfarë dëshironi të bëni tani?",
-    "ask_maya": "Pyetni Mayën për këtë vend...",
-    "continue": "Shko tek vendi i ardhshëm"
+    "what_next": "Cfarë dëshironi të bëni tani?",
+    "ask_maya": "Pyet Maya për këtë vend...",
+    "continue": "Shkoni në vendin tjetër"
   },
   "modes": {
-    "free": "Eksploro vetë",
+    "free": "Unë ec nëpër",
     "guided": "Vizitë e guiduar"
   },
   "navigation": {
-    "tours": "Turnet",
-    "close": "Mbylle",
-    "locations": "Vendet"
+    "tours": "Turne",
+    "close": "Mbyll",
+    "locations": "Vendndodhjet"
   },
   "progress": {
-    "heading_for": "Kah",
-    "enjoy_the_view": "Mësoni nga pamja, shpejt do të arrijmë."
+    "heading_for": "Drejtimi",
+    "enjoy_the_view": "Kënaquni me pamjen, do të arrijmë së shpejti."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Nga Lozana në Valais",
+      "subtitle": "Hyrja në Alpet zvicerane"
+    },
+    "valais": {
+      "title": "#2 Nga Martigny në Jungfrau",
+      "subtitle": "Në zemër të Alpeve zvicerane"
+    },
+    "bern": {
+      "title": "#3 Nga Jungfrau në Gotthard",
+      "subtitle": "Vizitoni qendrën e Zvicrës"
+    },
+    "ticino": {
+      "title": "#4 Rreth Ticino",
+      "subtitle": "Zvicra mesdhetare"
+    },
+    "grischun": {
+      "title": "#5 Nga Engadina në Zürich",
+      "subtitle": "Zbuloni Zvicrën lindore"
+    },
+    "zurich": {
+      "title": "#6 Nga Zürich te Chasseral",
+      "subtitle": "Udhëtim në platoi zviceran"
+    },
+    "vully": {
+      "title": "#7 Nga Chasseral në Gjenevë",
+      "subtitle": "Përfundoni udhëtimin tuaj në Zvicrën romande"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lozana",
+      "subtitle": "Qyteti olimpik"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Vreshtat terracë"
+    },
+    "chillon": {
+      "title": "Kështjella e Chillon",
+      "subtitle": "Kështjellë mesjetare"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Porta e luginës së Ruanës"
+    },
+    "dixence": {
+      "title": "Toka e Dixence të Madhe",
+      "subtitle": "Barragu më i lartë në botë"
+    },
+    "vignoble-valaisan": {
+      "title": "Vreshtat valaisane",
+      "subtitle": "Rrënojat me diell"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Simboli i Alpeve"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Gllaciali më i madh në Alpe"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Mbretëresha e boreve"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Luginë e 72 shkëmbinjve"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Kryeqyteti i aventurës"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "Qyteti i urave"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Vendkelia e Zvicrës"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Kurrizi i nënshëndetës i Alpeve zvicerane"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Kryeqyteti i Ticinos"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Qyteti i jetesës së ëmbël"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Perlë e Lago Maggiore"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Lumi i kaltër turkuaz"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Kol alpin"
+    },
+    "engadin": {
+      "title": "Engadina",
+      "subtitle": "Lugina e sporteve dimërore"
+    },
+    "national-park": {
+      "title": "Parku kombëtar zviceran",
+      "subtitle": "Nëntokë e egër"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Fshati termal"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Qyteti i kongreseve"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Pamje panoramike"
+    },
+    "zurich": {
+      "title": "Zürich",
+      "subtitle": "Qyteti financiar"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Rrymat e Reinës"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Qyteti barok"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Fshati mesjetar"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Pikëpamja"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Zogu i çmuar i vreshtave midis liqeneve dhe kodrave"
+    },
+    "joux": {
+      "title": "Liqeni i Joux",
+      "subtitle": "Rajoni i orëve"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Vreshtat vaudoise"
+    },
+    "geneve": {
+      "title": "Gjenevë",
+      "subtitle": "Qyteti ndërkombëtar"
+    }
   }
 }

@@ -1,37 +1,201 @@
 {
   "intro": {
-    "subtitle": "Pengalaman web",
+    "subtitle": "Pengalaman Web",
     "title": "Suisse<br />Grand Tour",
-    "welcome": "Selamat datang, saya Maya. Saya akan menjadi panduan anda untuk meneroka Switzerland!",
-    "credits": "Sebuah pengalaman yang dibuat di <a href='https://antistatique.net' target='_blank'>Antistatique</a> oleh Yann dan Pierre, yang kita bincangkan dalam <a href='https://antistatique.net' target='_blank'>artikel</a> ini.",
-    "howto_title": "Bagaimana cara bergerak di peta:",
+    "welcome": "Selamat datang, saya Maya. Saya akan menjadi panduan anda untuk menerokai Switzerland!",
+    "credits": "Sebuah pengalaman dibuat di <a href='https://antistatique.net' target='_blank'>Antistatique</a> oleh Yann dan Pierre, yang kami bincangkan dalam <a href='https://antistatique.net' target='_blank'>artikel</a> ini.",
+    "howto_title": "Cara navigasi peta:",
     "mouse_left": "Klik kiri",
     "move": "Bergerak di peta",
     "mouse_right": "Klik kanan",
-    "rotate": "Memutarkan peta",
-    "mouse_wheel": "Roda mouse",
-    "zoom": "Zum masuk / keluar",
+    "rotate": "Putar peta",
+    "mouse_wheel": "Roda tetikus",
+    "zoom": "Zum masuk / zum keluar",
     "begin": "Mulakan lawatan",
     "continue": "Teruskan lawatan"
   },
   "chat": {
     "elevation": "Ketinggian",
     "your_question": "Soalan anda",
-    "what_next": "Apa yang ingin anda lakukan selepas ini?",
-    "ask_maya": "Tanyakan Maya tentang tempat ini...",
+    "what_next": "Apa yang anda ingin lakukan selepas ini?",
+    "ask_maya": "Ajukan soalan kepada Maya tentang tempat ini...",
     "continue": "Pergi ke tempat seterusnya"
   },
   "modes": {
     "free": "Saya berjalan-jalan",
-    "guided": "Lawatan berpanduan"
+    "guided": "Lawatan berpandu"
   },
   "navigation": {
     "tours": "Lawatan",
     "close": "Tutup",
-    "locations": "Tempat-tempat"
+    "locations": "Lokasi"
   },
   "progress": {
-    "heading_for": "Arah tuju",
-    "enjoy_the_view": "Nikmatilah pemandangan, kami akan tiba tidak lama lagi."
+    "heading_for": "Arah",
+    "enjoy_the_view": "Nikmati pemandangan, kita akan tiba sebentar lagi."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Dari Lausanne ke Valais",
+      "subtitle": "Melangkah masuk ke Alpen Switzerland"
+    },
+    "valais": {
+      "title": "#2 Dari Martigny ke Jungfrau",
+      "subtitle": "Di tengah-tengah Alpen Switzerland"
+    },
+    "bern": {
+      "title": "#3 Dari Jungfrau ke Gotthard",
+      "subtitle": "Mengunjungi pusat Switzerland"
+    },
+    "ticino": {
+      "title": "#4 Sekitar Tessin",
+      "subtitle": "Switzerland Mediterrania"
+    },
+    "grischun": {
+      "title": "#5 Dari Engadine ke Zurich",
+      "subtitle": "Menjelajah Swiss Timur"
+    },
+    "zurich": {
+      "title": "#6 Dari Zurich ke Chasseral",
+      "subtitle": "Perjalanan di kawasan dataran tinggi Switzerland"
+    },
+    "vully": {
+      "title": "#7 Dari Chasseral ke Geneva",
+      "subtitle": "Selesaikan perjalanan anda di Swiss Romande"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Bandar Olimpik"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Ladang anggur teres"
+    },
+    "chillon": {
+      "title": "Kastil Chillon",
+      "subtitle": "Kastil Abad Pertengahan"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Gerbang Lembah Rhone"
+    },
+    "dixence": {
+      "title": "Empangan Grande Dixence",
+      "subtitle": "Empangan tertinggi di dunia"
+    },
+    "vignoble-valaisan": {
+      "title": "Ladang Anggur Valaisan",
+      "subtitle": "Bukit-bukit berpancarangan"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Simbol Alpen"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Gletser terbesar Alpen"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Ratu Salji"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Lembah 72 air terjun"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Ibu Kebudayaan Petualangan"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "Bandar Jambatan"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Tumpuan Switzerland"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Pegunungan bawah tanah Alpen Switzerland"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Ibu negeri Tessin"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Bandar kehidupan manis"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Mutiara Lago Maggiore"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Sungai berwarna biru turquoise"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Puncak alpen"
+    },
+    "engadin": {
+      "title": "Engadine",
+      "subtitle": "Lembah aktiviti musim sejuk"
+    },
+    "national-park": {
+      "title": "Taman Negara Switzerland",
+      "subtitle": "Alam liar"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Kampung utama air panas"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Bandar persidangan"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Pemandangan panoramik"
+    },
+    "zurich": {
+      "title": "Zurich",
+      "subtitle": "Bandar kewangan"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Air Terjun Rhein"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Bandar baroque"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Kampung Abad Pertengahan"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Titik pandang"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Permata anggur di antara tasik dan bukit"
+    },
+    "joux": {
+      "title": "Tasik Joux",
+      "subtitle": "Kawasan jam tangan"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Ladang anggur Vaud"
+    },
+    "geneve": {
+      "title": "Geneva",
+      "subtitle": "Bandar antarabangsa"
+    }
   }
 }

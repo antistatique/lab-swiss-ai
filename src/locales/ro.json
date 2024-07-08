@@ -1,29 +1,29 @@
 {
   "intro": {
     "subtitle": "Experiență web",
-    "title": "Turul Elveției",
-    "welcome": "Bine ați venit, sunt Maya. Voi fi ghidul dumneavoastră în explorarea Elveției!",
+    "title": "Svizzera<br />Grand Tour",
+    "welcome": "Bun venit, sunt Maya. Voi fi ghidul tău pentru a descoperi Elveția!",
     "credits": "O experiență realizată la <a href='https://antistatique.net' target='_blank'>Antistatique</a> de către Yann și Pierre, despre care vorbim în acest <a href='https://antistatique.net' target='_blank'>articol</a>.",
-    "howto_title": "Cum să navigați pe hartă:",
-    "mouse_left": "Click stânga",
-    "move": "Deplasare pe hartă",
-    "mouse_right": "Click dreapta",
+    "howto_title": "Cum să navighezi pe hartă:",
+    "mouse_left": "Clic stânga",
+    "move": "Mută-te pe hartă",
+    "mouse_right": "Clic dreapta",
     "rotate": "Rotirea hărții",
     "mouse_wheel": "Roată",
-    "zoom": "Mărirea / Micșorarea",
+    "zoom": "Măriți / Micșorați",
     "begin": "Începeți turul",
     "continue": "Continuați turul"
   },
   "chat": {
     "elevation": "Altitudine",
-    "your_question": "Întrebarea dvs.",
-    "what_next": "Ce doriți să faceți acum?",
-    "ask_maya": "Întrebați-l pe Maya despre acest loc...",
-    "continue": "Mergeti la următorul loc"
+    "your_question": "Întrebarea ta",
+    "what_next": "Ce dorești să faci acum?",
+    "ask_maya": "Întreabă-l pe Maya despre acest loc...",
+    "continue": "Mergeți la următorul loc"
   },
   "modes": {
-    "free": "Plimbare liberă",
-    "guided": "Tur ghidat"
+    "free": "Mă plimb",
+    "guided": "Vizită ghidată"
   },
   "navigation": {
     "tours": "Tururi",
@@ -32,6 +32,170 @@
   },
   "progress": {
     "heading_for": "Direcție",
-    "enjoy_the_view": "Bucurați-vă de priveliște, vom ajunge curând."
+    "enjoy_the_view": "Bucurați-vă de peisaj, vom ajunge în curând."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 De la Lausanne la Valais",
+      "subtitle": "Intrarea în Alpii elvețieni"
+    },
+    "valais": {
+      "title": "#2 De la Martigny la Jungfrau",
+      "subtitle": "În inima Alpilor elvețieni"
+    },
+    "bern": {
+      "title": "#3 De la Jungfrau la Gotthard",
+      "subtitle": "Vizitez centrul Elveției"
+    },
+    "ticino": {
+      "title": "#4 În jurul Ticino-ului",
+      "subtitle": "Elveția mediteraneană"
+    },
+    "grischun": {
+      "title": "#5 De la Engadine la Zurich",
+      "subtitle": "Descoperiți Elveția de est"
+    },
+    "zurich": {
+      "title": "#6 De la Zurich la Chasseral",
+      "subtitle": "Călătorie pe platoul elvețian"
+    },
+    "vully": {
+      "title": "#7 De la Chasseral la Geneva",
+      "subtitle": "Încheiți-vă călătoria în Elveția romandă"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Orașul olimpic"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Viile pe terase"
+    },
+    "chillon": {
+      "title": "Castelul Chillon",
+      "subtitle": "Castel medieval"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Poarta văii Rhône"
+    },
+    "dixence": {
+      "title": "Barajul Grande Dixence",
+      "subtitle": "Cel mai înalt baraj din lume"
+    },
+    "vignoble-valaisan": {
+      "title": "Vița de vie din Valais",
+      "subtitle": "Versanți însoriti"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Simbol al Alpilor"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Cel mai mare ghețar al Alpilor"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Regina zăpezilor"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Valea celor 72 de cascade"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Capitala aventurii"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "Orașul podurilor"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Leagănul Elveției"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Coloana vertebrală subterană a Alpilor elvețieni"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Capitala Ticino-ului"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Orașul vieții dulci"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Perla Lacului Maggiore"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Râu turcoaz"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Pas alpin"
+    },
+    "engadin": {
+      "title": "Engadine",
+      "subtitle": "Valea sporturilor de iarnă"
+    },
+    "national-park": {
+      "title": "Parcul național elvețian",
+      "subtitle": "Natură sălbatică"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Sat termal"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Oraș de congrese"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Vedere panoramica"
+    },
+    "zurich": {
+      "title": "Zurich",
+      "subtitle": "Orașul financiar"
+    },
+    "rheinfall": {
+      "title": "Cascada Rhein",
+      "subtitle": "Cascadele Rinului"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Oraș baroc"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Satul medieval"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Punct de vedere"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Jewel viticol între lacuri și dealuri"
+    },
+    "joux": {
+      "title": "Lacul Joux",
+      "subtitle": "Zonă de ceasornicărie"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Viile din Vaud"
+    },
+    "geneve": {
+      "title": "Geneva",
+      "subtitle": "Oraș internațional"
+    }
   }
 }

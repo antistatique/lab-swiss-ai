@@ -13,10 +13,11 @@ import Maya from '@/components/Maya';
 import PaperFront from '@/components/PaperFront';
 import languages from '@/locales/languages.json';
 import type { Image } from '@/types/Image';
+import type { Location } from '@/types/Location';
 import cm from '@/utils/cm';
 
 type Props = {
-  location: string | null;
+  location: Location | null;
   elevation: number;
   coordinates: {
     lat: number;
@@ -42,7 +43,7 @@ const Chat = ({
   onContinue,
   images,
 }: Props): JSX.Element => {
-  const locationProxy = useRef<string | null>(null);
+  const locationProxy = useRef<Location | null>(null);
   const isPresent = useIsPresent();
   const { t, i18n } = useTranslation();
   const lang = languages[i18n.language as keyof typeof languages];
@@ -65,13 +66,14 @@ const Chat = ({
   }, [messages]);
 
   useEffect(() => {
-    if (locationProxy.current !== location && isNotNil(location)) {
+    if (locationProxy.current?.name !== location?.name && isNotNil(location)) {
+      console.log(location);
       locationProxy.current = location;
       setMessages(initialMessages);
       append({
         id: 'base-1',
         role: 'user',
-        content: `In one paragraph, tell me more about the following place "${location}" in ${lang} and with maximum 50 words. Don't include coordinates in your answer.`,
+        content: `In one paragraph, tell me more about the following place "${location.original}, Switzerland" in ${lang} and with maximum 50 words. Don't include coordinates in your answer.`,
       });
     }
   }, [location]);
@@ -96,7 +98,7 @@ const Chat = ({
               {t('chat.elevation')} :{' '}
               {elevation.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "'")} m
             </h2>
-            <h1 className="mt-4 font-serif text-xl">{location}</h1>
+            <h1 className="mt-4 font-serif text-xl">{location?.name}</h1>
             <p className="mt-2">
               {decimalToSexagesimal(coordinates.lat)} N<br />
               {decimalToSexagesimal(coordinates.lng)} E
@@ -138,7 +140,7 @@ const Chat = ({
                         <img
                           key={`location-image-${j}`}
                           src={image.url}
-                          alt={location as string}
+                          alt={location?.name as string}
                           className={cm(
                             'border-4 border-white shadow w-[40%]',
                             j % 2 === 0 && 'rotate-[-3deg] translate-x-2',

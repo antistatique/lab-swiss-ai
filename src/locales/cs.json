@@ -1,37 +1,201 @@
 {
   "intro": {
-    "subtitle": "Webový zážitek",
+    "subtitle": "Webová zkušenost",
     "title": "Švýcarsko<br />Velká cesta",
-    "welcome": "Vítejte, jsem Maya. Budu vaším průvodcem při objevování Švýcarska!",
-    "credits": "Zážitek vytvořený v <a href='https://antistatique.net' target='_blank'>Antistatique</a> Yannem a Pierrem, o kterých mluvíme v tomto <a href='https://antistatique.net' target='_blank'>článku</a>.",
+    "welcome": "Vítejte, jsem Maya. Budu vaším průvodcem po objevování Švýcarska!",
+    "credits": "Zážitek vytvořen u <a href='https://antistatique.net' target='_blank'>Antistatique</a> Yannem a Pierrem, o kterých hovoříme v tomto <a href='https://antistatique.net' target='_blank'>článku</a>.",
     "howto_title": "Jak se pohybovat po mapě:",
-    "mouse_left": "Levé tlačítko myši",
-    "move": "Pohyb na mapě",
-    "mouse_right": "Pravé tlačítko myši",
-    "rotate": "Otočit mapou",
-    "mouse_wheel": "Kolečko",
+    "mouse_left": "Levý klik",
+    "move": "Pohybujte se po mapě",
+    "mouse_right": "Pravý klik",
+    "rotate": "Otočte mapu",
+    "mouse_wheel": "Kolečko myši",
     "zoom": "Přiblížit / Oddálit",
-    "begin": "Začít prohlídku",
-    "continue": "Pokračovat v prohlídce"
+    "begin": "Zahájit cestu",
+    "continue": "Pokračovat v cestě"
   },
   "chat": {
-    "elevation": "Nadmořská výška",
+    "elevation": "Výška",
     "your_question": "Vaše otázka",
-    "what_next": "Co chcete udělat teď?",
-    "ask_maya": "Zeptat se Mayi na toto místo...",
-    "continue": "Pokračovat na další místo"
+    "what_next": "Co chcete udělat dál?",
+    "ask_maya": "Otázka pro Mayu o tomto místě...",
+    "continue": "Přejít na další místo"
   },
   "modes": {
     "free": "Procházím se",
     "guided": "Průvodce"
   },
   "navigation": {
-    "tours": "Prohlídky",
+    "tours": "Tours",
     "close": "Zavřít",
-    "locations": "Lokace"
+    "locations": "Místa"
   },
   "progress": {
     "heading_for": "Směr",
     "enjoy_the_view": "Užijte si pohled, brzy dorazíme."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Z Lausanne do Valais",
+      "subtitle": "Vstup do švýcarských Alp"
+    },
+    "valais": {
+      "title": "#2 Od Martigny k Jungfrau",
+      "subtitle": "V srdci švýcarských Alp"
+    },
+    "bern": {
+      "title": "#3 Od Jungfrau k Gotthardu",
+      "subtitle": "Návštěva středu Švýcarska"
+    },
+    "ticino": {
+      "title": "#4 Okolo Ticino",
+      "subtitle": "Švýcarské středomoří"
+    },
+    "grischun": {
+      "title": "#5 Z Engadinu do Curychu",
+      "subtitle": "Objevování východního Švýcarska"
+    },
+    "zurich": {
+      "title": "#6 Z Curychu na Chasseral",
+      "subtitle": "Cesta po švýcarském plošině"
+    },
+    "vully": {
+      "title": "#7 Od Chasseralu do Ženevy",
+      "subtitle": "Dokončete svou cestu po Romandii"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Olympijské město"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Vinařské terasy"
+    },
+    "chillon": {
+      "title": "Hrad Chillon",
+      "subtitle": "Středověký hrad"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Brána k údolí Rhôny"
+    },
+    "dixence": {
+      "title": "Přehrada Grande Dixence",
+      "subtitle": "Nejvyšší přehrada na světě"
+    },
+    "vignoble-valaisan": {
+      "title": "Vinařství ve Valais",
+      "subtitle": "Slunné svahy"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Symbol Alp"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Největší ledovec v Alpách"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Královna sněhu"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Údolí 72 vodopádů"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Hlavní město dobrodružství"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "Město mostů"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Kolébka Švýcarska"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Podzemní páteř švýcarských Alp"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Tessinské hlavní město"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Město sladkého života"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Perla Lago Maggiore"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Turkysové říčky"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Alpský průsmyk"
+    },
+    "engadin": {
+      "title": "Engadin",
+      "subtitle": "Zimní sporty ve Svatoštěpánském údolí"
+    },
+    "national-park": {
+      "title": "Švýcarský národní park",
+      "subtitle": "Divoká příroda"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Lázeňská vesnice"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Město kongresů"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Panoramatický výhled"
+    },
+    "zurich": {
+      "title": "Curych",
+      "subtitle": "Finanční město"
+    },
+    "rheinfall": {
+      "title": "Rýnské vodopády",
+      "subtitle": "Vodopády Rýna"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Barokní město"
+    },
+    "ursanne": {
+      "title": "Svatý Ursanne",
+      "subtitle": "Středověká vesnice"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Výhledový bod"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Vinný skvost mezi jezery a kopečky"
+    },
+    "joux": {
+      "title": "Jouxské jezero",
+      "subtitle": "Hodinářská oblast"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Vinařské oblasti vaudais"
+    },
+    "geneve": {
+      "title": "Ženeva",
+      "subtitle": "Mezinárodní město"
+    }
   }
 }

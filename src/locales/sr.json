@@ -1,37 +1,201 @@
 {
-	"intro": {
-		"subtitle": "Веб искуство",
-		"title": "Швајцарска<br />Велика Тура",
-		"welcome": "Добродошли, ја сам Маја. Бићу ваш водич кроз откривање Швајцарске!",
-		"credits": "Искуство обављено код <a href='https://antistatique.net' target='_blank'>Antistatique</a> од стране Јана и Пијера, о којима говоримо у овом <a href='https://antistatique.net' target='_blank'>чланку</a>.",
-		"howto_title": "Како навиговати кроз мапу:",
-		"mouse_left": "Леви клик",
-		"move": "Кретање по мапи",
-		"mouse_right": "Десни клик",
-		"rotate": "Ротирање мапе",
-		"mouse_wheel": "Точак",
-		"zoom": "Зумирање / одзумирање",
-		"begin": "Покрени тур",
-		"continue": "Настави тур"
-	},
-	"chat": {
-		"elevation": "Надморска висина",
-		"your_question": "Ваше питање",
-		"what_next": "Шта желите да радите сада?",
-		"ask_maya": "Питајте Мају овде...",
-		"continue": "Иди на следеће место"
-	},
-	"modes": {
-		"free": "Шетам сам",
-		"guided": "Вођена тура"
-	},
-	"navigation": {
-		"tours": "Турови",
-		"close": "Затвори",
-		"locations": "Локације"
-	},
-	"progress": {
-		"heading_for": "Смер",
-		"enjoy_the_view": "Уживајте у погледу, ускоро ћемо стићи."
-	}
+  "intro": {
+    "subtitle": "Веб искуство",
+    "title": "Швајцарска<br />Велики Тур",
+    "welcome": "Добродошли, ја сам Маја. Бићу ваш водич кроз откривање Швајцарске!",
+    "credits": "Искуство изведено у <a href='https://antistatique.net' target='_blank'>Antistatique</a> од стране Јана и Пјера, о којима говоримо у овом <a href='https://antistatique.net' target='_blank'>чланку</a>.",
+    "howto_title": "Како навиговати картом:",
+    "mouse_left": "Леви клик",
+    "move": "Кретање по мапи",
+    "mouse_right": "Десни клик",
+    "rotate": "Ротирање мапе",
+    "mouse_wheel": "Точитње",
+    "zoom": "Зумирање / Одзумирање",
+    "begin": "Почети туру",
+    "continue": "Настави тур"
+  },
+  "chat": {
+    "elevation": "Надморска висина",
+    "your_question": "Ваше питање",
+    "what_next": "Шта желите да радите сада?",
+    "ask_maya": "Питајте Мају о овом месту...",
+    "continue": "Иди на следеће место"
+  },
+  "modes": {
+    "free": "Само истражујем",
+    "guided": "Вођена тура"
+  },
+  "navigation": {
+    "tours": "Туре",
+    "close": "Затвори",
+    "locations": "Локације"
+  },
+  "progress": {
+    "heading_for": "Смер",
+    "enjoy_the_view": "Уживајте у погледу, успомени дође скоро."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Од Лозане до Валаиса",
+      "subtitle": "Улазак у швајцарске Алпе"
+    },
+    "valais": {
+      "title": "#2 Од Мартиња до Јунгфрау",
+      "subtitle": "Срце швајцарских Алпа"
+    },
+    "bern": {
+      "title": "#3 Од Јунгфрау до Готхарда",
+      "subtitle": "Посетите центар Швајцарске"
+    },
+    "ticino": {
+      "title": "#4 Около Тичина",
+      "subtitle": "Швајцарска средоземља"
+    },
+    "grischun": {
+      "title": "#5 Од Енгадина до Цириха",
+      "subtitle": "Откријте источну Швајцарску"
+    },
+    "zurich": {
+      "title": "#6 Од Цириха до Шасерала",
+      "subtitle": "Путовање по швајцарском платоу"
+    },
+    "vully": {
+      "title": "#7 Од Шасерала до Женеве",
+      "subtitle": "Завршите своје путовање у Романдији"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Лозана",
+      "subtitle": "Олимписки град"
+    },
+    "lavaux": {
+      "title": "Лаво",
+      "subtitle": "Терасни виногради"
+    },
+    "chillon": {
+      "title": "Дворац Шијон",
+      "subtitle": "Средњовековни дворац"
+    },
+    "midi": {
+      "title": "Дан дю Миди",
+      "subtitle": "Портал Ронске котлине"
+    },
+    "dixence": {
+      "title": "Бараж Гранде Диксенс",
+      "subtitle": "Највиши бараж на свету"
+    },
+    "vignoble-valaisan": {
+      "title": "Виноторија Валаис",
+      "subtitle": "Сунчани хангари"
+    },
+    "matterhorn": {
+      "title": "Матерхорн",
+      "subtitle": "Симбол Алпа"
+    },
+    "aletsch": {
+      "title": "Алеш",
+      "subtitle": "Највећи глетчер Алпа"
+    },
+    "jungfrau": {
+      "title": "Јунгфрау",
+      "subtitle": "Краљица снијега"
+    },
+    "lauterbrunnen": {
+      "title": "Лаутербронен",
+      "subtitle": "Долина од 72 водопада"
+    },
+    "interlaken": {
+      "title": "Интерлакен",
+      "subtitle": "Главни град авантуре"
+    },
+    "luzern": {
+      "title": "Луцерн",
+      "subtitle": "Град мостова"
+    },
+    "grutli": {
+      "title": "Рютли",
+      "subtitle": "Колевка Швајцарске"
+    },
+    "gothard": {
+      "title": "Готард",
+      "subtitle": "Подземнa кiчма швајцарских Алпa"
+    },
+    "bellinzona": {
+      "title": "Белинцона",
+      "subtitle": "Главни град Тичина"
+    },
+    "lugano": {
+      "title": "Лугано",
+      "subtitle": "Град слатког живота"
+    },
+    "ascona": {
+      "title": "Аскона",
+      "subtitle": "Бисер Лаго Мађоре"
+    },
+    "verzasca": {
+      "title": "Верзаска",
+      "subtitle": "Тиркизна река"
+    },
+    "bernardino": {
+      "title": "Сен Бернардино",
+      "subtitle": "Алпско пање"
+    },
+    "engadin": {
+      "title": "Енгадин",
+      "subtitle": "Долина зимских спортова"
+    },
+    "national-park": {
+      "title": "Швајцарски национални парк",
+      "subtitle": "Дивља природа"
+    },
+    "scuol": {
+      "title": "Шкуол",
+      "subtitle": "Термално село"
+    },
+    "davos": {
+      "title": "Давос",
+      "subtitle": "Град конгреса"
+    },
+    "santis": {
+      "title": "Сантис",
+      "subtitle": "Панорамски поглед"
+    },
+    "zurich": {
+      "title": "Цирих",
+      "subtitle": "Финансијски град"
+    },
+    "rheinfall": {
+      "title": "Рајнски водопад",
+      "subtitle": "Водопаде Рајне"
+    },
+    "aarau": {
+      "title": "Арау",
+      "subtitle": "Барокни град"
+    },
+    "ursanne": {
+      "title": "Свети Урсан",
+      "subtitle": "Средњовековно село"
+    },
+    "chasseral": {
+      "title": "Часерал",
+      "subtitle": "Погледиште"
+    },
+    "vully": {
+      "title": "Вули",
+      "subtitle": "Винско биже између језера и брда"
+    },
+    "joux": {
+      "title": "Јозски језеро",
+      "subtitle": "Сатски округ"
+    },
+    "cote": {
+      "title": "Ла Кот",
+      "subtitle": "Ваудо виногради"
+    },
+    "geneve": {
+      "title": "Женева",
+      "subtitle": "Међународни град"
+    }
+  }
 }

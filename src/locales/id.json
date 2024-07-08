@@ -1,16 +1,16 @@
 {
   "intro": {
     "subtitle": "Pengalaman web",
-    "title": "Pengembaraan<br />Suisse",
-    "welcome": "Selamat datang, saya Maya. Saya akan menjadi panduan Anda untuk menemukan Suisse!",
-    "credits": "Pengalaman ini dibuat di <a href='https://antistatique.net' target='_blank'>Antistatique</a> oleh Yann dan Pierre, yang kita bicarakan dalam <a href='https://antistatique.net' target='_blank'>artikel</a> ini.",
-    "howto_title": "Bagaimana navigasi peta:",
+    "title": "Tour<br />Suisse Besar",
+    "welcome": "Selamat datang, saya Maya. Saya akan menjadi pemandu Anda untuk menjelajahi Swiss!",
+    "credits": "Pengalaman ini dibuat di <a href='https://antistatique.net' target='_blank'>Antistatique</a> oleh Yann dan Pierre, yang kami bahas dalam <a href='https://antistatique.net' target='_blank'>artikel</a> ini.",
+    "howto_title": "Bagaimana cara navigasi di peta:",
     "mouse_left": "Klik kiri",
     "move": "Bergerak di peta",
     "mouse_right": "Klik kanan",
     "rotate": "Memutar peta",
-    "mouse_wheel": "Roda mouse",
-    "zoom": "Memperbesar / Memperkecil",
+    "mouse_wheel": "Rodanya",
+    "zoom": "Perbesar / Perkecil",
     "begin": "Mulai tur",
     "continue": "Lanjutkan tur"
   },
@@ -23,15 +23,179 @@
   },
   "modes": {
     "free": "Saya berjalan-jalan",
-    "guided": "Tur dipandu"
+    "guided": "Tur berpemandu"
   },
   "navigation": {
     "tours": "Tur",
     "close": "Tutup",
-    "locations": "Tempat-tempat"
+    "locations": "Lokasi"
   },
   "progress": {
     "heading_for": "Arah",
-    "enjoy_the_view": "Nikmati pemandangan, kita akan segera sampai."
+    "enjoy_the_view": "Nikmati pemandangan, kita akan tiba sebentar lagi."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Dari Lausanne ke Valais",
+      "subtitle": "Memasuki Pegunungan Alpen Swiss"
+    },
+    "valais": {
+      "title": "#2 Dari Martigny ke Jungfrau",
+      "subtitle": "Di tengah Pegunungan Alpen Swiss"
+    },
+    "bern": {
+      "title": "#3 Dari Jungfrau ke Gotthard",
+      "subtitle": "Mengunjungi pusat Swiss"
+    },
+    "ticino": {
+      "title": "#4 Sekitar Ticino",
+      "subtitle": "Swiss mediterania"
+    },
+    "grischun": {
+      "title": "#5 Dari Engadine ke Zurich",
+      "subtitle": "Menemukan Swiss timur"
+    },
+    "zurich": {
+      "title": "#6 Dari Zurich ke Chasseral",
+      "subtitle": "Perjalanan di dataran tinggi Swiss"
+    },
+    "vully": {
+      "title": "#7 Dari Chasseral ke Geneva",
+      "subtitle": "Selesaikan perjalanan Anda di Swiss Romande"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Kota Olimpiade"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Sawah anggur berteras"
+    },
+    "chillon": {
+      "title": "Chateau de Chillon",
+      "subtitle": "Puri Abad Pertengahan"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Gerbang Lembah Rhone"
+    },
+    "dixence": {
+      "title": "Bendungan Grande Dixence",
+      "subtitle": "Bendungan tertinggi di dunia"
+    },
+    "vignoble-valaisan": {
+      "title": "Vignoble Valaisan",
+      "subtitle": "Bukit anggur yang terkena sinar matahari"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Simbol Alpen"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Gletser terbesar di Alpen"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Ratu salju"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Lembah 72 air terjun"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Ibukota petualangan"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "Kota jembatan"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Negeri kelahiran Swiss"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Tulang punggung bawah tanah Alpen Swiss"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Ibukota Ticino"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Kota dolce vita"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Mutiara Danau Maggiore"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Sungai berwarna biru kehijauan"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Lewat gunung Alpen"
+    },
+    "engadin": {
+      "title": "Engadine",
+      "subtitle": "Lembah olahraga musim dingin"
+    },
+    "national-park": {
+      "title": "Taman Nasional Swiss",
+      "subtitle": "Alam liar"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Desa pemandian"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Kota kongres"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Pemandangan panorama"
+    },
+    "zurich": {
+      "title": "Zurich",
+      "subtitle": "Kota keuangan"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Air terjun Rhein"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Kota barok"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Desa Abad Pertengahan"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Titik pandang"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Permata anggur di antara danau dan bukit"
+    },
+    "joux": {
+      "title": "Danau Joux",
+      "subtitle": "Kawasan jam tangan"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Sawah anggur Vaud"
+    },
+    "geneve": {
+      "title": "Geneva",
+      "subtitle": "Kota internasional"
+    }
   }
 }

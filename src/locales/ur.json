@@ -2,15 +2,15 @@
   "intro": {
     "subtitle": "ویب تجربہ",
     "title": "سویس <br /> بڑا ٹور",
-    "welcome": "خوش آمدید، میں مائیا ہوں۔ میں سویس کی دریافت کے لیے آپ کا راہنما بنوں گی۔",
-    "credits": "ایک تجربہ جس کو <a href='https://antistatique.net' target='_blank'>Antistatique</a> نے Yann اور Pierre کے زیر اہتمام تیار کیا ہے، جن پر ہم اس <a href='https://antistatique.net' target='_blank'>مضمون</a> میں بات کر رہے ہیں۔",
-    "howto_title": "نقشہ پر چلنے کا طریقہ:",
+    "welcome": "خوش آمدید، میں مایا ہوں۔ میں آپ کا سویس کا راستہ دیکھنے کے لیے ہدایت کرنے والا ہوں!",
+    "credits": "ایک تجربہ جو <a href='https://antistatique.net' target='_blank'>Antistatique</a> میں یان اور پیئر کے زیر اہتمام میں بنایا گیا ہے، جن پر ہم اس <a href='https://antistatique.net' target='_blank'>مضمون</a> میں بات کر رہے ہیں۔",
+    "howto_title": "نقشے پر کیسے سفر کریں:",
     "mouse_left": "بائیں کلک",
-    "move": "نقشہ پر حرکت کریں",
+    "move": "نقشے پر حرکت کریں",
     "mouse_right": "دائیں کلک",
     "rotate": "نقشہ گھمائیں",
-    "mouse_wheel": "ماؤس کا پہیا",
-    "zoom": "چھوٹا / بڑا کریں",
+    "mouse_wheel": "ماؤس کی پچھلی پہیوں",
+    "zoom": "زوم کریں / زوم آؤٹ کریں",
     "begin": "ٹور شروع کریں",
     "continue": "ٹور جاری رکھیں"
   },
@@ -18,12 +18,12 @@
     "elevation": "بلندی",
     "your_question": "آپ کا سوال",
     "what_next": "آپ اب کیا کرنا چاہتے ہیں؟",
-    "ask_maya": "اس جگہ پر مائیا سے سوال کریں...",
+    "ask_maya": "مایا سے اس جگہ پر سوال کریں...",
     "continue": "اگلی جگہ پر جائیں"
   },
   "modes": {
-    "free": "میں گشت کرتا ہوں",
-    "guided": "رہنمائی شدہ دورہ"
+    "free": "میں سیر کرتا ہوں",
+    "guided": "رہنمائی کے ساتھ دورہ"
   },
   "navigation": {
     "tours": "ٹورز",
@@ -32,6 +32,170 @@
   },
   "progress": {
     "heading_for": "رخ",
-    "enjoy_the_view": "منظر لطف اندوز ہے، ہم جلد پہنچ جائیں گے۔"
+    "enjoy_the_view": "مشاہدہ کریں، ہم جلد پہنچ جائیں گے۔"
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 لوزان سے ویلیز تک",
+      "subtitle": "سویس کی الپس میں داخل ہوں"
+    },
+    "valais": {
+      "title": "#2 مارٹیگنی سے یونگفرا تک",
+      "subtitle": "سویس کے دل میں"
+    },
+    "bern": {
+      "title": "#3 جنگفرا سے گوتھارڈ",
+      "subtitle": "سویس کے وسط کا دورہ"
+    },
+    "ticino": {
+      "title": "#4 ٹیسن کے ارد گرد",
+      "subtitle": "سویس کا بحری طرز"
+    },
+    "grischun": {
+      "title": "#5 انگیڈائن سے زیورخ",
+      "subtitle": "سویس کے مشرقی حصے کو دیکھ کر"
+    },
+    "zurich": {
+      "title": "#6 زیورخ سے چاسرل تک",
+      "subtitle": "پلیٹو سویس پر سفر"
+    },
+    "vully": {
+      "title": "#7 چاسرل سے جنیوا",
+      "subtitle": "آپ کا سویس رومانڈ میں سفر ختم ہوجائے گا"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "لوزان",
+      "subtitle": "المپک شہر"
+    },
+    "lavaux": {
+      "title": "لاو",
+      "subtitle": "تراس ون کے باغات"
+    },
+    "chillon": {
+      "title": "شہر چلیں",
+      "subtitle": "قدیم علی گڑھ"
+    },
+    "midi": {
+      "title": "ڈنٹس ڈومیڈ",
+      "subtitle": "رون نہر کے دروازہ"
+    },
+    "dixence": {
+      "title": "برج گرینڈی ڈکس",
+      "subtitle": "دنیا کا بلند ترین بند"
+    },
+    "vignoble-valaisan": {
+      "title": "وائن کوٹی وائیزن",
+      "subtitle": "سرفراز کوہ پیما مٹیال"
+    },
+    "matterhorn": {
+      "title": "میٹھرون",
+      "subtitle": "الپس کا نمائندہ"
+    },
+    "aletsch": {
+      "title": "آلٹش",
+      "subtitle": "الپس کا بڑا ترین گلیشیئر"
+    },
+    "jungfrau": {
+      "title": "یونگفرا",
+      "subtitle": "برف کی رانی"
+    },
+    "lauterbrunnen": {
+      "title": "لاؤٹربرونین",
+      "subtitle": "72 سیلابوں کی گھاٹی"
+    },
+    "interlaken": {
+      "title": "انٹرلائکن",
+      "subtitle": "مہم کا دارالحکومت"
+    },
+    "luzern": {
+      "title": "لیزرن",
+      "subtitle": "پلوں کا شہر"
+    },
+    "grutli": {
+      "title": "رٹلی",
+      "subtitle": "سویس کا جنم گھر"
+    },
+    "gothard": {
+      "title": "گوتھارڈ",
+      "subtitle": "سویس کی زیرزمینی مشروط ریاست"
+    },
+    "bellinzona": {
+      "title": "بیلنزونا",
+      "subtitle": "ٹیسنو کا دارالحکومت"
+    },
+    "lugano": {
+      "title": "لوگانو",
+      "subtitle": "دولچ ویٹا شہر"
+    },
+    "ascona": {
+      "title": "أسکونا",
+      "subtitle": "میگورڈ کا موتی"
+    },
+    "verzasca": {
+      "title": "ورزاسکا",
+      "subtitle": "نیلی نہر"
+    },
+    "bernardino": {
+      "title": "سین برنارڈینو",
+      "subtitle": "الپائن کا کول"
+    },
+    "engadin": {
+      "title": "اینجیڈائن",
+      "subtitle": "موسم گرمی کی وادی"
+    },
+    "national-park": {
+      "title": "سویس قومی پارک",
+      "subtitle": "جنگلی حیات"
+    },
+    "scuol": {
+      "title": "سکول",
+      "subtitle": "ہوٹ سپا گاؤں"
+    },
+    "davos": {
+      "title": "ڈیوئس",
+      "subtitle": "ہم آہنگ میٹنگ شہر"
+    },
+    "santis": {
+      "title": "سانٹس",
+      "subtitle": "پانورامی منظر"
+    },
+    "zurich": {
+      "title": "زیورخ",
+      "subtitle": "مالی شہر"
+    },
+    "rheinfall": {
+      "title": "رین فال",
+      "subtitle": "رھین جھیل"
+    },
+    "aarau": {
+      "title": "آراو",
+      "subtitle": "باراک آرکیٹیچر شہر"
+    },
+    "ursanne": {
+      "title": "سینٹ-آرسن",
+      "subtitle": "قدیم گاؤں"
+    },
+    "chasseral": {
+      "title": "چسیرل",
+      "subtitle": "میدان"
+    },
+    "vully": {
+      "title": "ویلی",
+      "subtitle": "بحیرہ اور پہاڑوں کا جواہری علاقہ"
+    },
+    "joux": {
+      "title": "جو کا جھیل",
+      "subtitle": "واچ کا علاقہ"
+    },
+    "cote": {
+      "title": "لہ کوٹ",
+      "subtitle": "ووڈون کی باغات"
+    },
+    "geneve": {
+      "title": "جنیوا",
+      "subtitle": "بین الاقوامی شہر"
+    }
   }
 }

@@ -1,37 +1,201 @@
 {
   "intro": {
-    "subtitle": "Spletna izkušnja",
-    "title": "Švica<br />Velika tura",
-    "welcome": "Dobrodošli, jaz sem Maya. Bom vaš vodnik pri odkrivanju Švice!",
-    "credits": "Izkušnja ustvarjena pri <a href='https://antistatique.net' target='_blank'>Antistatique</a> by Yann in Pierre, o katerih govorimo v tem <a href='https://antistatique.net' target='_blank'>članek</a>.",
-    "howto_title": "Kako navigirati po zemljevidu :",
-    "mouse_left": "Levi klik miške",
-    "move": "Premikanje po zemljevidu",
-    "mouse_right": "Desni klik miške",
-    "rotate": "Zavrtite zemljevid",
-    "mouse_wheel": "Kolesce miške",
-    "zoom": "Približaj / Oddaljaj",
-    "begin": "Začni turo",
-    "continue": "Nadaljuj turo"
+    "subtitle": "Webová skúsenosť",
+    "title": "Švajčiarsko<br />Veľká cesta",
+    "welcome": "Vitajte, som Maya. Budem vaším sprievodcom po objavovaní Švajčiarska!",
+    "credits": "Zážitok vytvorený v <a href='https://antistatique.net' target='_blank'>Antistatique</a> Yann a Pierrom, o ktorých hovoríme v tomto <a href='https://antistatique.net' target='_blank'>článku</a>.",
+    "howto_title": "Ako navigovať na mape:",
+    "mouse_left": "Ľavé tlačidlo myši",
+    "move": "Presun na mape",
+    "mouse_right": "Pravé tlačidlo myši",
+    "rotate": "Otočiť mapu",
+    "mouse_wheel": "Koleso myši",
+    "zoom": "Priblížiť / Oddialiť",
+    "begin": "Začať turné",
+    "continue": "Pokračovať v turné"
   },
   "chat": {
-    "elevation": "Nadmorska višina",
-    "your_question": "Vaše vprašanje",
-    "what_next": "Kaj želite storiti zdaj?",
-    "ask_maya": "Vprašajte Mayo o tem kraju...",
-    "continue": "Pojdi na naslednje mesto"
+    "elevation": "Výška",
+    "your_question": "Vaša otázka",
+    "what_next": "Čo chcete urobiť ďalej?",
+    "ask_maya": "Opýtať sa Mayu na toto miesto...",
+    "continue": "Prejsť na ďalšie miesto"
   },
   "modes": {
-    "free": "Sprehajam se",
-    "guided": "Voden ogled"
+    "free": "Prechádzam sa",
+    "guided": "Sprievodca"
   },
   "navigation": {
-    "tours": "Ture",
-    "close": "Zapri",
-    "locations": "Lokacije"
+    "tours": "Turné",
+    "close": "Zavrieť",
+    "locations": "Miesta"
   },
   "progress": {
     "heading_for": "Smer",
-    "enjoy_the_view": "Uživajte v razgledu, že kmalu bomo tam."
+    "enjoy_the_view": "Užite si výhľad, čoskoro dorazíme."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Z Lausanne do Valais",
+      "subtitle": "Vstup do švajčiarskych Álp"
+    },
+    "valais": {
+      "title": "#2 Z Martigny do Jungfrau",
+      "subtitle": "V srdci švajčiarskych Álp"
+    },
+    "bern": {
+      "title": "#3 Z Jungfrau do Gotthardu",
+      "subtitle": "Návšteva centra Švajčiarska"
+    },
+    "ticino": {
+      "title": "#4 Okolo Tessinu",
+      "subtitle": "Švajčiarska oblasť stredozemného typu"
+    },
+    "grischun": {
+      "title": "#5 Z Engadinu do Curychu",
+      "subtitle": "Objavte východné Švajčiarsko"
+    },
+    "zurich": {
+      "title": "#6 Z Curychu na Chasseral",
+      "subtitle": "Cesta po švajčiarskom pahorkatí"
+    },
+    "vully": {
+      "title": "#7 Od Chasseralu po Ženevu",
+      "subtitle": "Dokončite svoju cestu v romandskom Švajčiarsku"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Olympijské mesto"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Terasovité vinice"
+    },
+    "chillon": {
+      "title": "Hrad Chillon",
+      "subtitle": "Stredoveký hrad"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Brána do údolia Rýna"
+    },
+    "dixence": {
+      "title": "Priehrada Grande Dixence",
+      "subtitle": "Najvyššia priehrada na svete"
+    },
+    "vignoble-valaisan": {
+      "title": "Valaisanské vinice",
+      "subtitle": "Slnečné svahy"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Symbol Álp"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Najväčšie ľadovec Álp"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Snežná kráľovná"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Údolie 72 vodopádov"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Hlavné mesto dobrodružstva"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "Mesto mostov"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Kolíska Švajčiarska"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Podzemná chrbtica švajčiarskych Álp"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Tessinské hlavné mesto"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Mesto dolce vita"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Perla Lago Maggiore"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Tyrkysová rieka"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Alpský sedlo"
+    },
+    "engadin": {
+      "title": "Engadín",
+      "subtitle": "Údolie zimných športov"
+    },
+    "national-park": {
+      "title": "Švajčiarsky národný park",
+      "subtitle": "Divoká príroda"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Kúpeľné mesto"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Mesto kongresov"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Panoramatický výhľad"
+    },
+    "zurich": {
+      "title": "Curych",
+      "subtitle": "Finančné mesto"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Rýnske vodopády"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Barokové mesto"
+    },
+    "ursanne": {
+      "title": "Svätý Ursanne",
+      "subtitle": "Stredoveká dedina"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Výhľadový bod"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Vínný skvost medzi jazerami a kopcami"
+    },
+    "joux": {
+      "title": "Jouxké jazero",
+      "subtitle": "Hodinárska oblasť"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Vaudois vinice"
+    },
+    "geneve": {
+      "title": "Ženeva",
+      "subtitle": "Medzinárodné mesto"
+    }
   }
 }

@@ -90,6 +90,7 @@ const Map = ({
     if (isNotNil(name)) {
       onClick({
         name,
+        original: name,
         coordinates: {
           lng: lngLat[0],
           lat: lngLat[1],

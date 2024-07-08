@@ -1,37 +1,201 @@
 {
   "intro": {
-    "subtitle": "Web taariikhda",
-    "title": "Switzerland<br />Tour-weyn",
-    "welcome": "Soo dhawaada, waxaan ahay Maya. Waxaan kuu soo bandhignayaa ka degi Switzerland!",
-    "credits": "Kalsoonida sameeyay <a href='https://antistatique.net' target='_blank'>Antistatique</a> kaasoo sameeyay Yann iyo Pierre, waxayna kaga hadlaan <a href='https://antistatique.net' target='_blank'>maqaalkan</a>.",
-    "howto_title": "Sida loo fidiyo khariidka:",
-    "mouse_left": "Guddiga bidix",
-    "move": "Sii deji buugga",
-    "mouse_right": "Guddiga midig",
-    "rotate": "Daba koriyay buugga",
-    "mouse_wheel": "Furidda",
-    "zoom": "Zoomer / Baaritaan",
-    "begin": "Bilow tour-ka",
-    "continue": "Ku sii wadaag"
+    "subtitle": "Web xiriirka",
+    "title": "Switzerland<br />Dhagax Tour",
+    "welcome": "Mar walba waa ku soo dhawaad Maya. Waxaan ahay xiriirkaaga si aad u ogaato Switzerland!",
+    "credits": "Tilmaamaha lagu sameeyay <a href='https://antistatique.net' target='_blank'>Antistatique</a> waxaa sameeyay Yann iyo Pierre, oo aad ku hadasho maqaalka <a href='https://antistatique.net' target='_blank'>hoos</a>.",
+    "howto_title": "Sida loogu fayo in lagu daabaco khariidadaha:",
+    "mouse_left": "Tuskada midig",
+    "move": "Ku seexo khariidada",
+    "mouse_right": "Tuskada midab",
+    "rotate": "Dabaalka khariidadada",
+    "mouse_wheel": "Khatarta",
+    "zoom": "Zoom / Afsaari",
+    "begin": "Bilow dhammaan tourka",
+    "continue": "Ku taalla geerida soo socda"
   },
   "chat": {
-    "elevation": "Koox",
-    "your_question": "Su'aalkeega",
-    "what_next": "Waa maxay dhicin kartaa?",
-    "ask_maya": "Baro Maya wax badan oo ku saabsan goobtani...",
-    "continue": "Tag goobtan xigta"
+    "elevation": "Dhagaxa",
+    "your_question": "Su'aalgayaga",
+    "what_next": "Waa maxay dib u eegista aad rabto?",
+    "ask_maya": "Su'aaw Maya waxa ku saabsan meeshaan...",
+    "continue": "Ku tag meesha soo socota"
   },
   "modes": {
-    "free": "Dhagaxaan",
-    "guided": "Xiriirkiisa"
+    "free": "Aniga waxaan dabaqa",
+    "guided": "Xusuusnow aasaas"
   },
   "navigation": {
-    "tours": "Tours",
+    "tours": "Safaraha",
     "close": "Dhig",
     "locations": "Goobaha"
   },
   "progress": {
-    "heading_for": "Qaab",
-    "enjoy_the_view": "Ka faa'iido taariikhda, waxaan soo dhammaannaysoon hore."
+    "heading_for": "Go'aanka",
+    "enjoy_the_view": "Raaxaysta fiiri, waxaan ku taallo gaar ah."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Dhaqanka Lausanne ilaa Valais",
+      "subtitle": "Ku soo dhawaada Alpska Switzerland"
+    },
+    "valais": {
+      "title": "#2 Martigny ilaa Jungfrau",
+      "subtitle": "Dhagaxa Alpska Switzerland"
+    },
+    "bern": {
+      "title": "#3 Jungfrau ilaa Gotthard",
+      "subtitle": "Sooraan marka dhexe ee Switzerland"
+    },
+    "ticino": {
+      "title": "#4 Ku saabsan Tessin",
+      "subtitle": "Switzerland tuskan ah"
+    },
+    "grischun": {
+      "title": "#5 Engadin ilaa Zurich",
+      "subtitle": "Switzerland Bari"
+    },
+    "zurich": {
+      "title": "#6 Zurich ilaa Chasseral",
+      "subtitle": "Safarka dhinaca Switzerland"
+    },
+    "vully": {
+      "title": "#7 Chasseral ilaa Geneva",
+      "subtitle": "Dhammaad fiiriye safarkaaga Switzerland"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Dhagaxa Olympicska"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Dhadhaqalaha qumbaha"
+    },
+    "chillon": {
+      "title": "Château de Chillon",
+      "subtitle": "Dhab ah dhagaxa"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Bidhaanaha dhexe ee Rhône"
+    },
+    "dixence": {
+      "title": "Dhiigga Grande Dixence",
+      "subtitle": "Barrage-ka ugu sareeya adduunka"
+    },
+    "vignoble-valaisan": {
+      "title": "Vignoble Valaisan",
+      "subtitle": "Buuraha dhereriga ah ee qorshaha"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Cabsiga Alpska"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Barrage-ka ugu weyn ee Alpska"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Dumar Zuujinta"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Dhulka 72 cadiya"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Magaaladda dareenkada ah"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "Magaaladda geyridda"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Dhulka dastuurka Switzerland ah"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Dhaqaalaha asluubta ee Alpska Switzerland"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Magaaladda Tessino"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Magaaladda dhaqanka"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Mirri kale ee Lago Maggiore"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Webiga fudud"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Subag alpin"
+    },
+    "engadin": {
+      "title": "Engadine",
+      "subtitle": "Dhul qiiqood"
+    },
+    "national-park": {
+      "title": "Goobta taariikhiga ah ee Switzerland",
+      "subtitle": "Beer xun"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Deegaan thermal"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Magaaladda shirka"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Fiiriye wadnaha"
+    },
+    "zurich": {
+      "title": "Zurich",
+      "subtitle": "Magaaladda maaliyadda"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Dhadhaqga Rhine"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Magaaladda barooka"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Deegaan dhab ah"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Fiiriye ballamiska"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Shiil u dhaxaysa badaha iyo buuraha"
+    },
+    "joux": {
+      "title": "Lake Joux",
+      "subtitle": "Deegaan saa'atan"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Buuraaha qumbaha waadiya"
+    },
+    "geneve": {
+      "title": "Geneva",
+      "subtitle": "Magaaladda caalamiga ah"
+    }
   }
 }

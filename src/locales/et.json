@@ -1,18 +1,18 @@
 {
   "intro": {
     "subtitle": "Veebikogemus",
-    "title": "Šveits<br />Suur Ringreis",
-    "welcome": "Tere tulemast, mina olen Maya. Ma olen teie giid Šveitsi avastamiseks!",
-    "credits": "Kogemus loodud siin <a href='https://antistatique.net' target='_blank'>Antistatique</a> poolt Yann ja Pierre, keda mainitakse selles <a href='https://antistatique.net' target='_blank'>artiklis</a>.",
+    "title": "Šveits<br />Suur ringreis",
+    "welcome": "Tere tulemast, mina olen Maya. Ma juhatan teid Šveitsi avastamisel!",
+    "credits": "Kogemus loodud <a href='https://antistatique.net' target='_blank'>Antistatique</a> poolt Yann ja Pierre, kellest me räägime selles <a href='https://antistatique.net' target='_blank'>artiklis</a>.",
     "howto_title": "Kuidas kaardil navigeerida:",
-    "mouse_left": "Vasak hiireklõps",
+    "mouse_left": "Vasak hiireklahv",
     "move": "Kaardil liikumine",
-    "mouse_right": "Parem hiireklõps",
+    "mouse_right": "Parem hiireklahv",
     "rotate": "Kaardi pööramine",
     "mouse_wheel": "Hiire kerimine",
-    "zoom": "Suumimine / Väljazoomimine",
-    "begin": "Alusta ringreisi",
-    "continue": "Jätka ringreisi"
+    "zoom": "Suurendamine / Vähendamine",
+    "begin": "Ringreisi alustamine",
+    "continue": "Ringreisi jätkamine"
   },
   "chat": {
     "elevation": "Kõrgus",
@@ -22,16 +22,180 @@
     "continue": "Mine järgmisesse kohta"
   },
   "modes": {
-    "free": "Ma jalutan",
-    "guided": "Juhendatud ringkäik"
+    "free": "Hulkumine",
+    "guided": "Giidiga ringkäik"
   },
   "navigation": {
-    "tours": "Ringkäigud",
+    "tours": "Ringreisid",
     "close": "Sulge",
     "locations": "Kohad"
   },
   "progress": {
     "heading_for": "Suund",
-    "enjoy_the_view": "Nautige vaadet, jõuame peagi kohale."
+    "enjoy_the_view": "Nautige vaadet, me jõuame varsti kohale."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Lausannest Valais'sse",
+      "subtitle": "Šveitsi Alpidesse sisenemine"
+    },
+    "valais": {
+      "title": "#2 Martignyst Jungfrau'sse",
+      "subtitle": "Südamesse Šveitsi Alpidesse"
+    },
+    "bern": {
+      "title": "#3 Jungfrau'st Gotthardeni",
+      "subtitle": "Kesk-Šveitsi külastamine"
+    },
+    "ticino": {
+      "title": "#4 Tessini ümbrus",
+      "subtitle": "Šveitsi Vahemereline ala"
+    },
+    "grischun": {
+      "title": "#5 Engadinist Zürichini",
+      "subtitle": "Ida-Šveitsi avastamine"
+    },
+    "zurich": {
+      "title": "#6 Zürichist Chasserale",
+      "subtitle": "Reis Šveitsi platool"
+    },
+    "vully": {
+      "title": "#7 Chasseralest Genfi",
+      "subtitle": "Lõpetage oma reis Romandia Šveitsis"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Olümpialinn"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Terrassviinamäed"
+    },
+    "chillon": {
+      "title": "Chillon'i loss",
+      "subtitle": "Keskaegne loss"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Rhône'i oru värav"
+    },
+    "dixence": {
+      "title": "Grande Dixence'i tamm",
+      "subtitle": "Maailma kõrgeim tamm"
+    },
+    "vignoble-valaisan": {
+      "title": "Valaisi viinamäed",
+      "subtitle": "Päikeselised nõlvad"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Alpide sümbol"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Alpide suurim liustik"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Lume kuninganna"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "72 kaskaadi org"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Seikluse pealinn"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "Sildade linn"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Šveitsi häll"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Šveitsi maa-alune selgroog"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Tessini pealinn"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Dolce vita linn"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Lago Maggiore'i pärl"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Türkiissinine jõgi"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Alpi kuru"
+    },
+    "engadin": {
+      "title": "Engadine",
+      "subtitle": "Talispordi org"
+    },
+    "national-park": {
+      "title": "Šveitsi Rahvuspark",
+      "subtitle": "Metsik loodus"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Termaalne küla"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Kongressilinn"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Panoraamvaade"
+    },
+    "zurich": {
+      "title": "Zürich",
+      "subtitle": "Finantslinn"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Rheini joastik"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Barokklinn"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Keskaegne küla"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Vaatepunkt"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Viinajuurikas müüride ja küngaste vahel"
+    },
+    "joux": {
+      "title": "Lac de Joux",
+      "subtitle": "Kellaregioon"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Vaud'i viinamäed"
+    },
+    "geneve": {
+      "title": "Genf",
+      "subtitle": "Rahvusvaheline linn"
+    }
   }
 }

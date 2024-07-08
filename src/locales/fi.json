@@ -1,25 +1,25 @@
 {
   "intro": {
     "subtitle": "Web-kokemus",
-    "title": "Sveitsi<br />Suuri kierros",
-    "welcome": "Tervetuloa, olen Maya. Olen oppaasi Sveitsin tutkimisessa!",
-    "credits": "Kokemus toteutettiin yrityksessä <a href='https://antistatique.net' target='_blank'>Antistatique</a> Yannin ja Pierren toimesta, joista kerromme tässä <a href='https://antistatique.net' target='_blank'>artikkelissa</a>.",
+    "title": "Sveitsi<br />Storvandring",
+    "welcome": "Tervetuloa, minä olen Maya. Olen oppaasi Sveitsin löytöretkellä!",
+    "credits": "Kokemus toteutettiin <a href='https://antistatique.net' target='_blank'>Antistatique</a> yrityksessä Yannin ja Pierren toimesta, joista puhumme tässä <a href='https://antistatique.net' target='_blank'>artikkelissa</a>.",
     "howto_title": "Kuinka navigoida kartalla:",
-    "mouse_left": "Vasen painike",
-    "move": "Liiku kartalla",
-    "mouse_right": "Oikea painike",
-    "rotate": "Käännä karttaa",
-    "mouse_wheel": "Hiiren pyörä",
-    "zoom": "Zoomaa / Loitonna",
+    "mouse_left": "Vasen hiiren painike",
+    "move": "Liikkua kartalla",
+    "mouse_right": "Oikea hiiren painike",
+    "rotate": "Kääntää karttaa",
+    "mouse_wheel": "Hiiren rulla",
+    "zoom": "Zoomata / Loitontaa",
     "begin": "Aloita kierros",
     "continue": "Jatka kierrosta"
   },
   "chat": {
     "elevation": "Korkeus",
-    "your_question": "Kysymyksesi",
+    "your_question": "Sinun kysymyksesi",
     "what_next": "Mitä haluat tehdä seuraavaksi?",
-    "ask_maya": "Kysy Mayalta tästä paikasta...",
-    "continue": "Siirry seuraavaan paikkaan"
+    "ask_maya": "Kysyä Mayalta tästä paikasta...",
+    "continue": "Siirtyä seuraavaan paikkaan"
   },
   "modes": {
     "free": "Kuljen vapaasti",
@@ -33,5 +33,169 @@
   "progress": {
     "heading_for": "Suunta",
     "enjoy_the_view": "Nauti näkymästä, saavumme pian."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Lausannesta Valaiseen",
+      "subtitle": "Astuminen sveitsiläisten Alppien maailmaan"
+    },
+    "valais": {
+      "title": "#2 Martignystä Jungfrauhun",
+      "subtitle": "Sveitsin Alppien sydämessä"
+    },
+    "bern": {
+      "title": "#3 Jungfrauilta Gotthardiin",
+      "subtitle": "Keskisen Sveitsin tutkiminen"
+    },
+    "ticino": {
+      "title": "#4 Tessinin ympäristössä",
+      "subtitle": "Välimerellinen Sveitsi"
+    },
+    "grischun": {
+      "title": "#5 Engadinista Zuriichiin",
+      "subtitle": "Itäisen Sveitsin löytäminen"
+    },
+    "zurich": {
+      "title": "#6 Zürichistä Chasseraliin",
+      "subtitle": "Matka Sveitsin tasangolla"
+    },
+    "vully": {
+      "title": "#7 Chasseralista Geneveen",
+      "subtitle": "Päättäkää matkanne Länsi-Sveitsiin"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Olympiakaupunki"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Viinitarhat rinteillä"
+    },
+    "chillon": {
+      "title": "Chillonin linna",
+      "subtitle": "Keskiaikainen linna"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Reitin portti Rhône-laaksoon"
+    },
+    "dixence": {
+      "title": "Grande Dixencen pato",
+      "subtitle": "Maailman korkein pato"
+    },
+    "vignoble-valaisan": {
+      "title": "Valaisin viinitarha",
+      "subtitle": "Auringonpaisteiset rinteet"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Alppien symboli"
+    },
+    "aletsch": {
+      "title": "Aletschin jäätikkö",
+      "subtitle": "Alppien suurin jäätikkö"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Lumikuningatar"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "72 vesiputouksen laakso"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Seikkailun pääkaupunki"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "Siltojen kaupunki"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Sveitsin kehto"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Sveitsin maanalainen selkäranka"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Tessinin pääkaupunki"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Makean elämän kaupunki"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Lago Maggioren helmi"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Turkoosi joki"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Alppinen solareitti"
+    },
+    "engadin": {
+      "title": "Engadin",
+      "subtitle": "Hiihtokeskuslaakso"
+    },
+    "national-park": {
+      "title": "Sveitsin kansallispuisto",
+      "subtitle": "Villin luonnon kehto"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Kylpyläkylä"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Kongressikaupunki"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Panoraamanäkymä"
+    },
+    "zurich": {
+      "title": "Zürich",
+      "subtitle": "Rahoituskaupunki"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Reinin putoukset"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Barokkikaupunki"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Keskiaikainen kylä"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Näköalapaikka"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Viinirypäleiden ja kukkuloiden helmi"
+    },
+    "joux": {
+      "title": "Joux-järvi",
+      "subtitle": "Kelloteollisuuden alue"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Vaudin viinitarhat"
+    },
+    "geneve": {
+      "title": "Geneve",
+      "subtitle": "Kansainvälinen kaupunki"
+    }
   }
 }

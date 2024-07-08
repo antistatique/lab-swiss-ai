@@ -1,13 +1,13 @@
 {
   "intro": {
     "subtitle": "Weboplevelse",
-    "title": "Schweiz<br />Stor rundtur",
+    "title": "Schweiz<br />Stor Rundtur",
     "welcome": "Velkommen, jeg er Maya. Jeg vil være din guide til at opdage Schweiz!",
-    "credits": "En oplevelse skabt hos <a href='https://antistatique.net' target='_blank'>Antistatique</a> af Yann og Pierre, som vi taler om i denne <a href='https://antistatique.net' target='_blank'>artikel</a>.",
+    "credits": "En oplevelse udført hos <a href='https://antistatique.net' target='_blank'>Antistatique</a> af Yann og Pierre, som vi taler om i denne <a href='https://antistatique.net' target='_blank'>artikel</a>.",
     "howto_title": "Sådan navigerer du på kortet:",
     "mouse_left": "Venstre klik",
-    "move": "Bevæg dig rundt på kortet",
-    "mouse_right": "Højreklik",
+    "move": "Bevæg dig på kortet",
+    "mouse_right": "Højre klik",
     "rotate": "Roter kortet",
     "mouse_wheel": "Scrollhjul",
     "zoom": "Zoom ind / Zoom ud",
@@ -22,16 +22,180 @@
     "continue": "Gå til næste sted"
   },
   "modes": {
-    "free": "Jeg går bare rundt",
+    "free": "Jeg går tur",
     "guided": "Guidet tur"
   },
   "navigation": {
     "tours": "Ture",
     "close": "Luk",
-    "locations": "Stederne"
+    "locations": "Steder"
   },
   "progress": {
-    "heading_for": "Retning mod",
-    "enjoy_the_view": "Nyd udsigten, vi når snart frem."
+    "heading_for": "Retning",
+    "enjoy_the_view": "Nyde udsigten, vi når snart frem."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Fra Lausanne til Valais",
+      "subtitle": "Gå ind i de schweiziske alper"
+    },
+    "valais": {
+      "title": "#2 Fra Martigny til Jungfrau",
+      "subtitle": "I hjertet af de schweiziske alper"
+    },
+    "bern": {
+      "title": "#3 Fra Jungfrau til Gotthard",
+      "subtitle": "Besøg centrum af Schweiz"
+    },
+    "ticino": {
+      "title": "#4 Omkring Ticino",
+      "subtitle": "Den schweiziske middelhav"
+    },
+    "grischun": {
+      "title": "#5 Fra Engadin til Zürich",
+      "subtitle": "Opdag den østlige Schweiz"
+    },
+    "zurich": {
+      "title": "#6 Fra Zürich til Chasseral",
+      "subtitle": "Rejse på den schweiziske højslette"
+    },
+    "vully": {
+      "title": "#7 Fra Chasseral til Genève",
+      "subtitle": "Afslut din rejse i den fransktalende Schweiz"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Olympisk by"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Terrassevinmarker"
+    },
+    "chillon": {
+      "title": "Château de Chillon",
+      "subtitle": "Middelalderborg"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Porten til Rhônedalen"
+    },
+    "dixence": {
+      "title": "Barrage de la Grande Dixence",
+      "subtitle": "Verdens højeste dæmning"
+    },
+    "vignoble-valaisan": {
+      "title": "Valais-vinmarken",
+      "subtitle": "Solbeskinnede skråninger"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Alpernes symbol"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Alpernes største gletsjer"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Snehvide"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "De 72 vandfalds dal"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Eventyrhovedstaden"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "Broernes by"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Schweiziske fødested"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Schweiziske alpers undergrundsrække"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Tessins hovedstad"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Dolce vita-byen"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Lago Maggiore's perle"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Turkisfloden"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Alpepasset"
+    },
+    "engadin": {
+      "title": "Engadin",
+      "subtitle": "Vintersportsdalen"
+    },
+    "national-park": {
+      "title": "Schweizisk nationalpark",
+      "subtitle": "Vild natur"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Kurbadebyen"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Kongresbyen"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Panoramaudsigt"
+    },
+    "zurich": {
+      "title": "Zürich",
+      "subtitle": "Finansbyen"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Rhinfaldene"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Barokbyen"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Middelalderlandsbyen"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Udsigtpunkt"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Vinglæde mellem søer og bakker"
+    },
+    "joux": {
+      "title": "Lac de Joux",
+      "subtitle": "Uhrregion"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Vaud vinmarker"
+    },
+    "geneve": {
+      "title": "Genève",
+      "subtitle": "International by"
+    }
   }
 }

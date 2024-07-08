@@ -1,37 +1,201 @@
 {
   "intro": {
-    "subtitle": "Вэб үзүүр",
-    "title": "Швейцари<br />Өгүүлбэр Тэмцэх",
-    "welcome": "Тавтай морил, би Мая. Швейцарыг алхахад туслах болно.",
-    "credits": "Yann ба Pierre-ийн зохиолыг энд ярих <a href='https://antistatique.net' target='_blank'>Antistatique</a>-д бүтээгдсэн",
-    "howto_title": "Нэгж карт дээр явцадах заавар: ",
-    "mouse_left": "Зүүн товч",
+    "subtitle": "Вэб төлөв",
+    "title": "Швейцарь<br />Их Аялал",
+    "welcome": "Тавтай морил, би Мая байна. Швейцарьд танилцана уу!",
+    "credits": "Yann ба Pierre -гийн <a href='https://antistatique.net' target='_blank'>Antistatique</a> -д бичсэн гэрээгээс илэрхийлсэн нь бидний <a href='https://antistatique.net' target='_blank'>мэдээнд</a> хэлжээ.",
+    "howto_title": "Карт дээр яаж аялдах вэ :",
+    "mouse_left": "Зүүн дарагаа",
     "move": "Карт дээр гүйх",
-    "mouse_right": "Баруун товч",
-    "rotate": "Карт гүйлгэх",
-    "mouse_wheel": "Гуталга",
-    "zoom": "Дэлгэц / Цохилт",
-    "begin": "Тэмцэх эхлэх",
-    "continue": "Тэмцэх үргэлжлүүлэх"
+    "mouse_right": "Баруун дарагаа",
+    "rotate": "Картыг эргүүлэх",
+    "mouse_wheel": "Цоожлох",
+    "zoom": "Хөдөлгөх / Цоожлох",
+    "begin": "Аялах эхлээрэй",
+    "continue": "Аялж үлдъе"
   },
   "chat": {
     "elevation": "Өндөр",
     "your_question": "Таны асуулт",
-    "what_next": "Энээр юу хийхийг хүссэн вэ?",
-    "ask_maya": "Маягаас энэ орондоо асуу",
-    "continue": "Дараагийн орох"
+    "what_next": "Энэрүү юу хийж байна вэ?",
+    "ask_maya": "Майяад эндээс асуултлаа...",
+    "continue": "Дараагийн газар руу явах"
   },
   "modes": {
-    "free": "Би явагч",
-    "guided": "Захидал"
+    "free": "Би явах нь",
+    "guided": "Зөвлөгөө үзнэ"
   },
   "navigation": {
-    "tours": "Тэмцэх",
+    "tours": "Аялах",
     "close": "Хаах",
-    "locations": "Орон нутгууд"
+    "locations": "Орон нутгийн газрууд"
   },
   "progress": {
-    "heading_for": "Чиглэл",
-    "enjoy_the_view": "Харагдацыг ажилчинд олгоно уу, бид хурдацтай."
+    "heading_for": "Үгүйлэл",
+    "enjoy_the_view": "Үзвэрдүүлэн зочил, бид хүлээнэ."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Лозаннаас Валаис руу",
+      "subtitle": "Швейцарьд альпийн орох"
+    },
+    "valais": {
+      "title": "#2 Мартигниээс Юнгфраугийн талбар",
+      "subtitle": "Швейцарьдийн түмний зүүд"
+    },
+    "bern": {
+      "title": "#3 Юнгфраугийн Gotthard руу",
+      "subtitle": "Швейцарьд төвийг харах"
+    },
+    "ticino": {
+      "title": "#4 Тессингийн хүрэлцээ",
+      "subtitle": "Швейцарь медитеранийнхаа"
+    },
+    "grischun": {
+      "title": "#5 Энгадинээс Цюрих руу",
+      "subtitle": "Швейцарьдийн зүүн судлаачийг хэвлэх"
+    },
+    "zurich": {
+      "title": "#6 Цюрихээс Chasseral руу",
+      "subtitle": "Швейцарьдийн талбайд аялах"
+    },
+    "vully": {
+      "title": "#7 Chasseral ээс Женевэ руу",
+      "subtitle": "Таны замд Швейцарь гэрэлтүүлэг"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Лозанна",
+      "subtitle": "Олимпийн хот"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Талбайтай нуудлаг"
+    },
+    "chillon": {
+      "title": "Шийон цайрын хот",
+      "subtitle": "Дунд гэр"
+    },
+    "midi": {
+      "title": "Midi шивээс",
+      "subtitle": "Роны давхарган нээлттэй"
+    },
+    "dixence": {
+      "title": "Dixence даам",
+      "subtitle": "Дэлхийн хамгийн өндөөх даам"
+    },
+    "vignoble-valaisan": {
+      "title": "Вингобль валайс",
+      "subtitle": "Нарийн талбайн ургамалууд"
+    },
+    "matterhorn": {
+      "title": "Маттерхорн",
+      "subtitle": "Альптэй тэмдэгт"
+    },
+    "aletsch": {
+      "title": "Altesch",
+      "subtitle": "Альпын анхан гол хэрэг"
+    },
+    "jungfrau": {
+      "title": "Жунгфрау",
+      "subtitle": "Нуюгийн эмэгтэй"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "72 шар айлын тал"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Шалбуур эрхтний хот"
+    },
+    "luzern": {
+      "title": "Люсерн",
+      "subtitle": "Үүдний хот"
+    },
+    "grutli": {
+      "title": "Гүртли",
+      "subtitle": "Швейцарьдийн төв халамж"
+    },
+    "gotthard": {
+      "title": "Готтард",
+      "subtitle": "Швейцарьдийн дэлгэрэх хөгжмийн дасгалхуул"
+    },
+    "bellinzona": {
+      "title": "Беллинцона",
+      "subtitle": "Тессигоосын нутаг хот"
+    },
+    "lugano": {
+      "title": "Лугано",
+      "subtitle": "Дольце вита хот"
+    },
+    "ascona": {
+      "title": "Аскона",
+      "subtitle": "Мажоре онгондоо"
+    },
+    "verzasca": {
+      "title": "Верзаска",
+      "subtitle": "Өнгөр шар мөрөн"
+    },
+    "bernardino": {
+      "title": "Сан Бернардино",
+      "subtitle": "Альпийн цэг"
+    },
+    "engadin": {
+      "title": "Энгадин",
+      "subtitle": "Фристайл спортын дал"
+    },
+    "national-park": {
+      "title": "Швейцарын төрдийн нэгдсэн цөөн хөгжилт",
+      "subtitle": "Гажууртай байдлын нугалт"
+    },
+    "scuol": {
+      "title": "Скол",
+      "subtitle": "Шуудангийн хот"
+    },
+    "davos": {
+      "title": "Давос",
+      "subtitle": "Хордын хот"
+    },
+    "santis": {
+      "title": "Зантис",
+      "subtitle": "Зүгээрлэг үзэдэг"
+    },
+    "zurich": {
+      "title": "Цюрих",
+      "subtitle": "Санхүү хот"
+    },
+    "rheinfall": {
+      "title": "Райн хүрхрийн шар",
+      "subtitle": "Райн хүрхрийн уул"
+    },
+    "aarau": {
+      "title": "Аарау",
+      "subtitle": "Барокко хот"
+    },
+    "ursanne": {
+      "title": "Сент Урсанн",
+      "subtitle": "Дунд гэр хот"
+    },
+    "chasseral": {
+      "title": "Шассераль",
+      "subtitle": "Үзэгдэл"
+    },
+    "vully": {
+      "title": "Вулли",
+      "subtitle": "Өвлийн бэлэг хадгаалтай хадан, хөндий"
+    },
+    "joux": {
+      "title": "Жуу хөл",
+      "subtitle": "Цагийн салбар"
+    },
+    "cote": {
+      "title": "Ла Коте",
+      "subtitle": "Водо ваккхорин"
+    },
+    "geneve": {
+      "title": "Женев",
+      "subtitle": "Олон улсын хот"
+    }
   }
 }

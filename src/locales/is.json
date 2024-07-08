@@ -1,37 +1,201 @@
 {
   "intro": {
-    "subtitle": "Vefupplifun",
+    "subtitle": "Vefsíðuupplifun",
     "title": "Sviss<br />Stórferð",
-    "welcome": "Velkomin, ég er Maya. Ég mun leiða þig í göngu um Sviss !",
-    "credits": "Reynsla unnin hjá <a href='https://antistatique.net' target='_blank'>Antistatique</a> af Yann og Pierre, sem við höfum fræðst um í þessum <a href='https://antistatique.net' target='_blank'>grein</a>.",
-    "howto_title": "Hvernig á að sigla á kortið :",
+    "welcome": "Velkomin, ég er Maya. Ég verð leiðsögumaður þinn til að kanna Sviss !",
+    "credits": "Upplifun gerð hjá <a href='https://antistatique.net' target='_blank'>Antistatique</a> af Yann og Pierre, sem við erum að tala um í þessum <a href='https://antistatique.net' target='_blank'>grein</a>.",
+    "howto_title": "Hvernig á að skipuleggja á kortinu :",
     "mouse_left": "Vinstri smell",
-    "move": "Fara um á kortinu",
+    "move": "Færa þig um kortið",
     "mouse_right": "Hægri smell",
     "rotate": "Snúa kortinu",
     "mouse_wheel": "Hjól",
-    "zoom": "Nálgun / Fjarlægð",
+    "zoom": "Aðdráttur / Frádráttur",
     "begin": "Byrja ferðina",
     "continue": "Halda áfram ferðinni"
   },
   "chat": {
-    "elevation": "Hæð yfir sjávarmáli",
-    "your_question": "Spurning þín",
+    "elevation": "Hæð yfir sjó",
+    "your_question": "Spurningin þín",
     "what_next": "Hvað viltu gera næst ?",
-    "ask_maya": "Spurðu Mayu um þennan stað...",
-    "continue": "Fara á næsta stað"
+    "ask_maya": "Spyrja Mayu um þennan stað...",
+    "continue": "Flytjast á næsta stað"
   },
   "modes": {
-    "free": "Ég flýg",
-    "guided": "Leiðsögn"
+    "free": "Ég ganga í göngutúr",
+    "guided": "Leiðsögumaður ferð"
   },
   "navigation": {
-    "tours": "Ferðir",
+    "tours": "Túrar",
     "close": "Loka",
-    "locations": "Staðsetningar"
+    "locations": "Staðirnir"
   },
   "progress": {
-    "heading_for": "Á loft",
-    "enjoy_the_view": "Njóttu utsýnisins, viðkomumst brátt."
+    "heading_for": "Stefna",
+    "enjoy_the_view": "Njóttu utsýnisins, við förum fljótlega þangað."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Frá Lausanne til Valais",
+      "subtitle": "Inn í Svissneska Alpafjöllin"
+    },
+    "valais": {
+      "title": "#2 Frá Martigny til Jungfrau",
+      "subtitle": "Í hjarta Svissnesku Alpafjallanna"
+    },
+    "bern": {
+      "title": "#3 Frá Jungfrau til Gotthard",
+      "subtitle": "Heimsækja miðju Svissar"
+    },
+    "ticino": {
+      "title": "#4 Um Tessin höfnina",
+      "subtitle": "Miðjarnt Svissneska hafið"
+    },
+    "grischun": {
+      "title": "#5 Frá Engadine til Zürich",
+      "subtitle": "Upplifa Austur-Svissneska"
+    },
+    "zurich": {
+      "title": "#6 Frá Zürich til Chasseral",
+      "subtitle": "Ferð á Suðrunnu Svissneska"
+    },
+    "vully": {
+      "title": "#7 Frá Chasseral til Genève",
+      "subtitle": "Lokið ferðinni á Svissar Romande"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Ólympíubærinn"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Vínþræðir í þrepum"
+    },
+    "chillon": {
+      "title": "Château de Chillon",
+      "subtitle": "Miðaldakastalinn"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Hliðin, Dalinn Rhone"
+    },
+    "dixence": {
+      "title": "Barrage de la Grande Dixence",
+      "subtitle": "Hæsta flóðvélin í heiminum"
+    },
+    "vignoble-valaisan": {
+      "title": "Vignoble valaisan",
+      "subtitle": "Sólbekkur hæðir"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Tákn Íslands"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Stærsti jöklar Alparnir"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Drottningu snjó"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Dalur 72 fossa"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Höfuðstaður ævintýra"
+    },
+    "luzern": {
+      "title": "Lucerne",
+      "subtitle": "Bærir brúa"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Körfu Svisslandi"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Undirstöðu spíralrör Alparnir"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Capital tælenska"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Bæ sunnanmegin"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Perla Maggiore-sjávar"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Hvönn blá líniu"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Alpska heiði"
+    },
+    "engadin": {
+      "title": "Engadin",
+      "subtitle": "Dalur vetraríkju"
+    },
+    "national-park": {
+      "title": "Þjóðgarðurinn Svissneskur",
+      "subtitle": "Ólífur náttúru"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Þorpið heitu laug"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Bær fundarins"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Útsýni fullkomnar"
+    },
+    "zurich": {
+      "title": "Zürich",
+      "subtitle": "Fjármál bær"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Rhín foss"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Bær barokka"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Þorp miðaldahús"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Sjónarhorn"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "leðurjarður jewel á milli vatna og hæðir"
+    },
+    "joux": {
+      "title": "Lac de Joux",
+      "subtitle": "Svissneskar tímalínu"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Vínvinir sem eru  væntaðir"
+    },
+    "geneve": {
+      "title": "Genève",
+      "subtitle": "Vinsæl bær"
+    }
   }
 }

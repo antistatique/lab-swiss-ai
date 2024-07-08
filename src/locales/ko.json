@@ -2,9 +2,9 @@
   "intro": {
     "subtitle": "웹 경험",
     "title": "스위스<br />그랜드 투어",
-    "welcome": "환영합니다. 저는 마야입니다. 스위스를 탐험하는 데 도와드리겠습니다!",
-    "credits": "Yann과 Pierre에 의해 <a href='https://antistatique.net' target='_blank'>Antistatique</a>에서 제작된 경험입니다. 이에 대해 이 <a href='https://antistatique.net' target='_blank'>기사</a>에서 이야기합니다.",
-    "howto_title": "지도에서의 탐색 방법 :",
+    "welcome": "환영합니다. 저는 마야입니다. 스위스를 탐험하기 위한 안내를 맡겠습니다!",
+    "credits": "Yann과 Pierre가 만든 경험, <a href='https://antistatique.net' target='_blank'>안티스타티크</a>에서 구현되었습니다. 관련 기사는 <a href='https://antistatique.net' target='_blank'>여기</a>에서 확인할 수 있습니다.",
+    "howto_title": "지도 탐색 방법 :",
     "mouse_left": "왼쪽 클릭",
     "move": "지도 이동",
     "mouse_right": "오른쪽 클릭",
@@ -22,16 +22,180 @@
     "continue": "다음 장소로 이동"
   },
   "modes": {
-    "free": "자유롭게 돌아다님",
+    "free": "자유로이 돌아다니다",
     "guided": "가이드 투어"
   },
   "navigation": {
     "tours": "투어",
     "close": "닫기",
-    "locations": "장소"
+    "locations": "장소들"
   },
   "progress": {
     "heading_for": "방향",
-    "enjoy_the_view": "전망을 즐기세요, 곧 도착할 겁니다."
+    "enjoy_the_view": "전망을 즐기세요, 곧 도착할 것입니다."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 로잔에서 발라이로",
+      "subtitle": "스위스 알프스로 진입"
+    },
+    "valais": {
+      "title": "#2 마르티니에서 예욘프로",
+      "subtitle": "스위스 알프스의 중심에"
+    },
+    "bern": {
+      "title": "#3 중프라우에서 곳타르트로",
+      "subtitle": "스위스 중부 방문"
+    },
+    "ticino": {
+      "title": "#4 테신 주변",
+      "subtitle": "지중해 스위스"
+    },
+    "grischun": {
+      "title": "#5 엔가딘에서 쥬리히로",
+      "subtitle": "동부 스위스 탐험"
+    },
+    "zurich": {
+      "title": "#6 주리히에서 차세랄로",
+      "subtitle": "스위스 고원 여행"
+    },
+    "vully": {
+      "title": "#7 차세랄에서 제네바로",
+      "subtitle": "로망드 스위스 여행 완료"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "로잔",
+      "subtitle": "올림픽 도시"
+    },
+    "lavaux": {
+      "title": "라보",
+      "subtitle": "단풍이 아름다운 포도밭"
+    },
+    "chillon": {
+      "title": "시용성",
+      "subtitle": "중세 성"
+    },
+    "midi": {
+      "title": "뎅 뒤 미디",
+      "subtitle": "론 강 계곡의 입구"
+    },
+    "dixence": {
+      "title": "그랑 드식스 담",
+      "subtitle": "이세곡의 높은 댐"
+    },
+    "vignoble-valaisan": {
+      "title": "발레 왈레 진",
+      "subtitle": "햇볕 많이 비추는 비탈길"
+    },
+    "matterhorn": {
+      "title": "마테호른",
+      "subtitle": "알프스 상징물"
+    },
+    "aletsch": {
+      "title": "알레씨",
+      "subtitle": "알프스 최대 글래셔"
+    },
+    "jungfrau": {
+      "title": "위앙 Frau",
+      "subtitle": "눈의 여왕"
+    },
+    "lauterbrunnen": {
+      "title": "라우터브룬넨",
+      "subtitle": "72개 폭포의 계곡"
+    },
+    "interlaken": {
+      "title": "인터라켄",
+      "subtitle": "모험의 중심지"
+    },
+    "luzern": {
+      "title": "르체른",
+      "subtitle": "다리의 도시"
+    },
+    "grutli": {
+      "title": "뤼틀리",
+      "subtitle": "스위스 탄생지"
+    },
+    "gothard": {
+      "title": "고타르트",
+      "subtitle": "스위스 알프스 지하 척추"
+    },
+    "bellinzona": {
+      "title": "벨린조나",
+      "subtitle": "테시노 수도"
+    },
+    "lugano": {
+      "title": "루가노",
+      "subtitle": "달체 비타의 도시"
+    },
+    "ascona": {
+      "title": "아스코나",
+      "subtitle": "마조레 호수의 보석"
+    },
+    "verzasca": {
+      "title": "베르자스카",
+      "subtitle": "청록색 강"
+    },
+    "bernardino": {
+      "title": "산 베르나르디노",
+      "subtitle": "고산 고개"
+    },
+    "engadin": {
+      "title": "엔가딘",
+      "subtitle": "겨울 스포츠의 계곡"
+    },
+    "national-park": {
+      "title": "스위스 국립 공원",
+      "subtitle": "야생의 자연"
+    },
+    "scuol": {
+      "title": "스클",
+      "subtitle": "온천 마을"
+    },
+    "davos": {
+      "title": "다보스",
+      "subtitle": "학회 도시"
+    },
+    "santis": {
+      "title": "잰티스",
+      "subtitle": "전망대"
+    },
+    "zurich": {
+      "title": "주리히",
+      "subtitle": "금융 도시"
+    },
+    "rheinfall": {
+      "title": "라인 폭포",
+      "subtitle": "라인 강 폭포"
+    },
+    "aarau": {
+      "title": "아라우",
+      "subtitle": "바로크 도시"
+    },
+    "ursanne": {
+      "title": "생 우르잔노",
+      "subtitle": "중세 마을"
+    },
+    "chasseral": {
+      "title": "샤살랄",
+      "subtitle": "조망 휴양지"
+    },
+    "vully": {
+      "title": "뒜리",
+      "subtitle": "호수와 언덕 사이의 포도원 보석"
+    },
+    "joux": {
+      "title": "요 뒤 주",
+      "subtitle": "시계 지역"
+    },
+    "cote": {
+      "title": "라 코트",
+      "subtitle": "보도 속 포도정원"
+    },
+    "geneve": {
+      "title": "제네바",
+      "subtitle": "국제 도시"
+    }
   }
 }

@@ -1,28 +1,28 @@
 {
   "intro": {
-    "subtitle": "Web-Erfahrung",
+    "subtitle": "Web-Erlebnis",
     "title": "Schweiz<br />Grand Tour",
-    "welcome": "Willkommen, ich bin Maya. Ich werde Ihr Reiseführer sein, um die Schweiz zu entdecken!",
-    "credits": "Eine Erfahrung erstellt bei <a href='https://antistatique.net' target='_blank'>Antistatique</a> von Yann und Pierre, über die wir in diesem <a href='https://antistatique.net' target='_blank'>Artikel</a> sprechen.",
-    "howto_title": "So navigieren Sie auf der Karte:",
-    "mouse_left": "Linke Maustaste",
-    "move": "Bewegen Sie sich auf der Karte",
-    "mouse_right": "Rechte Maustaste",
-    "rotate": "Drehen Sie die Karte",
+    "welcome": "Willkommen, ich bin Maya. Ich werde Ihr Führer sein, um die Schweiz zu entdecken!",
+    "credits": "Eine Erfahrung, die bei <a href='https://antistatique.net' target='_blank'>Antistatique</a> von Yann und Pierre erstellt wurde, über die wir in diesem <a href='https://antistatique.net' target='_blank'>Artikel</a> sprechen.",
+    "howto_title": "Wie man auf der Karte navigiert:",
+    "mouse_left": "Linksklick",
+    "move": "Auf der Karte bewegen",
+    "mouse_right": "Rechtsklick",
+    "rotate": "Karte drehen",
     "mouse_wheel": "Mausrad",
-    "zoom": "Vergrößern / Verkleinern",
+    "zoom": "Ein- / Auszoomen",
     "begin": "Tour starten",
     "continue": "Tour fortsetzen"
   },
   "chat": {
     "elevation": "Höhe",
-    "your_question": "Ihre Frage",
+    "your_question": "Deine Frage",
     "what_next": "Was möchtest du jetzt tun?",
     "ask_maya": "Maya zu diesem Ort befragen...",
     "continue": "Zum nächsten Ort gehen"
   },
   "modes": {
-    "free": "Ich spaziere herum",
+    "free": "Ich spaziere",
     "guided": "Geführte Tour"
   },
   "navigation": {
@@ -32,6 +32,170 @@
   },
   "progress": {
     "heading_for": "Richtung",
-    "enjoy_the_view": "Genießen Sie den Ausblick, wir werden bald ankommen."
+    "enjoy_the_view": "Genießen Sie die Aussicht, wir kommen bald an."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Von Lausanne nach Wallis",
+      "subtitle": "Eintauchen in die Schweizer Alpen"
+    },
+    "valais": {
+      "title": "#2 Von Martigny zur Jungfrau",
+      "subtitle": "Im Herzen der Schweizer Alpen"
+    },
+    "bern": {
+      "title": "#3 Von der Jungfrau zum Gotthard",
+      "subtitle": "Besuch des Zentrums der Schweiz"
+    },
+    "ticino": {
+      "title": "#4 Um das Tessin herum",
+      "subtitle": "Das mediterrane Schweiz"
+    },
+    "grischun": {
+      "title": "#5 Von Engadin nach Zürich",
+      "subtitle": "Die Ostschweiz entdecken"
+    },
+    "zurich": {
+      "title": "#6 Von Zürich zum Chasseral",
+      "subtitle": "Reise durch das Schweizer Mittelland"
+    },
+    "vully": {
+      "title": "#7 Vom Chasseral nach Genf",
+      "subtitle": "Beenden Sie Ihre Reise in der Romandie"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Olympische Stadt"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Terrassenweinberge"
+    },
+    "chillon": {
+      "title": "Schloss Chillon",
+      "subtitle": "Mittelalterliches Schloss"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Tor zum Rhonetal"
+    },
+    "dixence": {
+      "title": "Grande Dixence Staumauer",
+      "subtitle": "Höchste Staumauer der Welt"
+    },
+    "vignoble-valaisan": {
+      "title": "Walliser Weinberg",
+      "subtitle": "Sonnige Hänge"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Symbol der Alpen"
+    },
+    "aletsch": {
+      "title": "Aletschgletscher",
+      "subtitle": "Größter Gletscher der Alpen"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Schneekönigin"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Tal der 72 Wasserfälle"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Hauptstadt des Abenteuers"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "Stadt der Brücken"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Wiege der Schweiz"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Unterirdisches Rückgrat der Schweizer Alpen"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Hauptstadt des Tessins"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Stadt des süßen Lebens"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Perle des Lago Maggiore"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Türkisfarbener Fluss"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Alpenpass"
+    },
+    "engadin": {
+      "title": "Engadin",
+      "subtitle": "Tal der Wintersportarten"
+    },
+    "national-park": {
+      "title": "Schweizer Nationalpark",
+      "subtitle": "Wildnis"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Thermalstadt"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Kongressstadt"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Panoramablick"
+    },
+    "zurich": {
+      "title": "Zürich",
+      "subtitle": "Finanzstadt"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Rheinfall"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Barockstadt"
+    },
+    "ursanne": {
+      "title": "Sankt Ursanne",
+      "subtitle": "Mittelalterliches Dorf"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Aussichtspunkt"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Weinschmuckstück zwischen Seen und Hügeln"
+    },
+    "joux": {
+      "title": "Lac de Joux",
+      "subtitle": "Uhrenregion"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Waadtlander Weinberge"
+    },
+    "geneve": {
+      "title": "Genf",
+      "subtitle": "Internationale Stadt"
+    }
   }
 }

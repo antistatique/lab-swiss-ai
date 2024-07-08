@@ -1,37 +1,201 @@
 {
   "intro": {
-    "subtitle": "Interneto patirtis",
-    "title": "Šveicarija<br />Didysis turas",
-    "welcome": "Sveiki atvykę, aš esu Maija. Būsiu jūsų gidas Šveicarijos atradimui!",
-    "credits": "Patirtis sukūrė <a href='https://antistatique.net' target='_blank'>Antistatique</a> Yann ir Pierre, apie kuriuos mes kalbame šiame <a href='https://antistatique.net' target='_blank'>straipsnyje</a>.",
-    "howto_title": "Kaip naviguoti žemėlapyje:",
-    "mouse_left": "Kairysis pelės klavišas",
+    "subtitle": "Tinklaraščio patirtis",
+    "title": "Šveicarijos<br />Didysis turas",
+    "welcome": "Sveiki atvykę, aš esu Maija. Aš būsiu jūsų gidė Šveicarijos atradimui!",
+    "credits": "Patirtis sukurtas <a href='https://antistatique.net' target='_blank'>Antistatique</a> kompanijoje Pierre ir Yann, apie kuriuos mes kalbame šiame <a href='https://antistatique.net' target='_blank'>straipsnyje</a>.",
+    "howto_title": "Kaip naršyti žemėlapyje:",
+    "mouse_left": "Kairysis pelės mygtukas",
     "move": "Judėti žemėlapyje",
-    "mouse_right": "Dešinysis pelės klavišas",
-    "rotate": "Pasukti žemėlapį",
-    "mouse_wheel": "Ratukas",
-    "zoom": "Artinti / Tolinžymėti",
+    "mouse_right": "Dešinysis pelės mygtukas",
+    "rotate": "Sukti žemėlapį",
+    "mouse_wheel": "Peledės ratukas",
+    "zoom": "Padidinti / Mažinti mastelį",
     "begin": "Pradėti turą",
     "continue": "Tęsti turą"
   },
   "chat": {
-    "elevation": "Aukštis",
+    "elevation": "Aukštis virš jūros lygio",
     "your_question": "Jūsų klausimas",
-    "what_next": "Ką norėtumėte padaryti dabar?",
-    "ask_maya": "Užduokite Maijai klausimą apie šią vietą...",
-    "continue": "Pereiti prie kitoje vietovėje"
+    "what_next": "Ką norėtumėte padaryti toliau?",
+    "ask_maya": "Užduoti Maijai klausimą apie šią vietą...",
+    "continue": "Pereiti į kitą vietą"
   },
   "modes": {
-    "free": "Aš pasivaikščioju",
-    "guided": "Gidas lydimas"
+    "free": "Pasivaikščiojimas",
+    "guided": "Gidų turas"
   },
   "navigation": {
-    "tours": "Turai",
+    "tours": "Turos",
     "close": "Uždaryti",
-    "locations": "Vietovės"
+    "locations": "Vietos"
   },
   "progress": {
     "heading_for": "Kryptis",
-    "enjoy_the_view": "Mėgaukitės vaizdu, mes greitai priartėsime."
+    "enjoy_the_view": "Mėgaukitės vaizdu, netrukus atvyksime."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Nuo Lozanos į Valė regioną",
+      "subtitle": "Įženkite į Šveicarijos Alpes"
+    },
+    "valais": {
+      "title": "#2 Nuo Martini į Jungfrau kalną",
+      "subtitle": "Šveicarijos Alpėse širdyje"
+    },
+    "bern": {
+      "title": "#3 Nuo Jungfrau į Gotardo",
+      "subtitle": "Apsilankyti Šveicarijos centrinėje dalyje"
+    },
+    "ticino": {
+      "title": "#4 Aplink Ticino regioną",
+      "subtitle": "Šveicarijos viduržemio sritis"
+    },
+    "grischun": {
+      "title": "#5 Nuo Engadino į Ciurichą",
+      "subtitle": "Raskite Šveicarijos rytus"
+    },
+    "zurich": {
+      "title": "#6 Nuo Ciuricho į Chasselarą",
+      "subtitle": "Kelionė Šveicarijos lygumos regione"
+    },
+    "vully": {
+      "title": "#7 Nuot Chasseral į Ženevą",
+      "subtitle": "Baigkite savo kelionę Šveicarijos Romandijos regione"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lozanas",
+      "subtitle": "Olimpinis miestas"
+    },
+    "lavaux": {
+      "title": "Lavosas",
+      "subtitle": "Vynuogynai terasomis"
+    },
+    "chillon": {
+      "title": "Šilono pilis",
+      "subtitle": "Viduramžių pilis"
+    },
+    "midi": {
+      "title": "Midi dantys",
+      "subtitle": "Rono slėnio vartai"
+    },
+    "dixence": {
+      "title": "Grand Dixence užtvanka",
+      "subtitle": "Didžiausia pasaulio užtvanka"
+    },
+    "vignoble-valaisan": {
+      "title": "Valė regiono vynuogynai",
+      "subtitle": "Saulėti šlaitai"
+    },
+    "matterhorn": {
+      "title": "Materhornas",
+      "subtitle": "Alpėse simbolis"
+    },
+    "aletsch": {
+      "title": "Alečas",
+      "subtitle": "Didžiausias Alpėse ledkalnis"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Sniego karalienė"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "72 krioklių slėnis"
+    },
+    "interlaken": {
+      "title": "Interlakenas",
+      "subtitle": "Nuotykių sostinė"
+    },
+    "luzern": {
+      "title": "Liucernas",
+      "subtitle": "Tiltų miestas"
+    },
+    "grutli": {
+      "title": "Rütlis",
+      "subtitle": "Šveicarijos lopšys"
+    },
+    "gothard": {
+      "title": "Gotardas",
+      "subtitle": "Šveicarijos Alpėse požeminis stuburas"
+    },
+    "bellinzona": {
+      "title": "Belinczona",
+      "subtitle": "Tessino regiono sostinė"
+    },
+    "lugano": {
+      "title": "Luganas",
+      "subtitle": "Dolce vita miestas"
+    },
+    "ascona": {
+      "title": "Askona",
+      "subtitle": "Lago Magiore perlų"
+    },
+    "verzasca": {
+      "title": "Verzcasa",
+      "subtitle": "Mėlyna upė"
+    },
+    "bernardino": {
+      "title": "San Bernandinas",
+      "subtitle": "Aukštai alpinis perėjimas"
+    },
+    "engadin": {
+      "title": "Engadinas",
+      "subtitle": "Žiemos sporto slėnis"
+    },
+    "national-park": {
+      "title": "Šveicarijos nacionalinis parkas",
+      "subtitle": "Laukinė gamta"
+    },
+    "scuol": {
+      "title": "Skvolas",
+      "subtitle": "Gydančioji teritorija"
+    },
+    "davos": {
+      "title": "Davosas",
+      "subtitle": "Kongresų miestas"
+    },
+    "santis": {
+      "title": "Zantis",
+      "subtitle": "Panoraminis vaizdas"
+    },
+    "zurich": {
+      "title": "Ciurichas",
+      "subtitle": "Finansinis miestas"
+    },
+    "rheinfall": {
+      "title": "Reno krioklys",
+      "subtitle": "Reno krioklys"
+    },
+    "aarau": {
+      "title": "Arau",
+      "subtitle": "Barokinis miestas"
+    },
+    "ursanne": {
+      "title": "Sankt Urbanas",
+      "subtitle": "Viduramžių kaimas"
+    },
+    "chasseral": {
+      "title": "Chasselaras",
+      "subtitle": "Panoraminė vieta"
+    },
+    "vully": {
+      "title": "Vulisas",
+      "subtitle": "Dalykinis lakių ir kalnų regionas"
+    },
+    "joux": {
+      "title": "Ĵo ežeras",
+      "subtitle": "Laikrodžių regionas"
+    },
+    "cote": {
+      "title": "La Kote",
+      "subtitle": "Vaud vynuogynai"
+    },
+    "geneve": {
+      "title": "Ženeva",
+      "subtitle": "Tarptautinis miestas"
+    }
   }
 }

@@ -3,14 +3,14 @@
     "subtitle": "Webervaring",
     "title": "Zwitserland<br />Grote Tour",
     "welcome": "Welkom, ik ben Maya. Ik zal uw gids zijn om Zwitserland te ontdekken!",
-    "credits": "Een ervaring gemaakt bij <a href='https://antistatique.net' target='_blank'>Antistatique</a> door Yann en Pierre, over wie we praten in dit <a href='https://antistatique.net' target='_blank'>artikel</a>.",
-    "howto_title": "Hoe te navigeren op de kaart:",
+    "credits": "Een ervaring gemaakt bij <a href='https://antistatique.net' target='_blank'>Antistatique</a> door Yann en Pierre, waarover we praten in dit <a href='https://antistatique.net' target='_blank'>artikel</a>.",
+    "howto_title": "Hoe navigeer je op de kaart:",
     "mouse_left": "Linkermuisknop",
     "move": "Bewegen op de kaart",
     "mouse_right": "Rechtermuisknop",
     "rotate": "Kaart draaien",
-    "mouse_wheel": "Scrollwiel",
-    "zoom": "Inzoomen / Uitzoomen",
+    "mouse_wheel": "Muiswiel",
+    "zoom": "In- / uitzoomen",
     "begin": "Tour starten",
     "continue": "Tour voortzetten"
   },
@@ -18,8 +18,8 @@
     "elevation": "Hoogte",
     "your_question": "Uw vraag",
     "what_next": "Wat wilt u nu doen?",
-    "ask_maya": "Maya bevragen over deze locatie...",
-    "continue": "Ga naar de volgende locatie"
+    "ask_maya": "Maya ondervragen over deze plek...",
+    "continue": "Naar de volgende locatie gaan"
   },
   "modes": {
     "free": "Ik loop rond",
@@ -32,6 +32,170 @@
   },
   "progress": {
     "heading_for": "Richting",
-    "enjoy_the_view": "Geniet van het uitzicht, we zullen er snel zijn."
+    "enjoy_the_view": "Geniet van het uitzicht, we komen binnenkort aan."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Van Lausanne naar Wallis",
+      "subtitle": "Betreed de Zwitserse Alpen"
+    },
+    "valais": {
+      "title": "#2 Van Martigny naar de Jungfrau",
+      "subtitle": "In het hart van de Zwitserse Alpen"
+    },
+    "bern": {
+      "title": "#3 Van de Jungfrau naar de Gotthard",
+      "subtitle": "Het centrum van Zwitserland bezoeken"
+    },
+    "ticino": {
+      "title": "#4 Rondom Ticino",
+      "subtitle": "Het mediterrane Zwitserland"
+    },
+    "grischun": {
+      "title": "#5 Van de Engadin naar Zürich",
+      "subtitle": "Ontdek Oost-Zwitserland"
+    },
+    "zurich": {
+      "title": "#6 Van Zürich naar Chasseral",
+      "subtitle": "Reis over het Zwitserse plateau"
+    },
+    "vully": {
+      "title": "#7 Van Chasseral naar Genève",
+      "subtitle": "Eindig uw reis in Franstalig Zwitserland"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Olympische stad"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Terrasvormige wijngaarden"
+    },
+    "chillon": {
+      "title": "Kasteel van Chillon",
+      "subtitle": "Middeleeuws kasteel"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Toegangspoort tot het Rhônedal"
+    },
+    "dixence": {
+      "title": "Barrage de la Grande Dixence",
+      "subtitle": "Hoogste dam ter wereld"
+    },
+    "vignoble-valaisan": {
+      "title": "Walliser wijngaard",
+      "subtitle": "Zonnige hellingen"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Symbool van de Alpen"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Grootste gletsjer van de Alpen"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Sneeuwkoningin"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Vallei van 72 watervallen"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Avonturenhoofdstad"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "Stad van bruggen"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Wieg van Zwitserland"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Ondergrondse ruggengraat van de Zwitserse Alpen"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Ticino hoofdstad"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Stad van het zoete leven"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Parel aan het Lago Maggiore"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Turkooizen rivier"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Alpencol"
+    },
+    "engadin": {
+      "title": "Engadin",
+      "subtitle": "Winter(sport)vallei"
+    },
+    "national-park": {
+      "title": "Zwitsers Nationaal Park",
+      "subtitle": "Wildernis"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Thermaal dorp"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Congresstad"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Panoramisch uitzicht"
+    },
+    "zurich": {
+      "title": "Zürich",
+      "subtitle": "Financiële stad"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Rijnwatervallen"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Barokstad"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Middeleeuws dorp"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Uitzichtpunt"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Wijnjuweel tussen meren en heuvels"
+    },
+    "joux": {
+      "title": "Lac de Joux",
+      "subtitle": "Horlogegebied"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Vaudse wijngaarden"
+    },
+    "geneve": {
+      "title": "Genève",
+      "subtitle": "Internationale stad"
+    }
   }
 }

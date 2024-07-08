@@ -1,23 +1,23 @@
 {
   "intro": {
-    "subtitle": "Doświadczenie internetowe",
-    "title": "Szwajcaria<br />Wielka Trasa",
+    "subtitle": "Doświadczenie sieciowe",
+    "title": "Szwajcaria<br />Wielki Tour",
     "welcome": "Witaj, jestem Maya. Będę twoim przewodnikiem po odkrywaniu Szwajcarii!",
-    "credits": "Doświadczenie stworzone w <a href='https://antistatique.net' target='_blank'>Antistatique</a> przez Yanna i Pierre'a, o których piszemy w tym <a href='https://antistatique.net' target='_blank'>artykule</a>.",
+    "credits": "Doświadczenie zrealizowane w firmie <a href='https://antistatique.net' target='_blank'>Antistatique</a> przez Yanna i Pierre'a, o których piszemy w tym <a href='https://antistatique.net' target='_blank'>artykule</a>.",
     "howto_title": "Jak nawigować po mapie:",
     "mouse_left": "Lewy przycisk myszy",
-    "move": "Przesuń się po mapie",
+    "move": "Poruszaj się po mapie",
     "mouse_right": "Prawy przycisk myszy",
     "rotate": "Obróć mapę",
-    "mouse_wheel": "Kółko myszy",
+    "mouse_wheel": "Koło myszy",
     "zoom": "Powiększ / Pomniejsz",
-    "begin": "Rozpocznij trasę",
-    "continue": "Kontynuuj trasę"
+    "begin": "Rozpocznij wycieczkę",
+    "continue": "Kontynuuj wycieczkę"
   },
   "chat": {
     "elevation": "Wysokość",
     "your_question": "Twoje pytanie",
-    "what_next": "Co chcesz teraz zrobić?",
+    "what_next": "Co chciałbyś teraz zrobić?",
     "ask_maya": "Zadaj Mayi pytanie o to miejsce...",
     "continue": "Przejdź do następnego miejsca"
   },
@@ -26,12 +26,176 @@
     "guided": "Zwiedzanie z przewodnikiem"
   },
   "navigation": {
-    "tours": "Trasy",
+    "tours": "Wycieczki",
     "close": "Zamknij",
-    "locations": "Miejsca"
+    "locations": "Lokalizacje"
   },
   "progress": {
     "heading_for": "Kierunek",
-    "enjoy_the_view": "Ciesz się widokiem, niedługo dotrzemy."
+    "enjoy_the_view": "Ciesz się widokiem, niedługo będziemy na miejscu."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Z Lozanny do Valais",
+      "subtitle": "Wejście w szwajcarskie Alpy"
+    },
+    "valais": {
+      "title": "#2 Od Martigny do Jungfrau",
+      "subtitle": "W sercu szwajcarskich Alp"
+    },
+    "bern": {
+      "title": "#3 Od Jungfrau do Gottharda",
+      "subtitle": "Zwiedzanie centrum Szwajcarii"
+    },
+    "ticino": {
+      "title": "#4 Wokół Tessinu",
+      "subtitle": "Szwajcaria śródziemnomorska"
+    },
+    "grischun": {
+      "title": "#5 Z Engadyny do Zurychu",
+      "subtitle": "Odkrywanie wschodniej Szwajcarii"
+    },
+    "zurich": {
+      "title": "#6 Zurych do Chasseral",
+      "subtitle": "Podróż po szwajcarskim płaskowyżu"
+    },
+    "vully": {
+      "title": "#7 Od Chasseral do Genewy",
+      "subtitle": "Zakończ swoją podróż w Szwajcarii romandzkiej"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lozanna",
+      "subtitle": "Miasto olimpijskie"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Tarasowe winnice"
+    },
+    "chillon": {
+      "title": "Zamek Chillon",
+      "subtitle": "Średniowieczny zamek"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "Brama doliny Rodanu"
+    },
+    "dixence": {
+      "title": "Tama Grande Dixence",
+      "subtitle": "Najwyższa tama na świecie"
+    },
+    "vignoble-valaisan": {
+      "title": "Winnica Valaisan",
+      "subtitle": "Słoneczne zbocza"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Symbol Alp"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Największy lodowiec w Alpach"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Królowa śniegów"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Dolina 72 wodospadów"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Stolica przygód"
+    },
+    "luzern": {
+      "title": "Lucerna",
+      "subtitle": "Miasto mostów"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Żłóbek Szwajcarii"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Podziemna kręgosłup Alp Szwajcarskich"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Stolica kantonu Ticino"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Miasto dolce vita"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Perła Lago Maggiore"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Turkusowa rzeka"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Przełęcz alpejska"
+    },
+    "engadin": {
+      "title": "Engadyna",
+      "subtitle": "Dolina sportów zimowych"
+    },
+    "national-park": {
+      "title": "Szwajcarski Park Narodowy",
+      "subtitle": "Dzika przyroda"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Miasto termalne"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Miasto kongresowe"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Panoramiczny widok"
+    },
+    "zurich": {
+      "title": "Zurych",
+      "subtitle": "Miasto finansowe"
+    },
+    "rheinfall": {
+      "title": "Wodospad Rheinfall",
+      "subtitle": "Wodospady Renu"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Miasto barokowe"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Średniowieczna wioska"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Punkt widokowy"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Klejnot wina między jeziorami a wzgórzami"
+    },
+    "joux": {
+      "title": "Jezioro Joux",
+      "subtitle": "Region zegarmistrzowski"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Winnice w Vaud"
+    },
+    "geneve": {
+      "title": "Genewa",
+      "subtitle": "Miasto międzynarodowe"
+    }
   }
 }

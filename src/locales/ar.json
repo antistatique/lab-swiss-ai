@@ -1,24 +1,24 @@
 {
   "intro": {
-    "subtitle": "تجربة الويب",
+    "subtitle": "تجربة على الويب",
     "title": "جولة سويسرا<br />الكبرى",
-    "welcome": "مرحبًا، أنا مايا. سأكون مرشدك لاكتشاف سويسرا!",
-    "credits": "تم إنشاء هذه التجربة في <a href='https://antistatique.net' target='_blank'>Antistatique</a> بواسطة يان وبيير، اللذان نتحدث عنهما في هذا <a href='https://antistatique.net' target='_blank'>المقال</a>.",
+    "welcome": "مرحبًا ، أنا مايا. سأكون مرشدك لاكتشاف سويسرا!",
+    "credits": "تجربة قام بها <a href='https://antistatique.net' target='_blank'>Antistatique</a> بواسطة يان وبيير ، اللذان نتحدث عنهما في هذا <a href='https://antistatique.net' target='_blank'>المقال</a>.",
     "howto_title": "كيفية التنقل على الخريطة:",
-    "mouse_left": "النقر بالزر الأيسر",
-    "move": "التنقل على الخريطة",
-    "mouse_right": "النقر بالزر الأيمن",
+    "mouse_left": "انقر بالزر الأيسر",
+    "move": "تحرك على الخريطة",
+    "mouse_right": "انقر بالزر الأيمن",
     "rotate": "تدوير الخريطة",
     "mouse_wheel": "عجلة الماوس",
-    "zoom": "تكبير / تصغير",
+    "zoom": "التكبير / التصغير",
     "begin": "بدء الجولة",
     "continue": "متابعة الجولة"
   },
   "chat": {
     "elevation": "الارتفاع",
     "your_question": "سؤالك",
-    "what_next": "ماذا تريد أن تفعل الآن؟",
-    "ask_maya": "استفسار مايا حول هذا المكان...",
+    "what_next": "ما تريد القيام به الآن؟",
+    "ask_maya": "استفسر من مايا حول هذا المكان...",
     "continue": "الانتقال إلى المكان التالي"
   },
   "modes": {
@@ -26,12 +26,176 @@
     "guided": "جولة موجهة"
   },
   "navigation": {
-    "tours": "جولات",
+    "tours": "الجولات",
     "close": "إغلاق",
     "locations": "الأماكن"
   },
   "progress": {
-    "heading_for": "الاتجاه نحو",
+    "heading_for": "اتجاه",
     "enjoy_the_view": "استمتع بالمنظر، سنصل قريبًا."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 من لوزان إلى فاليه",
+      "subtitle": "الدخول إلى جبال الألب السويسرية"
+    },
+    "valais": {
+      "title": "#2 من مارتينيه إلى يونغفراو",
+      "subtitle": "في قلب جبال الألب السويسرية"
+    },
+    "bern": {
+      "title": "#3 من يونغفراو إلى جوتهارد",
+      "subtitle": "زيارة وسط سويسرا"
+    },
+    "ticino": {
+      "title": "#4 حول تيسينو",
+      "subtitle": "سويسرا البحرية الأبيض المتوسط"
+    },
+    "grischun": {
+      "title": "#5 من إنجادين إلى زيورخ",
+      "subtitle": "اكتشاف سويسرا الشرقية"
+    },
+    "zurich": {
+      "title": "#6 من زيوريخ إلى شاسيرال",
+      "subtitle": "رحلة على هضبة سويسرا"
+    },
+    "vully": {
+      "title": "#7 من شاسيرال إلى جنيف",
+      "subtitle": "انهي رحلتك في سويسرا الرومانسية"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "لوزان",
+      "subtitle": "مدينة أولمبية"
+    },
+    "lavaux": {
+      "title": "لافو",
+      "subtitle": "كروم على شكل تراس"
+    },
+    "chillon": {
+      "title": "شاتو دو شيلون",
+      "subtitle": "قلعة في العصور الوسطى"
+    },
+    "midi": {
+      "title": "دين دو ميدي",
+      "subtitle": "بوابة وادي الرون"
+    },
+    "dixence": {
+      "title": "سد دي ديكسانس",
+      "subtitle": "أعلى سد في العالم"
+    },
+    "vignoble-valaisan": {
+      "title": "كرم فاليه",
+      "subtitle": "تلال مشمسة"
+    },
+    "matterhorn": {
+      "title": "ماترهورن",
+      "subtitle": "رمز الألب"
+    },
+    "aletsch": {
+      "title": "آليش",
+      "subtitle": "أكبر جليد في جبال الألب"
+    },
+    "jungfrau": {
+      "title": "يونغفراو",
+      "subtitle": "ملكة الثلج"
+    },
+    "lauterbrunnen": {
+      "title": "لاوتربرونن",
+      "subtitle": "وادي الشلالات ال٧٢"
+    },
+    "interlaken": {
+      "title": "إنترلاكن",
+      "subtitle": "عاصمة المغامرة"
+    },
+    "luzern": {
+      "title": "لوتسيرن",
+      "subtitle": "مدينة الجسور"
+    },
+    "grutli": {
+      "title": "روتلي",
+      "subtitle": "مهد سويسرا"
+    },
+    "gothard": {
+      "title": "غوتهارد",
+      "subtitle": "العمود الفقري السري لجبال الألب السويسرية"
+    },
+    "bellinzona": {
+      "title": "بيلنزونا",
+      "subtitle": "عاصمة تيسينو"
+    },
+    "lugano": {
+      "title": "لوغانو",
+      "subtitle": "مدينة دولتشي فيتا"
+    },
+    "ascona": {
+      "title": "آسكونا",
+      "subtitle": "لؤلؤة بحيرة ماجيور"
+    },
+    "verzasca": {
+      "title": "فيرزاسكا",
+      "subtitle": "نهر تورقواز"
+    },
+    "bernardino": {
+      "title": "سان برناردينو",
+      "subtitle": "تعديل جبلي"
+    },
+    "engadin": {
+      "title": "إنجادين",
+      "subtitle": "وادي الرياضات الشتوية"
+    },
+    "national-park": {
+      "title": "المتنزه الوطني السويسري",
+      "subtitle": "طبيعة برية"
+    },
+    "scuol": {
+      "title": "شكول",
+      "subtitle": "قرية شبه ساخنة"
+    },
+    "davos": {
+      "title": "دافوس",
+      "subtitle": "مدينة المؤتمرات"
+    },
+    "santis": {
+      "title": "سانتيس",
+      "subtitle": "منظر بانورامي"
+    },
+    "zurich": {
+      "title": "زيوريخ",
+      "subtitle": "مدينة مالية"
+    },
+    "rheinfall": {
+      "title": "شلال راين",
+      "subtitle": "شلالات الراين"
+    },
+    "aarau": {
+      "title": "آراو",
+      "subtitle": "مدينة باروكية"
+    },
+    "ursanne": {
+      "title": "سانت أورسان",
+      "subtitle": "قرية في العصور الوسطى"
+    },
+    "chasseral": {
+      "title": "شاسيرال",
+      "subtitle": "نقطة رؤية"
+    },
+    "vully": {
+      "title": "فولي",
+      "subtitle": "جوهرة العنب بين البحيرات والتلال"
+    },
+    "joux": {
+      "title": "بحيرة جو",
+      "subtitle": "منطقة ساعات اليد"
+    },
+    "cote": {
+      "title": "لا كوت",
+      "subtitle": "كروم فود"
+    },
+    "geneve": {
+      "title": "جنيف",
+      "subtitle": "مدينة دولية"
+    }
   }
 }

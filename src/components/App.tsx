@@ -52,6 +52,9 @@ const App = () => {
 
       setLocation({
         name: route ? t(`routes.${route.properties.slug}.title`) : '',
+        original: route
+          ? t(`routes.${route.properties.slug}.title`, { lng: 'fr' })
+          : '',
         coordinates: {
           lng: 6.5,
           lat: 46.5,
@@ -111,7 +114,7 @@ const App = () => {
 
   useEffect(() => {
     if (isNotNil(location)) {
-      setQuery(location.name);
+      setQuery(location.original);
     }
   }, [location]);
 
@@ -165,7 +168,7 @@ const App = () => {
       <AnimatePresence>
         {isNotNil(location) && !playing && (
           <Chat
-            location={location.name}
+            location={location}
             elevation={location.elevation}
             coordinates={location.coordinates}
             onContinue={guided ? handleNextRoute : undefined}

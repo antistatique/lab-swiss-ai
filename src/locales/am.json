@@ -1,37 +1,201 @@
 {
   "intro": {
-    "subtitle": "የውድ ድር",
-    "title": "ስዊስ<br />እንስታቱር",
-    "welcome": "እንኳን በደህና መጣህ፡ ተስፋችሁን ስነደብ፡ የሜይሃ ነኝ።",
-    "credits": "የደጋሚ ተረጋግጬ በ <a href='https://antistatique.net' target='_blank'>አንሲታቲክ</a> በዚህ ሸልዩነት ሊስት ባለ፡ በያን እና ጊሬ ባሉት መጀመሪያዎች፡ ይሔን ጽሑፍ መሰረቶች <a href='https://antistatique.net' target='_blank'>ይበለጥ</a>።",
-    "howto_title": "በአደራሳ እናውቃለᴇ፦",
-    "mouse_left": "ቀለም ማራኪ",
-    "move": "ምንጭዝ ለማለፍ አድርግ",
-    "mouse_right": "ቀለም ትክክለኛ",
-    "rotate": "ካወክ ከሳጥን",
-    "mouse_wheel": "ዋጋ ኳስ",
-    "zoom": "ዛም ፈፅዝ / ጐን",
-    "begin": "ስለዚህ እሳት",
-    "continue": "እስኪጠፋ"
+    "subtitle": "ድምፅ ዕለት",
+    "title": "ስዊስ<br />ግራንድ ለስነሷ",
+    "welcome": "እንኳን ደህና መጣህ። የምዕራፍ ቡሌ እናቅርብልሻለሁ።",
+    "credits": "የሚሰሩበት ድምር <a href='https://antistatique.net' target='_blank'>Antistatique</a> እባኮት Yann እና Pierre የትናንት ደ በሊነግን ለማነፃፅ ይደረግ <a href='https://antistatique.net' target='_blank'>ለልጅ</a> ለመምረፍ ይሰጡ።",
+    "howto_title": "ከተሰብስከላት ለገለባችው:",
+    "mouse_left": "እናውቃለው በአንድ ጊዜ",
+    "move": "በመጠን ላይ ሂድ",
+    "mouse_right": "እናጠቃለው በአንድ ጊዜ",
+    "rotate": "ከላይ ይታከሳል",
+    "mouse_wheel": "በጣለበት ገበታ",
+    "zoom": "ጨረስ / አብጠም",
+    "begin": "ስለነበር ሂድ",
+    "continue": "መጓዝ፣ እናለን እርስዎና"
   },
   "chat": {
-    "elevation": "ማህንድ፡",
-    "your_question": "ገና ምን እንደሆነች",
-    "what_next": "በምን አስቧኝ?",
-    "ask_maya": "ፈቃድ ይጠየቃል መያዣን...",
-    "continue": "ቀጣይ ወደ ቀጣይ ቦታ"
+    "elevation": "የአልቃም እንቅስቃሴ",
+    "your_question": "ገለጻለው ጥያቄ",
+    "what_next": "ብቻ ማንኛውም እይታ ምን ማን እየታየክ ያስችሉ?",
+    "ask_maya": "ማያያንን የሚጠይቁ ለጠንካራይ...",
+    "continue": "ከታች ወደ መጠን ቀጥሎናል"
   },
   "modes": {
-    "free": "የእንስተዋል",
-    "guided": "የመላእክት ጉልቻ"
+    "free": "ልማት እንስም",
+    "guided": "መልሰም"
   },
   "navigation": {
-    "tours": "ለመላእክታት",
+    "tours": "ሱር",
     "close": "ዝጋ",
-    "locations": "አቅራቢዎች"
+    "locations": "አቅራቢቶች"
   },
   "progress": {
-    "heading_for": "ካልሰጠኝ",
-    "enjoy_the_view": "መዝለህ፡ የጥበብ ሰራዊት መቆሚያዎች አለዎት።"
+    "heading_for": "እንቅስቃሴ",
+    "enjoy_the_view": "ወይሌ እንዴት ይከማቻል፣ በእርሱ ሊተመራበር እጅጉን እሰጥ እንጂ።"
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 ከሉስና ወደ ቫሌይሽ",
+      "subtitle": "የሱዝ አልፈላዊ"
+    },
+    "valais": {
+      "title": "#2 ከማርቲኚ ወደ የጆንግፍራኡ",
+      "subtitle": "የሱዝ አልፈላዊ ከምሥራቁ ታሪኑ ወደ"
+    },
+    "bern": {
+      "title": "#3 ከሆዹራ ወደ ግትርውርድ",
+      "subtitle": "ሚስቶክምሪቱ ከወᴸአቀክ ወደ ኑኢርድ የሚመስለው"
+    },
+    "ticino": {
+      "title": "#4 በጤሲኖን የቡዙሂንወሪ አንደምና",
+      "subtitle": "ሚስቶክዓናዊ ሱዝ"
+    },
+    "grischun": {
+      "title": "#5 ከኢንጋዲሔክ ወደ ዝራውርጊስ",
+      "subtitle": "ትምባለሪከሬ ሱዝ"
+    },
+    "zurich": {
+      "title": "#6 ከዙሪክ ወደ ጺስራል",
+      "subtitle": "ሚስቶክምሪቱ በሞቱረ ሱዝ"
+    },
+    "vully": {
+      "title": "#7 ከጺስራል ወደ ጌኔቫ",
+      "subtitle": "ወደጊ አኃድ ቡሌ ድጓ ፕሕጨለጇሦ ።"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "ሉስና",
+      "subtitle": "ኦሎሚፒቆፕ፣"
+    },
+    "lavaux": {
+      "title": "ላቫኡ",
+      "subtitle": "ቀኑን በማተሪ ቡሌውራን ወቁድቃሪ።"
+    },
+    "chillon": {
+      "title": "ቻትኦን ከፋቱ",
+      "subtitle": "ቼቦፊ ላንክ፣"
+    },
+    "midi": {
+      "title": "ድንጽ ዱ ሚዲ",
+      "subtitle": "ሲሚሄከፊል ድንጽላ።"
+    },
+    "dixence": {
+      "title": "ባራገ ድልቅ ቤሩው",
+      "subtitle": "አንድ ቤሩግ የዋንኛ ነገር ውሀ።"
+    },
+    "vignoble-valaisan": {
+      "title": "ቪጊኖቤ ቬላይሳን",
+      "subtitle": "ቀጣና ከመኃል የጆኖዊም።"
+    },
+    "matterhorn": {
+      "title": "መቴርሆርን",
+      "subtitle": "ስሚቦል ደ አልፈል።"
+    },
+    "aletsch": {
+      "title": "አልቺ",
+      "subtitle": "አንጋዚች የብልዕዚኽ።"
+    },
+    "jungfrau": {
+      "title": "ጉንግፍሩ",
+      "subtitle": "ሥር ደ ነፋግ።"
+    },
+    "lauterbrunnen": {
+      "title": "ልጩጨይንን",
+      "subtitle": "ቫለይፒላር 72 ከፐስካ።"
+    },
+    "interlaken": {
+      "title": "ኢንታርላከን",
+      "subtitle": "ቻፐቴሉ ደ አቬኩቨር።"
+    },
+    "luzern": {
+      "title": "ሉዘረን",
+      "subtitle": "ላባህቋ፣ ዋልድ።"
+    },
+    "grutli": {
+      "title": "ሩትሌፍል",
+      "subtitle": "ቤርጊዌው፣ ዜጏል።"
+    },
+    "gothard": {
+      "title": "ጐትሃርድ",
+      "subtitle": "ጎልንቤ ቨርቴትእር፣ እፒ።"
+    },
+    "bellinzona": {
+      "title": "ቤሊንዞና",
+      "subtitle": "ቁ፥ፕላ ቴሲኖያን።"
+    },
+    "lugano": {
+      "title": "ሉጋኑ",
+      "subtitle": "ኪፊል፣ ቪታ።"
+    },
+    "ascona": {
+      "title": "አስኮና",
+      "subtitle": "የላጎ መግለዪ መዝገበ ፊጏሳን�፻�፤"
+    },
+    "verzasca": {
+      "title": "ቬርዛትኳ",
+      "subtitle": "ሬቮ ቱረኪስ�፻�፤"
+    },
+    "bernardino": {
+      "title": "ሳን ቤርንሲ",
+      "subtitle": "ቺል አልፍከ።"
+    },
+    "engadin": {
+      "title": "ኤንጋድህን",
+      "subtitle": "ቫሌ የብሕርኦሳ።"
+    },
+    "national-park": {
+      "title": "ፓርክ ነምላል ሱግእስ",
+      "subtitle": "ናተሩ ሳውኪ፤"
+    },
+    "scuol": {
+      "title": "ሱኦል",
+      "subtitle": "ቩመላ ሚነአ�፻�፤"
+    },
+    "davos": {
+      "title": "ዳቮስ",
+      "subtitle": "የገለድች፤"
+    },
+    "santis": {
+      "title": "ሳኤን፽",
+      "subtitle": "የዲኡልያን ድን ፈን ሚነ.�፤"
+    },
+    "zurich": {
+      "title": "ዙሪከ�፻�",
+      "subtitle": "ሚስ፦ሬ፤"
+    },
+    "rheinfall": {
+      "title": "ሬኃንፈ�፫�",
+      "subtitle": "ቾ� ም.ፅከከ፻�፤"
+    },
+    "aarau": {
+      "title": "አራኡ",
+      "subtitle": "ቪለ ባርኮ፤"
+    },
+    "ursanne": {
+      "title": "ስእንቱሟ፻�",
+      "subtitle": "ቪ� ምድይ�፤"
+    },
+    "chasseral": {
+      "title": "ቻሰራል",
+      "subtitle": "እየምከራ�፤"
+    },
+    "vully": {
+      "title": "ክእሎ�",
+      "subtitle": "ጀፕ ቫቒጎለ �፤"
+    },
+    "joux": {
+      "title": "ላች ደ ጒኡ�",
+      "subtitle": "ረጕለክ �፫�፤"
+    },
+    "cote": {
+      "title": "ላ ኮ�",
+      "subtitle": "ቪንጊቦል�፣"
+    },
+    "geneve": {
+      "title": "ጐነቬ�",
+      "subtitle": "ሚንቬሊ �ንሬ�፤"
+    }
   }
 }

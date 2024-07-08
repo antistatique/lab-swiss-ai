@@ -2,13 +2,13 @@
   "intro": {
     "subtitle": "Experiencia web",
     "title": "Suiza<br />Gran Tour",
-    "welcome": "¡Bienvenido, soy Maya. ¡Seré tu guía para descubrir Suiza!",
+    "welcome": "Bienvenido, soy Maya. ¡Seré tu guía para descubrir Suiza!",
     "credits": "Una experiencia realizada en <a href='https://antistatique.net' target='_blank'>Antistatique</a> por Yann y Pierre, de quienes hablamos en este <a href='https://antistatique.net' target='_blank'>artículo</a>.",
-    "howto_title": "Cómo navegar en el mapa :",
+    "howto_title": "Cómo navegar en el mapa:",
     "mouse_left": "Clic izquierdo",
-    "move": "Moverse por el mapa",
+    "move": "Moverse en el mapa",
     "mouse_right": "Clic derecho",
-    "rotate": "Rotar el mapa",
+    "rotate": "Girar el mapa",
     "mouse_wheel": "Rueda",
     "zoom": "Acercar / Alejar",
     "begin": "Comenzar el tour",
@@ -17,7 +17,7 @@
   "chat": {
     "elevation": "Altitud",
     "your_question": "Tu pregunta",
-    "what_next": "¿Qué deseas hacer ahora?",
+    "what_next": "¿Qué te gustaría hacer ahora?",
     "ask_maya": "Preguntar a Maya sobre este lugar...",
     "continue": "Ir al siguiente lugar"
   },
@@ -32,6 +32,170 @@
   },
   "progress": {
     "heading_for": "Dirección",
-    "enjoy_the_view": "Disfruta de la vista, ¡llegaremos pronto!"
+    "enjoy_the_view": "Disfruta la vista, pronto llegaremos."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 De Lausana al Valais",
+      "subtitle": "Entrando en los Alpes suizos"
+    },
+    "valais": {
+      "title": "#2 De Martigny a la Jungfrau",
+      "subtitle": "En el corazón de los Alpes suizos"
+    },
+    "bern": {
+      "title": "#3 De la Jungfrau al Gotthard",
+      "subtitle": "Visitando el centro de Suiza"
+    },
+    "ticino": {
+      "title": "#4 Alrededor de Tesino",
+      "subtitle": "Suiza mediterránea"
+    },
+    "grischun": {
+      "title": "#5 De Engadina a Zurich",
+      "subtitle": "Descubriendo el este de Suiza"
+    },
+    "zurich": {
+      "title": "#6 De Zurich al Chasseral",
+      "subtitle": "Viaje por la meseta suiza"
+    },
+    "vully": {
+      "title": "#7 Del Chasseral a Ginebra",
+      "subtitle": "Termina tu viaje en Suiza romanda"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausana",
+      "subtitle": "Ciudad olímpica"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Viñedos en terrazas"
+    },
+    "chillon": {
+      "title": "Castillo de Chillon",
+      "subtitle": "Castillo medieval"
+    },
+    "midi": {
+      "title": "Dientes del Mediodía",
+      "subtitle": "Puerta del valle del Ródano"
+    },
+    "dixence": {
+      "title": "Presade de la Grande Dixence",
+      "subtitle": "La presa más alta del mundo"
+    },
+    "vignoble-valaisan": {
+      "title": "Viñedo del Valais",
+      "subtitle": "Laderas soleadas"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Símbolo de los Alpes"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "El glaciar más grande de los Alpes"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "Reina de las nieves"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Valle de las 72 cascadas"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Capital de la aventura"
+    },
+    "luzern": {
+      "title": "Lucerna",
+      "subtitle": "Ciudad de los puentes"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Cuna de Suiza"
+    },
+    "gothard": {
+      "title": "Gotthardo",
+      "subtitle": "Columna vertebral subterránea de los Alpes suizos"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Capital ticinense"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "Ciudad de la dolce vita"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "Perla del Lago Mayor"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Río turquesa"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Paso alpino"
+    },
+    "engadin": {
+      "title": "Engadina",
+      "subtitle": "Valle de los deportes de invierno"
+    },
+    "national-park": {
+      "title": "Parque nacional suizo",
+      "subtitle": "Naturaleza salvaje"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Pueblo termal"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Ciudad congresal"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Vista panorámica"
+    },
+    "zurich": {
+      "title": "Zurich",
+      "subtitle": "Ciudad financiera"
+    },
+    "rheinfall": {
+      "title": "Cataratas del Rin",
+      "subtitle": "Chutes du Rhin"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Ciudad barroca"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Pueblo medieval"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Mirador"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Joya vitícola entre lagos y colinas"
+    },
+    "joux": {
+      "title": "Lago de Joux",
+      "subtitle": "Región relojera"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Viñedos vaudois"
+    },
+    "geneve": {
+      "title": "Ginebra",
+      "subtitle": "Ciudad internacional"
+    }
   }
 }

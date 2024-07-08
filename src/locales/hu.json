@@ -1,37 +1,201 @@
 {
   "intro": {
     "subtitle": "Webes élmény",
-    "title": "Svájc<br />Nagy Körút",
-    "welcome": "Isten hozott, Maya vagyok. Én leszek a csoportvezetőd Svájc felfedezésében!",
-    "credits": "Az élményt a <a href='https://antistatique.net' target='_blank'>Antistatique</a> készítette Yann és Pierre közreműködésével, akikről beszélünk ebben a <a href='https://antistatique.net' target='_blank'>cikkben</a>.",
-    "howto_title": "Hogyan navigálhat a térképen:",
-    "mouse_left": "Bal egér gomb",
-    "move": "Térképen való mozgás",
-    "mouse_right": "Jobb egér gomb",
+    "title": "Svájc<br />Nagykörút",
+    "welcome": "Köszöntöm, Maya vagyok. Én leszek a vezetője Svájc felfedezésének!",
+    "credits": "Egy élmény az <a href='https://antistatique.net' target='_blank'>Antistatique</a> cégnél készült Yann és Pierre által, akikről ebben a <a href='https://antistatique.net' target='_blank'>cikkben</a> beszélünk.",
+    "howto_title": "Hogyan navigálj a térképen:",
+    "mouse_left": "Bal egérgomb",
+    "move": "Térkép mozgatása",
+    "mouse_right": "Jobb egérgomb",
     "rotate": "Térkép forgatása",
     "mouse_wheel": "Görgő",
     "zoom": "Nagyítás / Kicsinyítés",
     "begin": "Túra indítása",
-    "continue": "Túra folytatása"
+    "continue": "Tovább a következő helyre"
   },
   "chat": {
     "elevation": "Magasság",
-    "your_question": "A kérdésed",
+    "your_question": "A te kérdésed",
     "what_next": "Mit szeretnél most csinálni?",
     "ask_maya": "Maya megkérdezése erről a helyről...",
     "continue": "Tovább a következő helyre"
   },
   "modes": {
-    "free": "Szabadon sétálok",
+    "free": "Szabad sétálás",
     "guided": "Vezetett túra"
   },
   "navigation": {
     "tours": "Túrák",
     "close": "Bezárás",
-    "locations": "Helyszínek"
+    "locations": "Helyek"
   },
   "progress": {
-    "heading_for": "Irány",
+    "heading_for": "Irány a",
     "enjoy_the_view": "Élvezd a kilátást, hamarosan odaérünk."
+  },
+  "tours": {
+    "lausanne": {
+      "title": "#1 Lausanne-tól a Valais-ig",
+      "subtitle": "Belépés a svájci Alpokba"
+    },
+    "valais": {
+      "title": "#2 Martigny-től a Jungfrau-ig",
+      "subtitle": "A svájci Alpok szívében"
+    },
+    "bern": {
+      "title": "#3 A Jungfrau-tól a Gotthard-ig",
+      "subtitle": "Látogatás Svájc központjában"
+    },
+    "ticino": {
+      "title": "#4 Tessin körül",
+      "subtitle": "A mediterrán Svájc"
+    },
+    "grischun": {
+      "title": "#5 Engadin-tól Zürichig",
+      "subtitle": "Fedezd fel a svájci keletet"
+    },
+    "zurich": {
+      "title": "#6 Zürich-től a Chasseral-ig",
+      "subtitle": "Utazás a svájci fennsíkon"
+    },
+    "vully": {
+      "title": "#7 A Chasseral-tól Genf-ig",
+      "subtitle": "Fejezd be utazásodat a francia-svájci régióban"
+    }
+  },
+  "routes": {
+    "lausanne": {
+      "title": "Lausanne",
+      "subtitle": "Olimpiai város"
+    },
+    "lavaux": {
+      "title": "Lavaux",
+      "subtitle": "Teraszos szőlők"
+    },
+    "chillon": {
+      "title": "Chillon kastély",
+      "subtitle": "Középkori vár"
+    },
+    "midi": {
+      "title": "Dents du Midi",
+      "subtitle": "A Rhône-völgy kapuja"
+    },
+    "dixence": {
+      "title": "Grande Dixence gát",
+      "subtitle": "A világ legmagasabb gátja"
+    },
+    "vignoble-valaisan": {
+      "title": "Valais szőlőbirtok",
+      "subtitle": "Napos domboldalak"
+    },
+    "matterhorn": {
+      "title": "Matterhorn",
+      "subtitle": "Az Alpok szimbóluma"
+    },
+    "aletsch": {
+      "title": "Aletsch",
+      "subtitle": "Az Alpok legnagyobb gleccsere"
+    },
+    "jungfrau": {
+      "title": "Jungfrau",
+      "subtitle": "A hókirálynő"
+    },
+    "lauterbrunnen": {
+      "title": "Lauterbrunnen",
+      "subtitle": "Az 72 vízesés völgye"
+    },
+    "interlaken": {
+      "title": "Interlaken",
+      "subtitle": "Az kalandok fővárosa"
+    },
+    "luzern": {
+      "title": "Luzern",
+      "subtitle": "A hidak városa"
+    },
+    "grutli": {
+      "title": "Rütli",
+      "subtitle": "Svájc bölcsője"
+    },
+    "gothard": {
+      "title": "Gotthard",
+      "subtitle": "Az Alpok titkos gerince"
+    },
+    "bellinzona": {
+      "title": "Bellinzona",
+      "subtitle": "Tessin fővárosa"
+    },
+    "lugano": {
+      "title": "Lugano",
+      "subtitle": "A dolce vita városa"
+    },
+    "ascona": {
+      "title": "Ascona",
+      "subtitle": "A Lago Maggiore gyöngyszeme"
+    },
+    "verzasca": {
+      "title": "Verzasca",
+      "subtitle": "Türkiz folyó"
+    },
+    "bernardino": {
+      "title": "San Bernardino",
+      "subtitle": "Alpesi hágó"
+    },
+    "engadin": {
+      "title": "Engadin",
+      "subtitle": "Téli sportok völgye"
+    },
+    "national-park": {
+      "title": "Svájci Nemzeti Park",
+      "subtitle": "Vadon természet"
+    },
+    "scuol": {
+      "title": "Scuol",
+      "subtitle": "Termál falu"
+    },
+    "davos": {
+      "title": "Davos",
+      "subtitle": "Kongresszusi város"
+    },
+    "santis": {
+      "title": "Säntis",
+      "subtitle": "Panorámás kilátás"
+    },
+    "zurich": {
+      "title": "Zürich",
+      "subtitle": "Pénzügyi város"
+    },
+    "rheinfall": {
+      "title": "Rheinfall",
+      "subtitle": "Rajna vízesései"
+    },
+    "aarau": {
+      "title": "Aarau",
+      "subtitle": "Barokk város"
+    },
+    "ursanne": {
+      "title": "Saint-Ursanne",
+      "subtitle": "Középkori falu"
+    },
+    "chasseral": {
+      "title": "Chasseral",
+      "subtitle": "Kilátópont"
+    },
+    "vully": {
+      "title": "Vully",
+      "subtitle": "Szügyök gyöngyszeme tavak és dombok között"
+    },
+    "joux": {
+      "title": "Joux-tó",
+      "subtitle": "Ó-művészeti régió"
+    },
+    "cote": {
+      "title": "La Côte",
+      "subtitle": "Vaud szőlőskertek"
+    },
+    "geneve": {
+      "title": "Genf",
+      "subtitle": "Nemzetközi város"
+    }
   }
 }
