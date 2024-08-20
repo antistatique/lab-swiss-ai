@@ -74,17 +74,24 @@ const GetStarted = ({ onStart, started }: Props): JSX.Element => {
           </div>
           <Divider />
           <div className="p-4 shadow bg-stone-100">
-            <select
-              className="w-full mb-3 bg-stone-100"
-              defaultValue={i18n.language}
-              onChange={({ target }) => i18next.changeLanguage(target.value)}
-            >
-              {Object.keys(languages).map(key => (
-                <option key={`lang-${key}`} value={key}>
-                  {languages[key as keyof typeof languages]}
-                </option>
-              ))}
-            </select>
+            <div className="relative">
+              <img
+                src="/vectors/language-icon.svg"
+                alt="language icon"
+                className="absolute w-5 top-2.5 left-2"
+              />
+              <select
+                className="w-full pl-10 mb-3 bg-stone-100"
+                defaultValue={i18n.language}
+                onChange={({ target }) => i18next.changeLanguage(target.value)}
+              >
+                {Object.keys(languages).map(key => (
+                  <option key={`lang-${key}`} value={key}>
+                    {languages[key as keyof typeof languages]}
+                  </option>
+                ))}
+              </select>
+            </div>
             <Button onClick={onStart}>
               {started ? t('intro.continue') : t('intro.begin')}
             </Button>

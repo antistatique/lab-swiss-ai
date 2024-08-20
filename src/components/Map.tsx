@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import MapGl, { Layer, MapRef, Source } from 'react-map-gl';
+import { Instrument_Sans } from 'next/font/google';
 import { isNotNil } from 'ramda';
 
 import { Location } from '@/types/Location';
@@ -8,6 +9,12 @@ import around from '@/utils/around';
 import playAnimations from '@/utils/mb/play-animations';
 
 import 'mapbox-gl/dist/mapbox-gl.css';
+
+const instrumentSans = Instrument_Sans({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-instrument-sans',
+});
 
 type Props = {
   route?: RouteFeature;
@@ -139,7 +146,7 @@ const Map = ({
         [5.272288963213526, 45.38694371415983],
         [11.40758367952867, 48.228588627435585],
       ]}
-      localFontFamily="Space Grotesk"
+      localFontFamily={instrumentSans.style.fontFamily}
       onLoad={onMapLoad}
       onClick={handleClick}
       onMouseMove={onMouseMove}

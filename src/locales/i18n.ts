@@ -63,8 +63,8 @@ import zh from './zh.json';
 
 i18next.use(initReactI18next).init(
   {
-    lng: 'fr',
-    fallbackLng: 'fr',
+    lng: 'en',
+    fallbackLng: 'en',
     returnEmptyString: false,
     debug: false,
     interpolation: {
