@@ -169,6 +169,7 @@ const App = () => {
         {isNotNil(location) && !playing && (
           <Chat
             location={location}
+            clearLocation={() => setLocation(null)}
             elevation={location.elevation}
             coordinates={location.coordinates}
             onContinue={guided ? handleNextRoute : undefined}

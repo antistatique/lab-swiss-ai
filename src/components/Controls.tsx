@@ -20,8 +20,8 @@ const Controls = ({
 
   return (
     <>
-      <div className="fixed top-0 z-50 left-1/2 -translate-x-1/2">
-        <div className="flex p-4">
+      <div className="fixed top-0 left-0 z-50 md:left-1/2 md:-translate-x-1/2">
+        <div className="flex p-2 md:p-4 whitespace-nowrap">
           <button
             type="button"
             className={cm(
@@ -47,7 +47,7 @@ const Controls = ({
         </div>
       </div>
 
-      <div className="fixed bottom-0 left-0 z-50 m-4">
+      <div className="fixed bottom-0 left-0 z-50 m-2 md:m-4">
         <button
           type="button"
           className="w-10 h-10 rounded-full bg-black/10 transition-colors hover:bg-black/40 backdrop-blur grid place-content-center text-stone-100"

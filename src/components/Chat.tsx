@@ -18,6 +18,7 @@ import cm from '@/utils/cm';
 
 type Props = {
   location: Location | null;
+  clearLocation: () => void;
   elevation: number;
   coordinates: {
     lat: number;
@@ -38,6 +39,7 @@ const initialMessages: Message[] = [
 
 const Chat = ({
   location,
+  clearLocation,
   elevation,
   coordinates,
   onContinue,
@@ -84,10 +86,10 @@ const Chat = ({
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.7 }}
-      className="fixed bottom-0 right-0 max-h-screen w-[395px]"
+      className="fixed bottom-0 right-0 z-50 max-h-screen w-[395px]"
     >
       <motion.div
-        className="flex flex-col max-h-screen px-5 overflow-y-auto"
+        className="flex flex-col max-h-screen px-5 pt-32 overflow-y-auto"
         initial={{ y: '100vh' }}
         animate={{ y: isPresent ? 0 : '100vh' }}
         transition={{ duration: 0.4 }}
@@ -155,7 +157,24 @@ const Chat = ({
           </div>
           <div ref={bottomRef} />
         </div>
-        <div className="mt-3">
+        <div className="relative mt-3">
+          <button
+            type="button"
+            className="absolute w-10 h-10 rounded-full left-1/2 -translate-x-1/2 -top-7 bg-black/10 transition-colors hover:bg-black/40 backdrop-blur grid place-content-center text-stone-900 md:hidden"
+            onClick={() => clearLocation()}
+          >
+            <svg
+              viewBox="0 0 100 100"
+              width={12}
+              height={12}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M95 17 83 5 50 38 17 5 5 17l33 33L5 83l12 12 33-33 33 33 12-12-33-33z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
           <div className="p-4 shadow bg-stone-100">
             <form className="sticky bottom-0 w-full" onSubmit={handleSubmit}>
               <label htmlFor="input" className="font-bold">

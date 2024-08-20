@@ -37,7 +37,7 @@ const Tour = ({
   }, [currentTour]);
 
   return (
-    <div className="fixed top-0 left-0 z-50 m-4 w-[340px]">
+    <div className="fixed left-0 z-50 m-2 md:m-4 top-12 md:top-0 w-[340px]">
       <button
         type="button"
         className="inline-flex items-center px-4 font-bold shadow gap-2 py-2.5 bg-stone-100 hover:text-orange-600 transition-colors disabled:bg-stone-200 disabled:text-stone-500 disabled:cursor-not-allowed group"
