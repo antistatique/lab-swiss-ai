@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   title: en.intro.title.replace(/<[^>]*>/g, ' '),
   description: en.intro.credits.replace(/<[^>]*>/g, ' '),
   openGraph: {
-    images: 'https://maya.antistatique.net/image/opengraph-image.jpg',
+    images: 'https://maya.antistatique.net/images/opengraph-image.jpg',
   },
 };
 
