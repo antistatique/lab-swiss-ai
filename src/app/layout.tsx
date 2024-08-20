@@ -21,6 +21,9 @@ const montaguSlab = Montagu_Slab({
 export const metadata: Metadata = {
   title: en.intro.title.replace(/<[^>]*>/g, ' '),
   description: en.intro.credits.replace(/<[^>]*>/g, ' '),
+  openGraph: {
+    images: '/image/opengraph-image.jpg',
+  },
 };
 
 const RootLayout = (
