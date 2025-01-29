@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { AnimatePresence } from 'framer-motion';
+import PlausibleProvider from 'next-plausible';
 import { identity, isNotNil } from 'ramda';
 
 import Chat from '@/components/Chat';
@@ -119,65 +120,67 @@ const App = () => {
   }, [location]);
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <AnimatePresence>
-        {infoOpen && (
-          <GetStarted
-            started={started}
-            onStart={() => {
-              handleStart();
-              setInfoOpen(false);
-            }}
+    <PlausibleProvider domain="maya.antistatique.net">
+      <QueryClientProvider client={queryClient}>
+        <AnimatePresence>
+          {infoOpen && (
+            <GetStarted
+              started={started}
+              onStart={() => {
+                handleStart();
+                setInfoOpen(false);
+              }}
+            />
+          )}
+        </AnimatePresence>
+        {isNotNil(currentTour) && (
+          <Tour
+            currentTour={currentTour}
+            currentRoute={currentRoute}
+            onSelect={handleSelectRoute}
+            disabled={playing || !guided}
           />
         )}
-      </AnimatePresence>
-      {isNotNil(currentTour) && (
-        <Tour
-          currentTour={currentTour}
-          currentRoute={currentRoute}
-          onSelect={handleSelectRoute}
-          disabled={playing || !guided}
-        />
-      )}
-      <Controls
-        guided={guided}
-        setGuided={setGuided}
-        setInfoOpen={setInfoOpen}
-        playing={playing}
-      />
-      <div className="fixed inset-0">
-        <Map
-          route={
-            isNotNil(currentTour) && isNotNil(currentRoute)
-              ? currentRoute
-              : undefined
-          }
-          onClick={guided ? identity : setLocation}
-          onAnimationComplete={handleAnimationComplete}
+        <Controls
           guided={guided}
+          setGuided={setGuided}
+          setInfoOpen={setInfoOpen}
+          playing={playing}
         />
-      </div>
-      <AnimatePresence>
-        {isNotNil(currentTour) && isNotNil(currentRoute) && playing && (
-          <Progress
-            speed={currentRoute.properties.speed}
-            location={t(`routes.${currentRoute.properties.slug}.title`)}
+        <div className="fixed inset-0">
+          <Map
+            route={
+              isNotNil(currentTour) && isNotNil(currentRoute)
+                ? currentRoute
+                : undefined
+            }
+            onClick={guided ? identity : setLocation}
+            onAnimationComplete={handleAnimationComplete}
+            guided={guided}
           />
-        )}
-      </AnimatePresence>
-      <AnimatePresence>
-        {isNotNil(location) && !playing && (
-          <Chat
-            location={location}
-            clearLocation={() => setLocation(null)}
-            elevation={location.elevation}
-            coordinates={location.coordinates}
-            onContinue={guided ? handleNextRoute : undefined}
-            images={images}
-          />
-        )}
-      </AnimatePresence>
-    </QueryClientProvider>
+        </div>
+        <AnimatePresence>
+          {isNotNil(currentTour) && isNotNil(currentRoute) && playing && (
+            <Progress
+              speed={currentRoute.properties.speed}
+              location={t(`routes.${currentRoute.properties.slug}.title`)}
+            />
+          )}
+        </AnimatePresence>
+        <AnimatePresence>
+          {isNotNil(location) && !playing && (
+            <Chat
+              location={location}
+              clearLocation={() => setLocation(null)}
+              elevation={location.elevation}
+              coordinates={location.coordinates}
+              onContinue={guided ? handleNextRoute : undefined}
+              images={images}
+            />
+          )}
+        </AnimatePresence>
+      </QueryClientProvider>
+    </PlausibleProvider>
   );
 };
 

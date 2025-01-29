@@ -26,6 +26,7 @@
     "i18next": "^23.9.0",
     "mapbox-gl": "^3.1.2",
     "next": "14.1.0",
+    "next-plausible": "^3.12.4",
     "openai": "^4.28.0",
     "query-string": "^9.0.0",
     "ramda": "^0.29.1",
