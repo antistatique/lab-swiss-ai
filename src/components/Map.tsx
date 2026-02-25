@@ -141,7 +141,7 @@ const Map = ({
       }}
       style={{ position: 'absolute', inset: 0 }}
       terrain={{ source: 'mapbox-dem', exaggeration: 1 }}
-      mapStyle="https://vectortiles.geo.admin.ch/styles/ch.swisstopo.leichte-basiskarte-imagery.vt/style.json"
+      mapStyle="https://vectortiles.geo.admin.ch/styles/ch.swisstopo.imagerybasemap.vt/style.json"
       maxBounds={[
         [5.272288963213526, 45.38694371415983],
         [11.40758367952867, 48.228588627435585],
